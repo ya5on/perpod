@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "RobotoRegular";
+    font-size: 1em;
+    width: 100%;
+    transition: width 1s;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.main-btn {
+    width: 17em;
+    a {
+        display: flex;
+        align-items: baseline;
+        font-family: "RobotoRegular";
+        font-weight: bold;
+        font-size: 1.875em;
+        letter-spacing: .1em;
+        color: #000;
+        border: none;
+        background: none;
+        outline: none;
+        
+        &:hover {
+            text-decoration: none;
+            color: #000;
+        }
+    }
+
+    &:hover img {
+        margin-left: 30px;
+    }
+    img {
+        width: .5em;
+        height: .5em;
+        margin-left: .5em;
+        transition: all .5s ease;
+    }
+    
+}

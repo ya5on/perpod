@@ -1,0 +1,492 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@font-face {
+  font-family: RobotoBk;
+  src: url(../fonts/Robotobk.ttf);
+}
+@font-face {
+  font-family: RobotoLight;
+  src: url(../fonts/RobotoLight/RobotoLight.ttf);
+}
+@font-face {
+  font-family: RobotoBold;
+  src: url(../fonts/RobotoBold/RobotoBold.ttf);
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url(../fonts/RobotoMedium/RobotoMedium.ttf);
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url(../fonts/RobotoRegular/RobotoRegular.ttf);
+}
+@font-face {
+  font-family: RobotoTh;
+  src: url(../fonts/RobotoTh.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "RobotoRegular";
+  font-size: 1em;
+  width: 100%;
+  transition: width 1s;
+  overflow-x: hidden;
+}
+img {
+  width: 100%;
+  display: block;
+}
+.main-btn {
+  width: 17em;
+}
+.main-btn a {
+  display: flex;
+  align-items: baseline;
+  font-family: "RobotoRegular";
+  font-weight: bold;
+  font-size: 1.875em;
+  letter-spacing: .1em;
+  color: #000;
+  border: none;
+  background: none;
+  outline: none;
+}
+.main-btn a:hover {
+  text-decoration: none;
+  color: #000;
+}
+.main-btn:hover img {
+  margin-left: 30px;
+}
+.main-btn img {
+  width: .5em;
+  height: .5em;
+  margin-left: .5em;
+  transition: all .5s ease;
+}
+nav {
+  font-family: "RobotoRegular";
+  width: 100%;
+}
+.nav-content {
+  margin-top: 2%;
+  width: 100%;
+}
+.logo {
+  max-width: 75%;
+}
+.nav_list {
+  width: 100%;
+}
+.nav_list li {
+  padding-right: 3em;
+}
+.nav_list li:last-child {
+  padding-right: 0;
+}
+.nav_list li:last-child a {
+  letter-spacing: 1px;
+}
+.nav_list li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.25em;
+  letter-spacing: 0.18em;
+  outline: none;
+}
+.active {
+  border-bottom: 3px solid #fff;
+}
+header {
+  background-image: url(../img/main-page/main-bg.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+header h1 {
+  font-size: 4.4em;
+  font-family: "Robotobk";
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .25em;
+  margin-top: 10%;
+}
+header h4 {
+  font-family: "RobotoLight";
+  font-size: 1.5em;
+  text-align: center;
+  color: #fff;
+  letter-spacing: .1em;
+  margin-top: 3%;
+}
+.products {
+  margin-top: 10%;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+}
+.product-item {
+  width: 4%;
+  margin: 0 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-item:last-child {
+  width: 8%;
+}
+.product-item p {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 25%;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 0.8125em;
+  line-height: 1.2;
+  letter-spacing: .2em;
+  color: #fff;
+}
+.scroll-button {
+  margin: 8% auto 0;
+  max-width: 4%;
+}
+.about {
+  width: 100%;
+  background-color: #fff;
+}
+.about h2 {
+  font-family: "Robotobk";
+  font-size: 3.75em;
+  color: #000;
+  text-align: center;
+  letter-spacing: .25em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.about-content {
+  width: 100%;
+  display: flex;
+  margin-bottom: 3%;
+}
+.about-text {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+.about-text p {
+  font-family: "RobotoRegular";
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  line-height: 1.5;
+  margin-top: 20%;
+}
+.about .main-btn {
+  margin-top: 17%;
+  margin-left: auto;
+}
+.main-slider {
+  padding: 4%;
+}
+.main-slider.owl-carousel .owl-nav .owl-next,
+.main-slider.owl-carousel .owl-nav .owl-prev {
+  width: 1.875em;
+  height: 1.875em;
+  display: block;
+  background-position: center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  outline: none;
+}
+.main-slider.owl-carousel .owl-nav .owl-next {
+  background-image: url(../img/main-page/slider-right.png);
+  right: 0;
+}
+.main-slider.owl-carousel .owl-nav .owl-prev {
+  background-image: url(../img/main-page/slider-left.png);
+  left: 0;
+}
+.main-slider.owl-carousel .owl-dots {
+  text-align: center;
+}
+.main-slider.owl-carousel button.owl-dot {
+  background-color: #E9E9E9;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #E9E9E9;
+  border-radius: 50%;
+  margin: 6px;
+  margin-top: 15px;
+  outline: none;
+}
+.main-slider.owl-carousel button.owl-dot.active {
+  background-color: #ADADAD;
+  border: 1px solid #ADADAD;
+}
+.carrier {
+  background: url(../img/main-page/carrier-bg.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.carrier h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Robotobk";
+  font-size: 3.75em;
+  letter-spacing: .25em;
+  margin-top: 5%;
+}
+.carrier h4 {
+  font-family: "RobotoRegular";
+  font-size: 1.5em;
+  text-align: center;
+  color: #fff;
+  letter-spacing: .15em;
+  margin-top: 2%;
+}
+.carrier-content {
+  display: flex;
+  margin-top: 8%;
+  padding-bottom: 10%;
+}
+.carrier-content-list {
+  width: 100%;
+  margin-left: 7%;
+  margin-top: 9%;
+}
+.carrier-content-list .list {
+  padding-bottom: 28%;
+}
+.carrier-content-list .list li {
+  font-family: "RobotoRegular";
+  font-size: 1.875em;
+  list-style: disc;
+  padding-bottom: 1em;
+  color: #fff;
+  letter-spacing: .25em;
+}
+.carrier .main-btn {
+  margin-top: 18%;
+}
+.carrier .main-btn a {
+  color: #fff;
+  font-weight: 400;
+}
+.carrier-content-form {
+  width: 100%;
+  margin-left: 8%;
+}
+.carrier-form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Robotoregular";
+  border: 2px solid #fff;
+  max-width: 590px;
+  padding: 5%;
+}
+.carrier-form input,
+.carrier-form label,
+.carrier-form textarea {
+  color: #fff;
+  letter-spacing: .2em;
+}
+.carrier-form label {
+  padding-bottom: 10px;
+  font-size: 1em;
+}
+.carrier-form input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  font-size: 1.5em;
+  margin-bottom: 50px;
+}
+.carrier-form textarea {
+  font-size: 1.5em;
+  background: none;
+  border: 2px solid #fff;
+  height: 145px;
+  outline: none;
+  margin-bottom: 20px;
+}
+.carrier-form .area-padding {
+  margin-bottom: 35px;
+}
+.carrier-form #fileFF {
+  border: none;
+}
+.carrier-form #submitFF {
+  border: none;
+  background: none;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  font-family: "RobotoRegular";
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: .2em;
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+.carrier-form #submitFF img {
+  width: .5em;
+  height: .5em;
+  margin-left: .5em;
+  transition: all .5s ease;
+}
+.carrier-form #submitFF:hover img {
+  margin-left: 30px;
+}
+.carrier-form img {
+  width: 2em;
+  height: 2em;
+  margin-bottom: 30px;
+}
+#putFile {
+  background: url(../img/main-page/attach-icon.png) no-repeat;
+  margin-bottom: 15%;
+  padding-bottom: 5px;
+  font-weight: normal;
+  border: none;
+  font-size: 1.5em;
+  letter-spacing: .2em;
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  text-align: left;
+  padding-left: 15%;
+}
