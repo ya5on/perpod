@@ -274,7 +274,8 @@ header h4 {
   color: #fff;
 }
 .scroll-button {
-  margin: 8% auto 0;
+  padding-bottom: 2%;
+  margin: 4% auto 0;
   max-width: 4%;
 }
 .about {
@@ -511,7 +512,7 @@ header h4 {
 }
 .lastnews-text h4 {
   letter-spacing: .25em;
-  margin-top: 1em;
+  margin-top: 3%;
   font-family: "Robotobk";
   font-size: 2.25em;
 }
@@ -532,7 +533,7 @@ header h4 {
 }
 .news-date p {
   font-size: 1em;
-  font-family: "RobotoTh";
+  font-family: "RobotoRegular";
 }
 .lastnews .main-btn {
   margin-bottom: 5%;
@@ -567,10 +568,11 @@ header h4 {
   margin-bottom: 8%;
 }
 .address {
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 7%;
+  align-content: center;
 }
 .address p {
   font-size: 1.5em;
@@ -578,4 +580,19 @@ header h4 {
   padding-bottom: 1em;
   line-height: 1em;
   padding-left: 8%;
+}
+@media screen and (max-width: 1200px) {
+  .product-item p {
+    font-size: 0.5em;
+  }
+}
+@media screen and (max-width: 1400px) {
+  header h1 {
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .address p {
+    padding-bottom: 0em;
+  }
 }
