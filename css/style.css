@@ -182,9 +182,8 @@ img {
 }
 .main-btn img {
   width: .5em;
-  height: .5em;
   margin-left: .5em;
-  transition: all .8s ease;
+  transition: all 0.4s ease-in-out;
 }
 nav {
   font-family: "RobotoRegular";
@@ -316,6 +315,7 @@ header h4 {
 .about-content {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 1%;
 }
 .about-text {
@@ -399,6 +399,7 @@ header h4 {
 }
 .carrier-content {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 5%;
   padding-bottom: 6%;
 }
@@ -488,7 +489,7 @@ header h4 {
   width: .5em;
   height: .5em;
   margin-left: .5em;
-  transition: all .8s ease;
+  transition: all 0.4s ease-in-out;
 }
 .carrier-form #submitFF:hover img {
   transform: translateX(0.7em);
@@ -581,12 +582,13 @@ header h4 {
   font-family: "Robotobk";
   font-size: 3.75em;
   letter-spacing: .25em;
-  margin-top: 5%;
+  margin-top: 6%;
   margin-bottom: 7%;
 }
 .contacts-content {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 8%;
 }
 .address {
@@ -602,6 +604,21 @@ header h4 {
   padding-bottom: 1em;
   line-height: 1em;
   padding-left: 8%;
+}
+@media screen and (max-width: 800px) {
+  .main-slider {
+    width: 100%;
+  }
+  .main-slider.owl-carousel .owl-nav .owl-next,
+  .main-slider.owl-carousel .owl-nav .owl-prev {
+    display: none;
+  }
+  .main-slider.owl-carousel .owl-dots {
+    display: none;
+  }
+  .container {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1200px) {
   .product-item p {
