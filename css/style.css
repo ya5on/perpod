@@ -236,7 +236,7 @@ nav {
   margin-top: 0.5em;
 }
 .nav_list li:hover:after {
-  color: white;
+  color: #fff;
   text-decoration: none;
   transform: scale(1);
 }
@@ -309,19 +309,19 @@ header h4 {
   color: #000;
   text-align: center;
   letter-spacing: .25em;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 4%;
+  padding-bottom: 2%;
 }
 .about-content {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 1%;
+  margin-bottom: 4%;
 }
 .about-text {
   display: flex;
   justify-content: center;
-  padding: 3%;
+  padding: 2%;
 }
 .about-text p {
   font-family: "RobotoRegular";
@@ -331,7 +331,7 @@ header h4 {
   margin-top: 20%;
 }
 .about .main-btn {
-  margin-top: 17%;
+  margin-top: 15%;
   margin-left: auto;
 }
 .main-slider {
@@ -427,8 +427,7 @@ header h4 {
   font-weight: 400;
 }
 .carrier-content-form {
-  width: 100%;
-  margin-left: 8%;
+  margin-left: 10%;
 }
 .carrier-form {
   display: flex;
@@ -436,7 +435,8 @@ header h4 {
   font-family: "Robotoregular";
   border: 2px solid #fff;
   max-width: 590px;
-  padding: 5%;
+  padding: 2%;
+  margin-right: 8%;
 }
 .carrier-form input,
 .carrier-form label,
@@ -445,8 +445,8 @@ header h4 {
   letter-spacing: .2em;
 }
 .carrier-form label {
-  padding-bottom: 10px;
   font-size: 1em;
+  padding-bottom: 1%;
 }
 .carrier-form input {
   background: none;
@@ -454,18 +454,18 @@ header h4 {
   border-bottom: 2px solid #fff;
   outline: none;
   font-size: 1.5em;
-  margin-bottom: 50px;
+  margin-bottom: 7%;
 }
 .carrier-form textarea {
   font-size: 1.5em;
   background: none;
   border: 2px solid #fff;
-  height: 145px;
+  height: 140px;
   outline: none;
-  margin-bottom: 20px;
+  margin-bottom: 5%;
 }
 .carrier-form .area-padding {
-  margin-bottom: 35px;
+  margin-bottom: 6%;
 }
 .carrier-form #fileFF {
   border: none;
@@ -501,11 +501,11 @@ header h4 {
 }
 #putFile {
   background: url(../img/main-page/attach-icon.png) no-repeat;
-  margin-bottom: 15%;
-  padding-bottom: 0.625em;
+  margin-bottom: 2%;
+  padding-bottom: 4%;
   font-weight: normal;
   border: none;
-  font-size: 1.5em;
+  font-size: 1em;
   letter-spacing: .2em;
   text-decoration: none;
   color: #fff;
@@ -656,4 +656,70 @@ footer {
   .address p {
     padding-bottom: 0em;
   }
+}
+#carrier-main nav .nav_list_item a {
+  color: #000;
+}
+#carrier-main nav .nav_list_item::after {
+  content: '';
+  background-color: #000;
+}
+#carrier-main nav .nav_list_item:hover:after {
+  color: #000;
+}
+.carrier-main {
+  background-image: url(../img/carrier-page/carrier-bg.png);
+}
+.carrier-main h1 {
+  font-size: 3.75em;
+  font-family: "Robotobk";
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .25em;
+  margin-top: 10%;
+  margin-bottom: 7%;
+}
+.carrier-main p {
+  font-size: 1.5em;
+  font-family: "RobotoLight";
+  line-height: 1.3;
+  letter-spacing: .15em;
+}
+.carrier-main-content {
+  margin-bottom: 7%;
+}
+.carrier-main-content .text {
+  padding: 3%;
+}
+.carrier-main-form {
+  margin-bottom: 5%;
+}
+.carrier-content-form {
+  padding-left: 15%;
+}
+.carrier-main-form .carrier-content-form .carrier-form {
+  border: 2px solid #000;
+}
+.carrier-main-form .carrier-content-form .carrier-form input,
+.carrier-main-form .carrier-content-form .carrier-form label,
+.carrier-main-form .carrier-content-form .carrier-form textarea {
+  color: #000;
+}
+.carrier-main-form .carrier-content-form .carrier-form label {
+  font-size: 1em;
+  padding-bottom: 1%;
+}
+.carrier-main-form .carrier-content-form .carrier-form input {
+  border-bottom: 2px solid #000;
+}
+.carrier-main-form .carrier-content-form .carrier-form textarea {
+  border: 2px solid #000;
+}
+.carrier-main-form .carrier-content-form .carrier-form #submitFF {
+  color: #000;
+}
+.carrier-main-form .carrier-content-form .carrier-form #putFile {
+  background: url(../img/carrier-page/carrier-attach-icon.png) no-repeat;
+  color: #000;
 }
