@@ -1,3 +1,4 @@
+//слайдер основная страница
 $(document).ready(function() {
     $(".main-slider").owlCarousel({
         autoplay: true,
@@ -10,6 +11,7 @@ $(document).ready(function() {
     });
 });
 
+// кнопка скрол основная страница
 $(document).ready(function() {
     $(".slide-section").click(function(e){
 
@@ -20,4 +22,18 @@ $(document).ready(function() {
 
         e.preventDefault();
     });
+});
+
+// кнопка наверх
+$(function() {
+$(window).scroll(function() {
+if($(this).scrollTop() != 0) {
+$('#toTop').fadeIn();
+} else {
+$('#toTop').fadeOut();
+}
+});
+$('#toTop').click(function() {
+$('body,html').animate({scrollTop:0},800);
+});
 });

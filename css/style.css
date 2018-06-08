@@ -185,6 +185,19 @@ img {
   margin-left: .5em;
   transition: all 0.4s ease-in-out;
 }
+#toTop {
+  width: 5em;
+  padding: .5em 15px;
+  position: fixed;
+  bottom: 2em;
+  right: 1%;
+  cursor: pointer;
+  display: none;
+  z-index: 666;
+}
+#toTop:hover img {
+  background: rgba(0, 0, 0, 0.9);
+}
 nav {
   font-family: "RobotoRegular";
   width: 100%;
@@ -310,13 +323,13 @@ header h4 {
   text-align: center;
   letter-spacing: .25em;
   padding-top: 4%;
-  padding-bottom: 2%;
+  padding-bottom: 4%;
 }
 .about-content {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 4%;
+  margin-bottom: 5%;
 }
 .about-text {
   display: flex;
@@ -453,16 +466,17 @@ header h4 {
   border: none;
   border-bottom: 2px solid #fff;
   outline: none;
-  font-size: 1.5em;
+  font-size: 1.1em;
   margin-bottom: 7%;
 }
 .carrier-form textarea {
-  font-size: 1.5em;
+  font-size: 1.1em;
   background: none;
   border: 2px solid #fff;
   height: 140px;
   outline: none;
   margin-bottom: 5%;
+  resize: none;
 }
 .carrier-form .area-padding {
   margin-bottom: 6%;
@@ -722,4 +736,82 @@ footer {
 .carrier-main-form .carrier-content-form .carrier-form #putFile {
   background: url(../img/carrier-page/carrier-attach-icon.png) no-repeat;
   color: #000;
+}
+#about-main nav .nav_list_item a {
+  color: #000;
+}
+#about-main nav .nav_list_item::after {
+  content: '';
+  background-color: #000;
+}
+#about-main nav .nav_list_item:hover:after {
+  color: #000;
+}
+.about-main h1 {
+  font-size: 3.75em;
+  font-family: "Robotobk";
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .18em;
+  margin-top: 10%;
+  margin-bottom: 7%;
+}
+.about-main p {
+  font-size: 1.5em;
+  font-family: "RobotoLight";
+  line-height: 1.4;
+  letter-spacing: .14em;
+}
+.history img {
+  box-shadow: 0 0 50px 6px rgba(0, 0, 0, 0.3);
+}
+.history p {
+  padding-left: 15%;
+}
+.about-main-text {
+  margin-top: 10%;
+  width: 100%;
+}
+.about-main-text img {
+  max-width: 10%;
+  margin: auto;
+  margin-bottom: 2%;
+}
+.about-main-text p {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.qoute {
+  background-image: url(../img/about-main/some-bg.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.qoute p {
+  font-style: italic;
+  color: #fff;
+}
+.qoute {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.qoute-right {
+  margin-left: 3%;
+  transform: scale(2.5);
+}
+.qoute-left {
+  margin-right: 3%;
+  transform: scale(2.5);
+}
+.philosophy {
+  text-align: center;
+}
+.philosophy h1 {
+  font-size: 3.75em;
+  font-family: "Robotobk";
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  margin-top: 10%;
+  margin-bottom: 7%;
 }

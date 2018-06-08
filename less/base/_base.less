@@ -28,7 +28,7 @@ img {
         border: none;
         background: none;
         outline: none;
-        
+
         &:hover {
             text-decoration: none;
             color: #000;
@@ -43,5 +43,21 @@ img {
         margin-left: .5em;
         transition: all .4s ease-in-out;
     }
-    
+}
+
+#toTop {
+    width: 5em;
+    padding: .5em 15px;
+    position: fixed;
+    bottom: 2em;
+    right: 1%;
+    cursor: pointer;
+    display: none;
+    z-index: 666;
+
+    &:hover {
+        img {
+            background: rgba(0, 0, 0, 0.9);
+        }
+    }
 }
