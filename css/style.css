@@ -154,6 +154,30 @@ body {
   transition: width 1s;
   overflow-x: hidden;
 }
+h1 {
+  font-size: 4.4em;
+  font-family: "Robotobk";
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .25em;
+}
+h2 {
+  font-family: "Robotobk";
+  font-size: 3.75em;
+  text-align: center;
+  letter-spacing: .25em;
+}
+h3 {
+  letter-spacing: .25em;
+  font-family: "Robotobk";
+  font-size: 2.25em;
+}
+h4 {
+  font-family: "RobotoLight";
+  font-size: 1.5em;
+  text-align: center;
+  letter-spacing: .1em;
+}
 img {
   width: 100%;
   display: block;
@@ -253,6 +277,13 @@ nav {
   text-decoration: none;
   transform: scale(1);
 }
+.language {
+  margin-top: -5%;
+}
+.language li {
+  color: #fff;
+  font-size: 1.25em;
+}
 header {
   background-image: url(../img/main-page/main-bg.png);
   background-repeat: no-repeat;
@@ -261,20 +292,12 @@ header {
   height: 100vh;
 }
 header h1 {
-  font-size: 4.4em;
-  font-family: "Robotobk";
   color: #fff;
-  text-transform: uppercase;
-  text-align: center;
   letter-spacing: .25em;
-  margin-top: 20%;
+  margin-top: 15%;
 }
 header h4 {
-  font-family: "RobotoLight";
-  font-size: 1.5em;
-  text-align: center;
   color: #fff;
-  letter-spacing: .1em;
   margin-top: 3%;
 }
 .products {
@@ -308,8 +331,7 @@ header h4 {
   color: #fff;
 }
 .scroll-button {
-  padding-bottom: 2%;
-  margin: 4% auto 0;
+  margin: 9% auto 0;
   max-width: 4%;
 }
 .about {
@@ -317,11 +339,7 @@ header h4 {
   background-color: #fff;
 }
 .about h2 {
-  font-family: "Robotobk";
-  font-size: 3.75em;
   color: #000;
-  text-align: center;
-  letter-spacing: .25em;
   padding-top: 4%;
   padding-bottom: 4%;
 }
@@ -396,19 +414,13 @@ header h4 {
 }
 .carrier h2 {
   color: #fff;
-  text-align: center;
-  font-family: "Robotobk";
-  font-size: 3.75em;
   letter-spacing: .25em;
   margin-top: 3%;
 }
 .carrier h4 {
-  font-family: "RobotoRegular";
-  font-size: 1.5em;
-  text-align: center;
   color: #fff;
   letter-spacing: .15em;
-  margin-top: 1%;
+  margin-top: 2%;
 }
 .carrier-content {
   display: flex;
@@ -534,10 +546,6 @@ header h4 {
 }
 .lastnews h2 {
   color: #000;
-  text-align: center;
-  font-family: "Robotobk";
-  font-size: 3.75em;
-  letter-spacing: .25em;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -547,11 +555,8 @@ header h4 {
   flex-wrap: wrap;
   margin-bottom: 7%;
 }
-.lastnews-text h4 {
-  letter-spacing: .25em;
+.lastnews-text h3 {
   margin-top: 3%;
-  font-family: "Robotobk";
-  font-size: 2.25em;
 }
 .lastnews-text span {
   text-transform: uppercase;
@@ -583,21 +588,13 @@ header h4 {
 }
 .help h2 {
   color: #fff;
-  text-align: center;
-  font-family: "Robotobk";
-  font-size: 3.75em;
-  letter-spacing: .25em;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 .contacts h2 {
   color: #000;
-  text-align: center;
-  font-family: "Robotobk";
-  font-size: 3.75em;
-  letter-spacing: .25em;
   margin-top: 6%;
-  margin-bottom: 7%;
+  margin-bottom: 8%;
 }
 .contacts-content {
   width: 100%;
@@ -684,13 +681,8 @@ footer {
 .carrier-main {
   background-image: url(../img/carrier-page/carrier-bg.png);
 }
-.carrier-main h1 {
-  font-size: 3.75em;
-  font-family: "Robotobk";
+.carrier-main h2 {
   color: #000;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: .25em;
   margin-top: 10%;
   margin-bottom: 7%;
 }
@@ -747,12 +739,8 @@ footer {
 #about-main nav .nav_list_item:hover:after {
   color: #000;
 }
-.about-main h1 {
-  font-size: 3.75em;
-  font-family: "Robotobk";
+.about-main h2 {
   color: #000;
-  text-transform: uppercase;
-  text-align: center;
   letter-spacing: .18em;
   margin-top: 10%;
   margin-bottom: 7%;
@@ -803,15 +791,8 @@ footer {
   margin-right: 3%;
   transform: scale(2.5);
 }
-.philosophy {
-  text-align: center;
-}
-.philosophy h1 {
-  font-size: 3.75em;
-  font-family: "Robotobk";
+.philosophy h2 {
   color: #000;
-  text-transform: uppercase;
-  letter-spacing: .18em;
   margin-top: 10%;
   margin-bottom: 7%;
 }
