@@ -10,6 +10,19 @@ $(document).ready(function() {
         dots: true
     });
 });
+//слайдер about страница
+$(document).ready(function() {
+    $(".about-slider").owlCarousel({
+        autoplay: true,
+        items: 1,
+        loop: true,
+        touchDrag: true,
+        nav: true,
+        navText: ['', ''],
+        dots: true
+    });
+});
+
 
 // кнопка скрол основная страница
 $(document).ready(function() {

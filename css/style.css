@@ -178,6 +178,12 @@ h4 {
   text-align: center;
   letter-spacing: .1em;
 }
+h5 {
+  font-family: "RobotoRegular";
+  font-size: 1.8em;
+  text-align: center;
+  letter-spacing: .1em;
+}
 img {
   width: 100%;
   display: block;
@@ -309,7 +315,7 @@ header h4 {
   min-width: 80px;
 }
 .product-item:last-child {
-  width: 6%;
+  width: 8%;
 }
 .product-item p {
   text-align: center;
@@ -323,8 +329,11 @@ header h4 {
   color: #fff;
 }
 .scroll-button {
-  margin: 9% auto 0;
   max-width: 4%;
+  position: absolute;
+  bottom: 7%;
+  right: 50%;
+  margin-right: -2%;
 }
 .about {
   width: 100%;
@@ -477,7 +486,7 @@ header h4 {
   font-size: 1.1em;
   background: none;
   border: 2px solid #fff;
-  height: 240px;
+  height: 200px;
   outline: none;
   margin-bottom: 5%;
   resize: none;
@@ -784,8 +793,150 @@ footer {
   margin-right: 3%;
   transform: scale(2.5);
 }
+.philosophy {
+  margin-bottom: 7%;
+}
 .philosophy h2 {
   color: #000;
   margin-top: 10%;
   margin-bottom: 7%;
+}
+.philosophy-content img {
+  box-shadow: 0 0 50px 6px rgba(0, 0, 0, 0.3);
+}
+.philosophy-content p {
+  padding-left: 15%;
+}
+.cows {
+  background-image: url(../img/about-main/cows-bg.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 7%;
+}
+.cows h5 {
+  color: #fff;
+}
+.cows-content {
+  display: flex;
+  width: 100%;
+  align-content: center;
+}
+.cows-product {
+  flex-wrap: wrap;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cow-product-item p {
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 0.7em;
+  line-height: 1.2;
+  letter-spacing: .2em;
+  color: #fff;
+}
+.cow-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cow-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.about-slider {
+  padding: 3%;
+}
+.about-slider.owl-carousel .owl-nav .owl-next,
+.about-slider.owl-carousel .owl-nav .owl-prev {
+  width: 1.875em;
+  height: 1.875em;
+  display: block;
+  background-position: center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  outline: none;
+}
+.about-slider.owl-carousel .owl-nav .owl-next {
+  background-image: url(../img/main-page/slider-right.png);
+  right: 0;
+}
+.about-slider.owl-carousel .owl-nav .owl-prev {
+  background-image: url(../img/main-page/slider-left.png);
+  left: 0;
+}
+.about-slider.owl-carousel .owl-dots {
+  text-align: center;
+}
+.about-slider.owl-carousel button.owl-dot {
+  background-color: #E9E9E9;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #E9E9E9;
+  border-radius: 50%;
+  margin: 6px;
+  margin-top: 15px;
+  outline: none;
+}
+.about-slider.owl-carousel button.owl-dot.active {
+  background-color: #ADADAD;
+  border: 1px solid #ADADAD;
+}
+.leadership {
+  margin-bottom: 3%;
+}
+.leadership h2 {
+  margin-top: 6%;
+  margin-bottom: 5%;
+}
+.leadership-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.leadership-img {
+  width: 50%;
+}
+.about-main .lead-name {
+  font-family: "RobotoBold";
+  font-size: 1.75em;
+  line-height: 1.4;
+  letter-spacing: .2em;
+  margin-bottom: 2%;
+}
+.about-main .lead-status {
+  font-family: "Robotolight";
+  font-size: 1.5em;
+  line-height: 1.6;
+  letter-spacing: .2em;
+}
+.about-main .lead-text {
+  font-family: "Robotolight";
+  font-size: 1.5em;
+  line-height: 1.6;
+  letter-spacing: .2em;
+  text-align: center;
+}
+.about-main span {
+  width: 35%;
+  border: none;
+  background-color: #000;
+  color: red;
+  height: 2px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.contacts-main h1 {
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
