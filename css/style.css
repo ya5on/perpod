@@ -839,6 +839,7 @@ footer {
 .cows-content {
   min-width: 30%;
   width: 100%;
+  margin-bottom: 3%;
 }
 .cows-item {
   height: 30%;
@@ -854,15 +855,18 @@ footer {
   text-transform: uppercase;
 }
 .cows-img {
-  width: 50%;
   display: flex;
   justify-content: center;
 }
 .cows-img img {
-  max-width: 50%;
+  width: 50%;
+  height: 15%;
+}
+.cows-right {
+  justify-content: center;
 }
 .cows-text {
-  width: 50%;
+  width: 30%;
 }
 .about-logo {
   width: 100%;
