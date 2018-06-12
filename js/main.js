@@ -12,14 +12,15 @@ $(document).ready(function() {
 });
 //слайдер about страница
 $(document).ready(function() {
-    $(".about-slider").owlCarousel({
+    $(".about-page-slider").owlCarousel({
         autoplay: true,
         items: 1,
         loop: true,
         touchDrag: true,
         nav: true,
         navText: ['', ''],
-        dots: true
+        dots: true,
+        mouseDrag: false
     });
 });
 
