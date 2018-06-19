@@ -44,6 +44,7 @@
     <script src="libs/jquery-3.1.1.min.js"></script>
     <script src="libs/owlcarousel/owl.carousel.min.js"></script>
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/prefixfree.min.js"></script>
     <script src="js/mail.js"></script>
     <script src="js/main.js"></script>
 </body>

@@ -154,6 +154,13 @@ body {
   transition: width 1s;
   overflow-x: hidden;
 }
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+}
 h1 {
   font-size: 4.4em;
   font-family: "Robotobk";
@@ -288,12 +295,11 @@ nav {
 }
 .nav_list li ul {
   position: absolute;
-  min-width: 150px;
   display: none;
-  background-color: #8764;
+  background-color: #fff;
 }
 .nav_list li ul li {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .nav_list li ul li a {
   font-size: 16px;
@@ -637,17 +643,14 @@ header h4 {
   padding-left: 8%;
 }
 footer {
-  background-image: url(../img/main-page/footer-bg.png);
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #07556C;
 }
 .footer-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 3%;
-  padding-bottom: 3%;
+  padding-bottom: 1%;
 }
 .footer-content li {
   color: #fff;
@@ -680,11 +683,11 @@ footer {
   width: 25%;
 }
 .footer-contacts li {
-  padding-bottom: 6%;
+  padding-bottom: 2%;
 }
 .footer-logo {
   width: 30%;
-  padding-bottom: 2.5%;
+  padding-bottom: 5%;
 }
 .footer-pinsel-logo {
   padding-left: 2%;
@@ -692,6 +695,24 @@ footer {
   height: 15%;
 }
 @media screen and (max-width: 800px) {
+  h4 {
+    font-size: 1em;
+  }
+  h3 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .nav_list_item {
+    display: none;
+  }
+  .logo {
+    margin-top: 0;
+    max-width: 30%;
+  }
   .main-slider {
     width: 100%;
   }
@@ -702,23 +723,45 @@ footer {
   .main-slider.owl-carousel .owl-dots {
     display: none;
   }
-  .container {
-    width: 100%;
+  .about .main-btn {
+    margin-top: 5%;
+  }
+  .product-item {
+    width: 13%;
+  }
+  .about-text p {
+    margin-top: 3%;
+  }
+  .btn-date {
+    margin-top: 5%;
+  }
+  .carrier-content-list {
+    display: none;
+  }
+  .map {
+    margin-bottom: 2%;
+  }
+  .about-logo {
+    width: 35%;
   }
 }
 @media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 2em;
+  }
   .product-item p {
     font-size: 0.5em;
+  }
+  #toTop {
+    display: none;
   }
 }
 @media screen and (max-width: 1400px) {
   header h1 {
-    margin-top: 12%;
-  }
-}
-@media screen and (max-width: 1600px) {
-  .address p {
-    padding-bottom: 0em;
+    margin-top: 14%;
   }
 }
 #carrier-main nav .nav_list_item a {

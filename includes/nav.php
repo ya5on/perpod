@@ -11,10 +11,13 @@
     <link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/prefixfree.js">
 </head>
 
 <body>
-    <div id="toTop"></div>
+    <!-- <div id="toTop">
+        <img src="img/main-page/up.png" alt="">
+    </div> -->
     <!-- Navigation -->
     <nav>
         <div class="container">
