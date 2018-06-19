@@ -1072,25 +1072,24 @@ footer {
   width: 1px;
   height: 100%;
 }
-.animals {
-  background-image: url(../img/tvarinnictvo/cow-bg.png);
+.submenu {
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   height: 100vh;
 }
-.animals h1 {
+.submenu h1 {
   color: #fff;
   letter-spacing: .25em;
   margin-top: 15%;
   text-transform: none;
 }
-.animals h4 {
+.submenu h4 {
   color: #fff;
   margin-top: 5%;
   line-height: 1.5;
 }
-.animals-product {
+.submenu-product {
   margin-top: 7%;
   display: flex;
   width: 100%;
@@ -1098,7 +1097,7 @@ footer {
   align-items: baseline;
   justify-content: center;
 }
-.animals-item {
+.submenu-item {
   width: 5%;
   margin: 0 8%;
   display: flex;
@@ -1107,7 +1106,7 @@ footer {
   align-items: center;
   min-width: 45px;
 }
-.animals-item p {
+.submenu-item p {
   text-align: center;
   text-transform: none;
   padding-top: 25%;
@@ -1124,33 +1123,36 @@ footer {
 .animal-arrow {
   width: 4%;
 }
-.tractor-content {
+.block-1-content {
   width: 100%;
   display: flex;
-  margin-top: 15%;
-  margin-bottom: 15%;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
-.tractor-content p {
+.block-1-content p {
   padding: 3% 7%;
   font-size: 1.5em;
   font-family: "RobotoRegular";
   line-height: 1.3;
   letter-spacing: .15em;
 }
-.tractor-img {
+.block-1-content img {
+  min-width: 15%;
+}
+.block-1-img {
   width: 50%;
 }
-.tractor-text {
+.block-1-text {
   width: 50%;
   align-self: center;
 }
-.animals-cows {
-  background-image: url(../img/tvarinnictvo/cows.png);
+.submenu-banner {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
 }
-.animals-cows p {
+.submenu-banner p {
   font-size: 1.875em;
   font-family: "RobotoRegular";
   line-height: 1.3;
@@ -1168,6 +1170,7 @@ footer {
 }
 .submenu-block {
   width: 50%;
+  min-width: 40%;
 }
 #submenuform {
   width: 65%;
@@ -1225,6 +1228,7 @@ footer {
 }
 .submenu-contacts-text {
   width: 50%;
+  min-width: 35%;
   align-self: center;
 }
 .submenu-contacts-text p {

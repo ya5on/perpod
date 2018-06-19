@@ -1,49 +1,49 @@
 <?php
-	$msg_box = ""; // в этой переменной будем хранить сообщения формы
-	$errors = array(); // контейнер для ошибок
-	// проверяем корректность полей
-	if($_POST['user_name'] == "") 	 $errors[] = "Поле 'Ваше имя' не заполнено!";
-	if($_POST['user_number'] == "") $errors[] = "Поле 'Ваш номер' не заполнено!";
-	if($_POST['user_email'] == "") 	 $errors[] = "Поле 'Ваш e-mail' не заполнено!";
-	
+	header("Content-Type: text/html; charset=utf-8");
 
-	// если форма без ошибок
-	if(empty($errors)){		
-		// собираем данные из формы
-		$message  = "Имя пользователя: " . $_POST['user_name'] . "<br/>";
-		$message .= "Номер" . $_POST['user_number'] . "<br/>";
-		$message .= "E-mail пользователя: " . $_POST['user_email'];
-				
-		send_mail($message); // отправим письмо
-		// выведем сообщение об успехе
-		$msg_box = "<span style='color: green;'>Сообщение успешно отправлено!</span>";
-	}else{
-		// если были ошибки, то выводим их
-		$msg_box = "";
-		foreach($errors as $one_error){
-			$msg_box .= "<span style='color: red;'>$one_error</span><br/>";
+	$msg_result = "";
+	$errors = array();
+
+	$email = $_POST['email'];
+	$pattern = "|^([a-z0-9_\.\-]{1,20})@([a-z0-9\.\-]{1,20})\.([a-z]{2,4})|is";
+
+	if($_POST['name'] == "") {
+		$name = "Не указано";
+	} else {
+		$name = $_POST['name'];
+	}
+
+	if(!preg_match($pattern, strtolower($email))) {
+	$errors[] = "E-mail указан некорректно."; // Сообщение, если e-mail некорректен
+	}
+
+	if($_POST['message'] == "") {
+		$errors[] = "Не указан текст сообщения."; // Сообщение, если поле «сообщение» пусто
+	}
+ 
+	if(empty($errors)){ // Отправляем форму если нет ошибок
+		$message = "<b>Имя отправителя</b>: ".$name."<br>";
+		$message .= "<b>E-mail</b>: ".$_POST['email']."<br><br>";
+		$message .= "<b>Текст письма</b>: " . $_POST['message'];      
+		send_form($message);
+		$msg_result = "Сообщение успешно отправлено!"; // Сообщение об успешной отправке
+	} else { // Выводим ошибки
+		$msg_result = "";
+		foreach($errors as $all_error) {
+			$msg_result .= $all_error."<br>";
 		}
 	}
 
-	// делаем ответ на клиентскую часть в формате JSON
 	echo json_encode(array(
-		'result' => $msg_box
+		"result" => $msg_result
 	));
-	
-	
-	// функция отправки письма
-	function send_mail($message){
-		// почта, на которую придет письмо
-		$mail_to = "root@localhost"; 
-		// тема письма
-		$subject = "Письмо с обратной связи";
-		
-		// заголовок письма
-		$headers= "MIME-Version: 1.0\r\n";
-		$headers .= "Content-type: text/html; charset=utf-8\r\n"; // кодировка письма
-		$headers .= "From: Тестовое письмо <no-reply@test.com>\r\n"; // от кого письмо
-		
-		// отправляем письмо 
+
+	function send_form($message) {
+		$mail_to = "gogi666@ya5on.zzz.com.ua"; // Адрес, куда отправляем письма
+		$subject = "Письмо с обратной связи"; // Тема письма
+		$headers = "MIME-Version: 1.0\r\n";
+		$headers .= "Content-type: text/html; charset=utf-8\r\n";
+		$headers .= "From: ".$subject." <no-reply@".$_SERVER['HTTP_HOST'].">\r\n";
 		mail($mail_to, $subject, $message, $headers);
-	}
-	
+	}     
+?>

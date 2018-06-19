@@ -81,27 +81,22 @@ $(function() {
 
 // ФОРМА ОБРАТНОЙ СВЯЗИ СУБ МЕНЮ
 $(document).ready(function() {
-    $('#btn_submit').click(function() {
-        // собираем данные с формы
-        var user_name = $('#user_name').val();
-        var user_number = $('#user_number').val();
-        var user_email = $('#user_email').val();
-
-        // отправляем данные
-        $.ajax({
-            url: "mail/submail.php", // куда отправляем
-            type: "post", // метод передачи
-            dataType: "json", // тип передачи данных
-            data: { // что отправляем
-                "user_name": user_name,
-                "user_number": user_number,
-                "user_email": user_email
-
-            },
-            // после получения ответа сервера
-            success: function(data) {
-                $('.messages').html(data.result); // выводим ответ сервера
-            }
+        $('#btn_submit').click(function() {
+            var name = $('#name').val(); // Получаем имя
+            var email = $('#message').val(); // Получаем e-mail
+            var message = $('#email').val(); // Получаем сообщение
+            $.ajax({
+                url: "mail/submenu.php", // Куда отправляем данные (обработчик)
+                type: "post",
+                dataType: "json",
+                data: {
+                    "name" : name,
+                    "message" : message,
+                    "email" : email
+                },
+                success: function(data){
+                    $('.result').html(data.result); // Выводим результат
+                }
+            });
         });
     });
-});

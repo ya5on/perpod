@@ -35,7 +35,7 @@
                             <li class="nav_list_item"><a href="?page=carrier">Кар'єра</a></li>
                             <li class="nav_list_item"><a href="#">Діяльність</a>
                                 <ul>
-                                    <li><a href="#">Рослинництво</a></li>
+                                    <li><a href="?page=roslynnytstvo">Рослинництво</a></li>
                                     <li><a href="?page=tvarinnictvo">Тваринництво</a></li>
                                     <li><a href="#">Бджолярство</a></li>
                                     <li><a href="#">Транспортнi послуги</a></li>
