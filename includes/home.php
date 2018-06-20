@@ -75,7 +75,7 @@ include "includes/nav_white.php";
                             <p>ТОВ «НВА «Перлина Поділля» – провідна сільськогосподарська компанія України, одна з найефективніших та напродуктивніших виробників сільськогосподарської продукції Хмельницькій області, в Україні та за її межами. У витоках створення господарства стоїть людина, яка присвятила своє життя вирощуванню хлібу.</p>
                         </div>
                         <div class="main-btn">
-                            <a href="#">Детальніше<img src="img/main-page/news-arrow.png" alt=""></a>
+                            <a href="?page=about">Детальніше<img src="img/main-page/news-arrow.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ include "includes/nav_white.php";
                             </ul>
                         </div>
                         <div class="main-btn">
-                            <a href="#">Детальніше<img src="img/main-page/carrier-arrow.png" alt=""></a>
+                            <a href="?page=carrier">Детальніше<img src="img/main-page/carrier-arrow.png" alt=""></a>
                         </div>
                     </div>
                 </div>

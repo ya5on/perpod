@@ -583,7 +583,7 @@ pre code {
     }
 }*/
 
-@media (min-width:992px) {
+/*@media (min-width:992px) {
     .container {
         max-width: 960px
     }
@@ -593,7 +593,7 @@ pre code {
     .container {
         max-width: 1750px
     }
-}
+}*/
 
 .container-fluid {
     width: 100%;
