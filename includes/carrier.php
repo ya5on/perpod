@@ -1,3 +1,6 @@
+<?php 
+include "includes/nav.php";
+ ?>
 <main class="carrier-main">
     <div class="container">
         <div class="row">

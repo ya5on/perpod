@@ -30,7 +30,7 @@
                         </div>
                         <div class="footer-contacts">
                             <ul>
-                                <li>Офіційна сторінка: <a href="#"><img src="img/main-page/facebook.png" alt=""></a></li>
+                                <li class="d-flex align-items-baseline">Офіційна сторінка: <a href="#"><img src="img/main-page/facebook.png" alt=""></a></li>
                                 <li>Телефон: +380 89 698 58 86</li>
                                 <li>E-mail: <a href="mailto:support@perlpod.com.ua">support@perlpod.com.ua</a></li>
                                 <li>Адреса: м.Київ, Shapovalova st. 16</li>

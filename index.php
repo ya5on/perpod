@@ -1,6 +1,3 @@
-<?php 
-include "includes/nav.php";
- ?>
 
 <?php 
     

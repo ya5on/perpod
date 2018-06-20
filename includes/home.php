@@ -1,3 +1,6 @@
+<?php 
+include "includes/nav_white.php";
+ ?>
 <!-- HEADER -->
 <header>
     <div class="container">
@@ -117,7 +120,7 @@
                             <label for="projectFF">Коментар:</label>
                             <textarea id="projectFF" name="projectFF" class="inputText"></textarea>
                             <label class="area-padding" for="fileFF">Резюме:</label>
-                            <input id="fileFF" name="fileFF" type="file" ">
+                            <input id="fileFF" name="fileFF" type="file">
                                 <!-- <button id="putFile " onclick="document.getElementById( 'fileFF').click() ">Выберите файл</button> -->
                                 <button id="submitFF" class="form-btn" type="submit">Відправити<img src="img/main-page/carrier-arrow.png" alt=""></button>
                             </form>

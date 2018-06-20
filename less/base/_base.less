@@ -9,6 +9,7 @@ body {
     transition: width 1s;
     overflow-x: hidden;
 }
+
 .container {
     width: 100%;
     margin-right: auto;
@@ -52,11 +53,13 @@ h5 {
     text-align: center;
     letter-spacing: .1em;
 }
+
 // РЕЗИНА ДЛЯ КАРТИНОК
 img {
     width: 100%;
     display: block;
 }
+
 // КНОПКА ДЕТАЛЬНО
 .main-btn {
     width: 17em;
@@ -65,7 +68,7 @@ img {
         align-items: baseline;
         font-family: "RobotoRegular";
         font-weight: bold;
-        font-size: 1.875em;
+        font-size: 1.5em;
         letter-spacing: .1em;
         color: #000;
         border: none;
@@ -82,11 +85,12 @@ img {
         transform: translateX(.7em)
     }
     img {
-        width: .5em;
-        margin-left: .5em;
+        width: .4em;
+        margin-left: .4em;
         transition: all .4s ease-in-out;
     }
 }
+
 // КНОПКА НА ВЕРХ
 #toTop {
     width: 5em;
@@ -101,6 +105,22 @@ img {
     &:hover {
         img {
             background: rgba(0, 0, 0, 0.9);
+        }
+    }
+}
+
+.scroll-button {
+    max-width: 4%;
+    position: absolute;
+    bottom: 7%;
+    right: 50%;
+    margin-right: -2%;
+
+    img {
+        margin-top: .4em;
+        transition: all .4s ease-in-out;
+        &:hover {
+            transform: translateY(.7em)
         }
     }
 }

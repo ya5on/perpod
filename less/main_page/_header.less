@@ -11,52 +11,53 @@ header {
     }
 
     h4 {
-    	color: #fff;
-    	margin-top: 3%;
+        color: #fff;
+        margin-top: 3%;
     }
 }
 
 .products {
-	margin-top: 7%;
-	display: flex;
-	width: 100%;
-	flex-wrap: wrap;
-	align-items: baseline;
-	justify-content: center;
-	
+    margin-top: 7%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
 }
+
 .product-item {
-	width: 4%;
-	margin: 0 4%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	min-width: 45px;
-	&:last-child {
-		width: 8%;
-	}
+    width: 4%;
+    margin: 0 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 45px;
 
-	p {
-		text-align: center;
-		text-transform: uppercase;
-		padding-top: 25%;
-		font-family: "Roboto";
-		font-weight: bold;
-		font-size: 0.8125em;
-		line-height: 1.2;
-		letter-spacing: .2em;
-		color: #fff;
+    &:last-child {
+        width: 7%;
+    }
+    img {
+        transition: all .4s;
+        transform: scale(1);
+        &:hover {
+            transition: .5;
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+    }
 
-	}
-	
-}
 
-.scroll-button {
-	max-width: 4%;
-	position: absolute;
-	bottom: 7%;
-	right: 50%;
-	margin-right: -2%;
+    p {
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 25%;
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 0.6em;
+        line-height: 1.2;
+        letter-spacing: .2em;
+        color: #fff;
+    }
 }
 

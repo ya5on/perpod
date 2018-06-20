@@ -28,7 +28,7 @@
                         </div>
                     </div>
                     <div class="col-md-11 d-flex">
-                        <ul class="nav_list d-flex justify-content-end">
+                        <ul class="nav_list_white d-flex justify-content-end">
                             <li class="nav_list_item"><a href="?page=home">Головна</a></li>
                             <li class="nav_list_item"><a href="?page=about">Про нас</a></li>
                             <li class="nav_list_item"><a href="?page=carrier">Кар'єра</a></li>
@@ -44,7 +44,7 @@
                             </li>
                             <li class="nav_list_item"><a href="?page=contacts">Контакти</a></li>
                         </ul>
-                        <ul class="language d-flex justify-content-end">
+                        <ul class="language_white d-flex justify-content-end">
                             <li>UA</li>
                             <!-- <li>RU</li>
                             <li>EN</li> -->

@@ -1,3 +1,6 @@
+<?php 
+include "includes/nav_white.php";
+ ?>
 <main class="submenu-main">
     <div class="submenu" style="background-image: url(../img/mzuri/mzuri-bg.png);">
         <div class="container">

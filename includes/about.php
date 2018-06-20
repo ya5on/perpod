@@ -1,3 +1,6 @@
+<?php 
+include "includes/nav.php";
+ ?>
 <main class="about-main">
     <div class="container">
         <div class="row">

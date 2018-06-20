@@ -1,3 +1,6 @@
+<?php 
+include "includes/nav_white.php";
+ ?>
 <main class="submenu-main">
     <div class="submenu" style="background-image: url(../img/transportniposlugy/transport-bg.png);">
         <div class="container">
