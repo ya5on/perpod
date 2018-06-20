@@ -21,19 +21,19 @@
                         <div class="footer-sub-menu">
                             <ul>
                                 <li><a href="?page=tvarinnictvo">Тваринництво</a></li>
-                                <li><a href="">Рослиництво</a></li>
-                                <li><a href="">Бджолярство</a></li>
-                                <li><a href="">Транспортні послуги</a></li>
-                                <li><a href="">Металопластикові конструкції</a></li>
-                                <li><a href="">MZURI</a></li>
+                                <li><a href="?page=roslynnytstvo">Рослиництво</a></li>
+                                <li><a href="?page=bdzholyarstvo">Бджолярство</a></li>
+                                <li><a href="?page=transportniposlugy">Транспортні послуги</a></li>
+                                <li><a href="?page=metaloplastykovikonstrukcii">Металопластикові конструкції</a></li>
+                                <li><a href="?page=mzuri">MZURI</a></li>
                             </ul>
                         </div>
                         <div class="footer-contacts">
                             <ul>
-                                <li><a href="">Офіційна сторінка:</a></li>
-                                <li><a href="">Телефон: +380 89 698 58 86</a></li>
-                                <li>E-mail:<a href="mailto:support@perlpod.com.ua">support@perlpod.com.ua</a></li>
-                                <li><a href="">Адреса: м.Київ, Shapovalova st. 16</a></li>
+                                <li>Офіційна сторінка: <a href="#"><img src="img/main-page/facebook.png" alt=""></a></li>
+                                <li>Телефон: +380 89 698 58 86</li>
+                                <li>E-mail: <a href="mailto:support@perlpod.com.ua">support@perlpod.com.ua</a></li>
+                                <li>Адреса: м.Київ, Shapovalova st. 16</li>
                             </ul>
                         </div>
                     </div>
@@ -44,7 +44,6 @@
     <script src="libs/jquery-3.1.1.min.js"></script>
     <script src="libs/owlcarousel/owl.carousel.min.js"></script>
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/prefixfree.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

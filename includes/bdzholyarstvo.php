@@ -1,9 +1,9 @@
 <main class="submenu-main">
-    <div class="submenu" style="background-image: url(../img/roslynnytstvo/roslny-bg.png);">
+    <div class="submenu" style="background-image: url(../img/bdzholyarstvo/bdg-bg.png);">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Рослинництво</h1>
+                    <h1>Бджолярство</h1>
                 </div>
                 <div class="col-md-12">
                     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
@@ -37,30 +37,18 @@ Sed tincidunt sapien ac libero ultricies, sit amet pharetra quam iaculis.</h4>
                 <div class="col-md-12">
                     <div class="block-1-content">
                         <div class="col-md-6 block-1-img">
-                            <img src="img/roslynnytstvo/elips.png" alt="">
+                            <img src="img/bdzholyarstvo/med.png" alt="">
                         </div>
                         <div class="col-md-6 block-1-text">
-                            <p style="font-size: 1.2em;">Землекористування ТОВ НВА «Перлина Поділля» налічує понад 3900 га сільськогосподарських угідь. <br><br>
-Урожайність сільськогосподарських культур у 2014 році скаладає:
-<br><br>
-– Озимої пшениці 70, 5 унт/га
-<br><br>
-– Озимого ячменю 69, 9 унт/га
-<br><br>
-– Ярого ячменю 49, 6 унт/га
-<br><br>
-– Овесу 40, 3 унт/га
-<br><br>
-– Гороху 46/ 3 унт/га<br><br>
-
-Енергетичні потужності господарства в цілому складають 18840 кінських сил, в тому числі сумарна потужність тракторів 7320 тис. к.с., комбайнів 2490 к.с., автомобілів 7490 к.с. , інші енергетичні потужності 1540 к.с.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sunt architecto molestias explicabo, hic eveniet consectetur autem minus sequi iste?</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio tempore repudiandae, et? Nostrum hic et voluptate vitae velit, minus exercitationem.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="submenu-banner" style="background-image: url(../img/roslynnytstvo/cars.png);">
+    <section class="submenu-banner" style="background-image: url(../img/bdzholyarstvo/symbol.png);">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta debitis<br>repudiandae, saepe laboriosam molestias sed quos! Iure molestiae</p>
     </section>
 
@@ -70,7 +58,7 @@ Sed tincidunt sapien ac libero ultricies, sit amet pharetra quam iaculis.</h4>
                 <div class="col-md-12">
                     <div class="block-1-content flex-row-reverse">
                         <div class="col-md-6 block-1-img">
-                            <img src="img/roslynnytstvo/traktor.png" alt="">
+                            <img src="img/bdzholyarstvo/med.png" alt="">
                         </div>
                         <div class="col-md-6 block-1-text">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sunt architecto molestias explicabo, hic eveniet consectetur autem minus sequi iste?</p>
@@ -89,7 +77,7 @@ Sed tincidunt sapien ac libero ultricies, sit amet pharetra quam iaculis.</h4>
                     <h2>Зв'язок з нами</h2>
                 </div>
                 
-                <div class="col-md-12 d-flex flex-wrap">
+                <div class="col-md-12 d-flex">
                     <div class="submenu-block">
                         <form id="submenuform">
                         <label>Name:</label>
@@ -100,8 +88,8 @@ Sed tincidunt sapien ac libero ultricies, sit amet pharetra quam iaculis.</h4>
     
                         <label>E-mail:</label>
                         <input type="text" name="email" id="email">
-   
-                        <button id="btn_submit">Відправити<img src="img/main-page/news-arrow.png " alt=" "></button>
+    <div class="result"></div>
+                        <button href="javascript: void(0);" id="btn_submit">Відправити<img src="img/main-page/news-arrow.png " alt=" "></button>
                         </form>
                     </div>
                 
@@ -111,8 +99,6 @@ Sed tincidunt sapien ac libero ultricies, sit amet pharetra quam iaculis.</h4>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
-                    
-                
             </div>
         </div>
     </section>

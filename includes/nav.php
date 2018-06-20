@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="js/prefixfree.js">
 </head>
 
 <body>
@@ -37,10 +36,10 @@
                                 <ul>
                                     <li><a href="?page=roslynnytstvo">Рослинництво</a></li>
                                     <li><a href="?page=tvarinnictvo">Тваринництво</a></li>
-                                    <li><a href="#">Бджолярство</a></li>
-                                    <li><a href="#">Транспортнi послуги</a></li>
-                                    <li><a href="#">Металопластиковi конструкцii</a></li>
-                                    <li><a href="#">mzuri</a></li>
+                                    <li><a href="?page=bdzholyarstvo">Бджолярство</a></li>
+                                    <li><a href="?page=transportniposlugy">Транспортнi послуги</a></li>
+                                    <li><a href="?page=metaloplastykovikonstrukcii">Металопластиковi конструкцii</a></li>
+                                    <li><a href="?page=mzuri">mzuri</a></li>
                                 </ul>
                             </li>
                             <li class="nav_list_item"><a href="?page=contacts">Контакти</a></li>
