@@ -1,6 +1,3 @@
-<?php 
-include "includes/nav.php";
- ?>
 <main class="contacts-main">
     <div class="container">
         <div class="row">

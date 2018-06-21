@@ -1,6 +1,3 @@
-<?php 
-include "includes/nav_white.php";
- ?>
 <!-- HEADER -->
 <header>
     <div class="container">
