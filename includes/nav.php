@@ -33,8 +33,8 @@
                             <li class="nav_list_item"><a href="?page=home">Головна</a></li>
                             <li class="nav_list_item"><a href="?page=about">Про нас</a></li>
                             <li class="nav_list_item"><a href="?page=carrier">Кар'єра</a></li>
-                            <li class="nav_list_item"><a href="#">Діяльність</a>
-                                <ul>
+                            <li class="nav_list_item menu-item"><a href="#">Діяльність</a>
+                                <ul class="sub-menu">
                                     <li><a href="?page=roslynnytstvo">Рослинництво</a></li>
                                     <li><a href="?page=tvarinnictvo">Тваринництво</a></li>
                                     <li><a href="?page=bdzholyarstvo">Бджолярство</a></li>

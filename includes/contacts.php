@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>контакти</h1>
+                <h2>контакти</h2>
             </div>
             <div class="col-md-12">
                 <div class="contacts-main-content">

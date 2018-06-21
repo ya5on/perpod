@@ -1,4 +1,5 @@
-<!-- HEADER -->
+<main class="home">
+    <!-- HEADER -->
 <header>
     <div class="container">
         <div class="row">
@@ -238,3 +239,4 @@
         </div>
     </section>
     <!-- CONTACTS END -->
+</main>

@@ -170,6 +170,7 @@ h1 {
 }
 h2 {
   font-family: "Robotobk";
+  text-transform: uppercase;
   font-size: 3.75em;
   text-align: center;
   letter-spacing: .25em;
@@ -304,20 +305,32 @@ nav {
   color: #000;
   font-size: 1.25em;
 }
-.nav_list li:hover > ul {
-  display: block;
+.menu-item a:hover {
+  background-color: #000;
+  padding-bottom: 5px;
 }
-.nav_list li ul {
-  position: absolute;
+.menu-item a:active {
+  background-color: #000;
+}
+.menu-item:after {
+  content: '';
   display: none;
-  background-color: #07556C;
 }
-.nav_list li ul li {
-  padding-top: 20px;
+.menu-item:hover:after {
+  display: none;
 }
-.nav_list li ul li a {
-  font-size: 16px;
-  margin-top: 10px;
+.sub-menu {
+  margin-top: 5px;
+  background-color: #000;
+  position: absolute;
+  z-index: 9999;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in;
+}
+.sub-menu li {
+  padding-top: 10px;
 }
 header {
   background-image: url(../img/main-page/main-bg.png);
@@ -719,16 +732,6 @@ footer {
   width: 20%;
   height: 15%;
 }
-#carrier-main nav .nav_list_item a {
-  color: #000;
-}
-#carrier-main nav .nav_list_item::after {
-  content: '';
-  background-color: #000;
-}
-#carrier-main nav .nav_list_item:hover:after {
-  color: #000;
-}
 .carrier-main {
   background-image: url(../img/carrier-page/carrier-bg.png);
 }
@@ -994,10 +997,10 @@ footer {
   margin-top: 3%;
   margin-bottom: 3%;
 }
-.contacts-main h1 {
+.contacts-main h2 {
   color: #000;
   margin-top: 10%;
-  margin-bottom: 8%;
+  margin-bottom: 7%;
 }
 .contacts-main-content {
   width: 100%;
