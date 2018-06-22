@@ -20,7 +20,7 @@
         $color = "#000";
         break;
     default:
-       $color = "#fff";
+        $color = "#fff";
 }
  
         echo '<style>
@@ -28,7 +28,7 @@
           color: '.$color.' !important;
           
         }
-        .nav_list .nav_list_item::after {
+        .nav_list .nav_list_item a::after {
             background-color: '.$color.' !important;
         }
         </style>';

@@ -40,7 +40,7 @@
                                     <li><a href="?page=bdzholyarstvo">Бджолярство</a></li>
                                     <li><a href="?page=transportniposlugy">Транспортнi послуги</a></li>
                                     <li><a href="?page=metaloplastykovikonstrukcii">Металопластиковi конструкцii</a></li>
-                                    <li><a href="?page=mzuri">mzuri</a></li>
+                                    <li><a href="?page=mzuri">MZURI</a></li>
                                 </ul>
                             </li>
                             <li class="nav_list_item"><a href="?page=contacts">Контакти</a></li>
