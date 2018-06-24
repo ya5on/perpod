@@ -6,6 +6,8 @@ nav {
 }
 
 .nav-content {
+    display: flex;
+    align-items: center;
     margin-top: 2.5%;
     width: 100%;
 }
@@ -47,6 +49,8 @@ nav {
 }
 
 .menu {
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
 }
 
@@ -204,9 +208,21 @@ nav {
 
 
 .language {
+    display: flex;
+    justify-content: flex-end;
     li {
         color: #fff;
         font-size: 1.25em;
         padding: 10px;
     }
+}
+
+.main-menu [type="checkbox"] {
+    display: none;
+}
+.main-menu label.toggleMenu {
+    display: none;
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
 }

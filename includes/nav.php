@@ -15,21 +15,23 @@
 </head>
 
 <body>
-    <div id="toTop">
+    <!-- <div id="toTop">
         <img src="img/main-page/up.png" alt="">
-    </div>
+    </div> -->
     <!-- Navigation -->
     <nav>
         <div class="container">
             <div class="row">
-                <div class="nav-content d-flex align-items-center">
+                <div class="nav-content">
                     <div class="col-md-1">
                         <div class="logo">
                             <img src="img/main-page/logo.png" alt="perlpod">
                         </div>
                     </div>
-                    <div class="col-md-11 d-flex">
-                        <ul class="menu d-flex justify-content-end">
+                    <div class="col-md-11 d-flex main-menu">
+                        <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+                        <label for="menu" class="toggleMenu">MENU</label>
+                        <ul class="menu">
                             <li><a href="?page=home">Головна</a></li>
                             <li><a href="?page=about">Про нас</a></li>
                             <li><a href="?page=carrier">Кар'єра</a></li>
@@ -45,7 +47,7 @@
                             </li>
                             <li><a href="?page=contacts">Контакти</a></li>
                         </ul>
-                        <ul class="language d-flex justify-content-end">
+                        <ul class="language">
                             <li>UA</li>
                             <!-- <li>RU</li>
                             <li>EN</li> -->

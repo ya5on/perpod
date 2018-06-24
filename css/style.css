@@ -257,6 +257,8 @@ nav {
   z-index: 999;
 }
 .nav-content {
+  display: flex;
+  align-items: center;
   margin-top: 2.5%;
   width: 100%;
 }
@@ -291,6 +293,8 @@ nav {
   margin: 0;
 }
 .menu {
+  display: flex;
+  justify-content: flex-end;
   width: 100%;
 }
 .menu > li {
@@ -407,10 +411,23 @@ nav {
 .sub-menu li:nth-child(8) {
   transition-delay: 0s;
 }
+.language {
+  display: flex;
+  justify-content: flex-end;
+}
 .language li {
   color: #fff;
   font-size: 1.25em;
   padding: 10px;
+}
+.main-menu [type="checkbox"] {
+  display: none;
+}
+.main-menu label.toggleMenu {
+  display: none;
+  padding: 15px;
+  cursor: pointer;
+  position: relative;
 }
 header {
   background-image: url(../img/main-page/main-bg.png);

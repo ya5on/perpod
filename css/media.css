@@ -1,6 +1,90 @@
 @media (max-width: 1600px) {}
 
-@media (max-width: 1400px) {}
+@media (max-width: 1400px) {
+    h1 {
+        font-size: 3.5em;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    h3 {
+        font-size: 2em;
+        letter-spacing: .15em;
+    }
+    h4 {
+        font-size: 1.4em;
+    }
+    h5 {
+        font-size: 1.5em;
+    }
+    .about-text p {
+        font-size: 1.3em;
+        line-height: 1.3;
+    }
+    .carrier-content-list .list li {
+        font-size: 1.6em;
+        padding-bottom: .8em;
+        letter-spacing: .2em;
+    }
+    .lastnews-text p {
+        font-size: 1.3em;
+        line-height: 1.3;
+        letter-spacing: .1em;
+    }
+    .history p {
+        font-size: 1.4em;
+        line-height: 1.3;
+        letter-spacing: .12em;
+    }
+    .about-main p {
+        font-size: 1.3em;
+        line-height: 1.2;
+        letter-spacing: .12em;
+    }
+    .cows-item p {
+        font-size: 1em;
+    }
+    .cows-img img {
+        width: 40%;
+    }
+    .about-logo img {
+        max-width: 80%;
+    }
+    .about-main .lead-name {
+        font-size: 1.5em;
+        line-height: 1.2;
+        letter-spacing: .14em;
+    }
+    .about-main .lead-status, .about-main .lead-text {
+        font-size: 1.3em;
+        line-height: 1.4;
+        letter-spacing: .14em;
+    }
+    .carrier-main p {
+        font-size: 1.3em;
+        line-height: 1.2;
+        letter-spacing: .12em;
+    }
+    .contacts-main-content p {
+        font-size: 1.2em;
+    }
+    .block-1-content img {
+        min-width: 10%;
+    }
+    .block-1-content p {
+        font-size: 1.2em;
+        line-height: 1;
+        letter-spacing: .1em;
+    }
+    .submenu-banner p {
+        font-size: 1.4em;
+    }
+    .submenu-contacts-text p {
+        font-size: 1.4em;
+        line-height: 1.1;
+    }
+
+}
 
 @media (max-width: 1200px) {
     h1 {
@@ -9,21 +93,16 @@
     h2 {
         font-size: 2em;
     }
+    h4 {
+        font-size: 1.3em;
+    }
     .product-item p {
         font-size: 0.5em;
-    }
-    #toTop {
-        display: none;
     }
 }
 
 @media (max-width: 900px) {
-    nav{
-        
-    }
-}
 
-@media (max-width: 800px) {
     h4 {
         font-size: 1em;
     }
@@ -31,18 +110,36 @@
         text-align: center;
         font-size: 1.5em;
     }
-    .container {
+
+    /*.container {
         padding-left: 5%;
         padding-right: 5%;
+    }*/
+    /*BURGER MENU*/
+    .main-menu {
+        overflow: hidden;
     }
-    .nav_list_item {
+    .menu {
+        display: none;
+        justify-content: flex-start;
+    }
+    .main-menu label.toggleMenu {
+        display: block;
+    }
+    input.toggleMenu:checked ~ .menu {
+        display: block;
+    }
+    .menu li {
+        padding: 15px;
+        border: 1px solid red;
+    }
+    .nav-content {
+        display: block;
+    }
+/*BURGER MENU*/
+    .logo, .language {
         display: none;
     }
-    .logo {
-        margin-top: 0;
-        max-width: 30%;
-    }
-
     .main-slider {
         width: 100%;
     }
@@ -56,9 +153,7 @@
     .about .main-btn {
         margin-top: 5%;
     }
-    .product-item {
-        width: 13%;
-    }
+    
     .about-text p {
         margin-top: 3%;
     }
