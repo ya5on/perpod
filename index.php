@@ -24,11 +24,11 @@
 }
  
         echo '<style>
-        nav a, .nav_list .nav_list_item:hover:after, .language li {
+        nav a, .menu li:hover:after,  .language li {
           color: '.$color.' !important;
           
         }
-        .nav_list .nav_list_item a::after {
+        .menu li a::after {
             background-color: '.$color.' !important;
         }
         </style>';
