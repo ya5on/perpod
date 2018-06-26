@@ -17,6 +17,12 @@
     h5 {
         font-size: 1.5em;
     }
+    header h1 {
+        margin-top: 13%;
+    }
+    .main-menu a, .language li {
+        font-size: 1em;
+    }
     .about-text p {
         font-size: 1.3em;
         line-height: 1.3;
@@ -30,6 +36,9 @@
         font-size: 1.3em;
         line-height: 1.3;
         letter-spacing: .1em;
+    }
+    .help {
+        height: 600px;
     }
     .history p {
         font-size: 1.4em;
@@ -69,7 +78,7 @@
         font-size: 1.2em;
     }
     .block-1-content img {
-        min-width: 10%;
+        max-width: 80%;
     }
     .block-1-content p {
         font-size: 1.2em;
@@ -86,7 +95,10 @@
 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
+    header, .submenu {
+        height: 100%;
+    }
     h1 {
         font-size: 3em;
     }
@@ -99,10 +111,185 @@
     .product-item p {
         font-size: 0.5em;
     }
+    .help {
+        height: 600px;
+    }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 1.4em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 1.2em;
+        letter-spacing: .15em;
+    }
+    h4 {
+        font-size: .8em;
+    }
+    h5 {
+        font-size: 1.5em;
+    }
+    header h1 {
+        margin-top: 13%;
+    }
+    .main-menu a, .language li {
+        font-size: .7em;
+    }
+    .logo {
+        max-width: 60%;
+    }
+    .product-item {
+        min-width: 30px;
+        margin: 0 3%;
+    }
+    .product-item p {
+        font-size: .4em;
+    }
+    .scroll-button {
+        max-width: 3%;
+    }
+    .about-text p {
+        font-size: 1em;
+        line-height: 1;
+    }
+    .main-slider.owl-carousel .owl-nav .owl-next, .main-slider.owl-carousel .owl-nav .owl-prev {
+        display: none;
+    }
+    .main-btn a {
+        font-size: 1em;
+    }
+    .carrier-content-list .list li {
+        font-size: 1.1em;
+        padding-bottom: .8em;
+        letter-spacing: .2em;
+    }
+    .carrier-form {
+        margin-right: 20%;
+    }
+    .carrier-form label {
+        font-size: .7em;
+        padding-bottom: 1%;
+    }
+    .carrier-form input {
+        font-size: .8em;
+        margin-bottom: 5%;
+    }
+    .carrier-form textarea {
+        font-size: .8em;
+        height: 100px;
+    }
+    .carrier-form #submitFF {
+        font-size: 1em;
+    }
+    .lastnews-text p {
+        font-size: 1em;
+        line-height: 1.1;
+        letter-spacing: .04em;
+    }
+    .lastnews-photo img {
+        width: 90%;
+    }
+    .help {
+        height: 600px;
+    }
+    .address p {
+        font-size: 1em;
+    }
+    .footer-content li {
+        font-size: .9em;
+    }
+    .history p {
+        font-size: 1em;
+        line-height: 1.3;
+        letter-spacing: .12em;
+    }
+    .about-main p {
+        font-size: 1em;
+        line-height: 1.1;
+        letter-spacing: .02em;
+    }
+    .cows h5 {
+        font-size: 1.3em;
+    }
+    .cows-item p {
+        font-size: .8em;
+    }
+    .cows-img img {
+        width: 30%;
+    }
+    .about-logo img {
+        max-width: 80%;
+    }
+    .about-main .lead-name {
+        font-size: 1.3em;
+        line-height: 1.1;
+        letter-spacing: .04em;
+    }
+    .about-main .lead-status, .about-main .lead-text {
+        font-size: 1em;
+        line-height: 1.1;
+        letter-spacing: .04em;
+    }
+    .carrier-main p {
+        font-size: 1em;
+        line-height: 1.1;
+        letter-spacing: .02em;
+    }
+    .carrier-main img {
+        width: 90%;
+    }
+    .carrier-main-form .carrier-content-form .carrier-form label {
+        font-size: .7em;
+    }
+    .contacts-main-content p {
+        font-size: 1em;
+    }
+    #submenuform {
+        width: 60%;
+    }
+    #submenuform label {
+        font-size: .7em;
+        padding-bottom: 1%;
+    }
+    #submenuform input {
+        font-size: .9em;
+        margin-bottom: 10%;
+    }
+    #submenuform #btn_submit {
+        font-size: .9em;
+    }
+    .submenu-item img {
+        width: 90%;
+    }
+    .milk img {
+        width: 35%;
+    }
+    .submenu-item p {
+        font-size: .7em;
+    }
+    .block-1-content img {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .block-1-content p {
+        font-size: 16px;
+        line-height: 1;
+        letter-spacing: .05em;
+    }
+    .submenu-banner p {
+        font-size: 1em;
+    }
+    .submenu-contacts-text p {
+        font-size: 1em;
+        line-height: 1.1;
+    }
 
+}
+@media screen and (max-width: 768px) {
     h4 {
         font-size: 1em;
     }
@@ -111,14 +298,11 @@
         font-size: 1.5em;
     }
 
-    /*.container {
-        padding-left: 5%;
-        padding-right: 5%;
-    }*/
-    /*BURGER MENU*/
-    .main-menu {
-        overflow: hidden;
+    .container {
+        width: 100%;
     }
+    /*BURGER MENU*/
+    
     .menu {
         display: none;
         justify-content: flex-start;
@@ -144,10 +328,18 @@
         width: 100%;
     }
     .main-slider.owl-carousel .owl-nav .owl-next,
-    .main-slider.owl-carousel .owl-nav .owl-prev {
+    .main-slider.owl-carousel .owl-nav .owl-prev,
+    .about-page-slider.owl-carousel .owl-nav .owl-next,
+    .about-page-slider.owl-carousel .owl-nav .owl-prev {
         display: none;
     }
     .main-slider.owl-carousel .owl-dots {
+        display: none;
+    }
+    .about-main span {
+        display: none;
+    }
+    .about-main .lead-text {
         display: none;
     }
     .about .main-btn {
@@ -168,5 +360,8 @@
     }
     .about-logo {
         width: 35%;
+    }
+    .footer-contacts {
+        display: none;
     }
 }

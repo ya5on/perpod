@@ -25,7 +25,7 @@ $(document).ready(function() {
 });
 
 
-// кнопка скрол основная страница
+// кнопка скрол вниз основная страница
 $(document).ready(function() {
     $(".slide-section").click(function(e) {
 
@@ -53,11 +53,9 @@ $(function() {
 });
 // SUB-MENU
 
-
+ 
 // ОТРПАВКА ФОРМЫ МЕЙН СТРАНИЦА
 $(function() {
-
-
     document.getElementById('feedback-form').addEventListener('submit', function(evt) {
         var http = new XMLHttpRequest(),
             f = this;

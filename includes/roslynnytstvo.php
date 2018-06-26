@@ -27,10 +27,11 @@ Sed tincidunt sapien ac libero ultricies, sit amet pharetra quam iaculis.</h4>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="scroll-button">
+        <div class="scroll-button">
         <a href=".block-1" class="slide-section"><img src="img/main-page/arrow-main.png" alt=""></a>
     </div>
+    </div>
+    
     <section class="block-1">
         <div class="container">
             <div class="row">
@@ -40,7 +41,7 @@ Sed tincidunt sapien ac libero ultricies, sit amet pharetra quam iaculis.</h4>
                             <img src="img/roslynnytstvo/elips.png" alt="">
                         </div>
                         <div class="col-md-6 block-1-text">
-                            <p style="font-size: 1.2em;">Землекористування ТОВ НВА «Перлина Поділля» налічує понад 3900 га сільськогосподарських угідь. <br><br>
+                            <p>Землекористування ТОВ НВА «Перлина Поділля» налічує понад 3900 га сільськогосподарських угідь. <br><br>
 Урожайність сільськогосподарських культур у 2014 році скаладає:
 <br><br>
 – Озимої пшениці 70, 5 унт/га

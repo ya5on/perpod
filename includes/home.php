@@ -164,7 +164,7 @@
                 </div>
                 <div class="col-md-12 ">
                     <div class="lastnews-content flex-row-reverse ">
-                        <div class="col-md-6 ">
+                        <div class="col-md-6">
                             <div class="lastnews-text ">
                                 <h3>Світовий досвід на<br>
 <span>AGRITECHNICA 2017</span></h3>
@@ -224,13 +224,13 @@
                         </div>
                         <div class="col-md-6 ">
                             <div class="address ">
-                                <p>Наш офіс знаходиться : Хмельницька обл., смт. Білогір’я, вул. Миру, 10</p>
-                                <p>тел/факс +380(3841) 2-15-55</p>
+                                <p>Наш офіс знаходиться: Хмельницька обл., смт. Білогір’я, вул. Миру, 10</p>
+                                <p>тел/факс: +380(3841) 2-15-55</p>
                                 <p>індекс: 30200</p>
-                                <p>E-mail:perlpod@ukr.net</p>
+                                <p>E-mail: perlpod@ukr.net</p>
                                 <p>Прес-секретар Товариства з обмеженою відповідальністю науково-виробнича агрофірма “Перлина Поділля”</p>
                                 <p>Телефон: +380971660001</p>
-                                <p>Ел. пошта: valentyn.losovsky@gmail.com</p>
+                                <p>?Ел. пошта: valentyn.losovsky@gmail.com</p>
                             </div>
                         </div>
                     </div>

@@ -27,10 +27,11 @@ Sed tincidunt sapien ac libero ultricies, sit amet pharetra quam iaculis.</h4>
                 </div>
             </div>
         </div>
+            <div class="scroll-button">
+                <a href=".block-1" class="slide-section"><img src="img/main-page/arrow-main.png" alt=""></a>
+            </div>
     </div>
-    <div class="scroll-button">
-        <a href=".block-1" class="slide-section"><img src="img/main-page/arrow-main.png" alt=""></a>
-    </div>
+    
     <section class="block-1">
         <div class="container">
             <div class="row">
