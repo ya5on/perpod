@@ -20,6 +20,9 @@
     header h1 {
         margin-top: 13%;
     }
+    .logo img {
+        width: 85%;
+    }
     .main-menu a, .language li {
         font-size: 1em;
     }
@@ -108,6 +111,9 @@
     h4 {
         font-size: 1.3em;
     }
+    .logo img {
+        width: 75%;
+    }
     .product-item p {
         font-size: 0.5em;
     }
@@ -135,6 +141,9 @@
     }
     header h1 {
         margin-top: 13%;
+    }
+    .logo img {
+        width: 60%;
     }
     .main-menu a, .language li {
         font-size: .7em;
@@ -180,7 +189,7 @@
     }
     .carrier-form textarea {
         font-size: .8em;
-        height: 100px;
+        height: 80px;
     }
     .carrier-form #submitFF {
         font-size: 1em;
@@ -289,39 +298,33 @@
     }
 
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     h4 {
-        font-size: 1em;
+        font-size: .8em;
     }
     h3 {
         text-align: center;
         font-size: 1.5em;
     }
-
+    .logo img {
+        width: 50%;
+    }
     .container {
         width: 100%;
     }
     /*BURGER MENU*/
-    
     .menu {
         display: none;
-        justify-content: flex-start;
     }
-    .main-menu label.toggleMenu {
+    
+    .nav-toggle {
         display: block;
+
     }
-    input.toggleMenu:checked ~ .menu {
-        display: block;
-    }
-    .menu li {
-        padding: 15px;
-        border: 1px solid red;
-    }
-    .nav-content {
-        display: block;
-    }
-/*BURGER MENU*/
-    .logo, .language {
+    
+    
+    /*BURGER MENU*/
+    .language {
         display: none;
     }
     .main-slider {
@@ -345,7 +348,6 @@
     .about .main-btn {
         margin-top: 5%;
     }
-    
     .about-text p {
         margin-top: 3%;
     }

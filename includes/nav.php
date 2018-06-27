@@ -23,14 +23,11 @@
         <div class="container">
             <div class="row">
                 <div class="nav-content">
-                    <div class="col-md-1">
                         <div class="logo">
                             <img src="img/main-page/logo.png" alt="perlpod">
                         </div>
-                    </div>
-                    <div class="col-md-11 d-flex main-menu">
-                        <input type="checkbox" name="toggle" id="menu" class="toggleMenu">
-                        <label for="menu" class="toggleMenu">MENU</label>
+                    <div class="main-menu">
+                        <div class="nav-toggle"><span></span></div>
                         <ul class="menu">
                             <li><a href="?page=home">Головна</a></li>
                             <li><a href="?page=about">Про нас</a></li>

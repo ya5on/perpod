@@ -16,7 +16,6 @@ nav {
     max-width: 75%;
     transition: all .3s;
     transform: scale(1);
-    margin-top: -20%;
 
     &:hover {
         transition: 1;
@@ -26,6 +25,11 @@ nav {
     }
 }
 
+.main-menu  {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
 
 .menu-item {
     transition: all .5s ease-in;
@@ -91,6 +95,57 @@ nav {
 }
 
 
+.nav {
+    display: flex;
+}
+/* кнопка переключения меню, появляющаяся при ширине 768px */
+
+.nav-toggle {
+    display: none;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-toggle span {
+    display: block;
+    position: absolute;
+    top: 19px;
+    left: 8px;
+    right: 8px;
+    height: 2px;
+    background: white;
+}
+
+.nav-toggle span:before,
+.nav-toggle span:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+}
+
+.nav-toggle span:before {
+    top: -8px;
+}
+
+.nav-toggle span:after {
+    bottom: -8px;
+}
+
+
+/* класс, который будет добавлен в верхнему меню при нажатии на кнопку и покажет скрытое меню*/
+
+.menu.active {
+    max-height: 123px;
+}
+
+
 
 /* sub-menu styles */
 
@@ -135,6 +190,7 @@ nav {
     -webkit-transform: none;
     transform: none;
 }
+
 
 
 
@@ -215,14 +271,4 @@ nav {
         font-size: 1.25em;
         padding: 10px;
     }
-}
-
-.main-menu [type="checkbox"] {
-    display: none;
-}
-.main-menu label.toggleMenu {
-    display: none;
-    padding: 15px;
-    cursor: pointer;
-    position: relative;
 }
