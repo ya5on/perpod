@@ -8,8 +8,8 @@
                 <div class="contacts-main-content">
                     <div class="content-text-1 flex-column align-self-center">
                         <p>Адреса: Хмельницька обл., смт. Білогір’я, вул. Миру, 10</p>
-                        <p>індекс: 30200</p>
-                        <p>Телефон: +380(3841) 2-15-55</p>
+                        <p>Індекс: 30200</p>
+                        <p>Телефон: +380 89 698 58 86</p>
                         <p>E-mail: perlpod@ukr.net</p>
                     </div>
                     

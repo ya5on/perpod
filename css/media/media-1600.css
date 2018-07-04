@@ -1,0 +1,139 @@
+.container {
+    max-width: 1560px;
+}
+
+/*NAV, LOGO*/
+.logo img {
+    width: 85%;
+}
+/*
+.menu a,
+.language li {
+    font-size: 1.05em;
+}
+*/
+/*HEADERS*/
+h1 {
+    font-size: 3.6em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 1.6em;
+    letter-spacing: .13em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1.4em;
+}
+
+
+/*ABOUT BLOCK*/
+.about-text p, .main-btn a{
+    font-size: 1.2em;
+}
+
+/*CARRIER BLOCK*/
+.carrier-content-list .list li {
+    font-size: 1.2em;
+}
+.carrier-form #submitFF {
+    font-size: 1em;
+}
+.carrier-form label {
+    font-size: .7em;
+}
+/*LASTNEWS BLOCK*/
+.lastnews-text-left p, .lastnews-text-right p {
+    font-size: 1.2em;
+}
+.news-date p {
+    font-size: .8em !important;
+}
+.btn-date-left {
+    margin-top: 20%;
+}
+.btn-date-right {
+    margin-top: 24%;
+}
+.fb img {
+    max-width: 60%;
+}
+/*BLOCK CONTACTS*/
+.address p {
+    font-size: 1.2em;
+}
+
+/*ABOUT PAGE*/
+.about-main p {
+    font-size: 1.2em;
+}
+/*.about-main-slider .slick-dots li button {
+    width: 50px;
+    height: 50px;
+}*/
+.cows-img img {
+    width: 65%;
+}
+.cows-item p {
+    font-size: .8em;
+}
+.about-logo img {
+    max-width: 70%;
+}
+
+.about-main .lead-name {
+    font-size: 1.4em;
+}
+
+.about-main .lead-status,
+.about-main .lead-text {
+    font-size: 1.2em;
+}
+/*CARRIER BLOCK*/
+.carrier-main p {
+    font-size: 1.2em;
+}
+.carrier-main h3 {
+    font-size: 1.6em;
+}
+/*CONTACTS PAGE*/
+.contacts-main-content p {
+    font-size: 1.2em;
+}
+
+/*SUBMENU PAGES*/
+/*.submenu-item img {
+    width: 90%;
+}*/
+/*.milk img {
+    width: 35%;
+}*/
+.block-1-content p {
+    font-size: 1.2em;
+}
+/*.submenu-product {
+    margin-top: 9%;
+}*/
+.submenu-banner p {
+    font-size: 1.3em;
+}
+.submenu-contacts-text p {
+    font-size: 1.2em;
+}
+#submenuform #btn_submit {
+    font-size: 1.2em;
+}
+#submenuform label {
+    font-size: .8em;
+}
+.footer-contacts img {
+    width: 70%;
+}

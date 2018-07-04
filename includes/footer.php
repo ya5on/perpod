@@ -30,7 +30,7 @@
                         </div>
                         <div class="footer-contacts">
                             <ul>
-                                <li class="d-flex align-items-baseline">Офіційна сторінка: <a href="#"><img src="img/main-page/facebook.png" alt=""></a></li>
+                                <li class="d-flex align-items-baseline">Офіційна сторінка: <a href="#"><img src="img/main-page/fb_icon.png" alt=""></a></li>
                                 <li>Телефон: +380 89 698 58 86</li>
                                 <li>E-mail: <a href="mailto:support@perlpod.com.ua">support@perlpod.com.ua</a></li>
                                 <li>Адреса: м.Київ, Shapovalova st. 16</li>
@@ -41,10 +41,13 @@
         </div>
     </footer>
     <!-------- JS----------->
-    <script src="libs/jquery-3.1.1.min.js"></script>
+    
     <script src="libs/owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="libs/slick/slick.min.js"></script>
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
     
 </body>
 

@@ -8,29 +8,22 @@
                 <div class="col-md-6">
                     <img src="img/about-main/house.png" alt="picture">
                 </div>
-                <div class="col-md-6 d-flex align-items-center">
-                    <p>ТОВ «НВА «Перлина Поділля» – провідна сільськогосподарська компанія України, одна з найефективніших та напродуктивніших виробників сільськогосподарської продукції у Хмельницькій області, в Україні та за її межами. Поділля».
+                <div class="col-md-6">
+                        <div class="about-main-slider">
+                            <div class="about-slider-item">
+                            <p>1 ТОВ «НВА «Перлина Поділля» – провідна сільськогосподарська компанія України, одна з найефективніших та напродуктивніших виробників сільськогосподарської продукції у Хмельницькій області, в Україні та за її межами. Поділля».
                     </p>
-                </div>
-            </div>
-            <div class="about-main-text">
-                <div class="col-md-12">
-                    <img src="img/about-main/arrows-icon.png" alt="">
-                    <p>Землекористування ТОВ «НВА « Перлина Поділля»
-                        <br>налічує невелику га сільськогосподарських угідь.
+                            </div>
+                            <div class="about-slider-item">
+                                <p>2 ТОВ «НВА «Перлина Поділля» – провідна сільськогосподарська компанія України, одна з найефективніших та напродуктивніших виробників сільськогосподарської продукції у Хмельницькій області, в Україні та за її межами. Поділля».
                     </p>
-                </div>
-                <div class="col-md-12">
-                    <img src="img/about-main/map.png" alt="">
-                    <p>Господарство розміщене в північно-західній частині Хмельницької області.
-                        <br> Чорноземи, якої є одним з найродючіших земель у світі.
+                            </div>
+                            <div class="about-slider-item">
+                               <p>3 ТОВ «НВА «Перлина Поділля» – провідна сільськогосподарська компанія України, одна з найефективніших та напродуктивніших виробників сільськогосподарської продукції у Хмельницькій області, в Україні та за її межами. Поділля».
                     </p>
-                </div>
-                <div class="col-md-12">
-                    <img src="img/about-main/house-icon.png" alt="">
-                    <p>На сьогодні – це продуктивна, високопрофесійна агропромислова компанія з власною інфраструктрою і сучасним парком
-                        <br>автотранспорту і сільгосптехніки.
-                    </p>
+                            </div>
+                        </div>
+                    
                 </div>
             </div>
         </div>
@@ -40,7 +33,7 @@
             <div class="row">
                 <div class="qoute-content col-md-12 d-flex justify-content-center">
                     <p class="qoute-left align-self-center">«</p>
-                    <p>Пахучий хліб цілющий скарб життя,
+                        <p>Пахучий хліб цілющий скарб життя,
                         <br> Його неперевершений владика
                         <br> Він наша гордість, наше майбуття,
                         <br> Він наша творчість і мета велика</p>
@@ -57,13 +50,20 @@
                 </div>
                 <div class="philosophy-content d-flex flex-wrap">
                     <div class="col-md-6">
-                        <img src="img/about-main/sky.png" alt="picture">
+                        <div class="philosophy-content-img">
+                            <img src="img/about-main/sky.png" alt="picture">
+                        </div>
+                        
                     </div>
-                    <div class="col-md-6 d-flex align-items-center">
+                    <div class="col-md-6 d-flex flex-column align-items-center">
+                        <div class="philosophy-content-text">
+                            <img src="img/about-main/icon-ground.png" alt="">
                         <p>Любов до рідної землі та своєї справи – головне, що об’єднує команду професіоналів ТОВ «НВА «Перлина Поділля» і визначає ефективність вирішення поставлених перед компанією завдань.
                             <br>
                             <br>Ми орієнтовані на розвиток та заохочуємо в наших співробітниках підприємницький дух, креативність і відповідальність.
                         </p>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@
                                 </div>
                             </div>
                             <div class="cows-item d-flex">
-                                <div class="cows-img">
+                                <div class="cows-img bull">
                                     <img src="img/about-main/cow.png" alt="">
                                 </div>
                                 <div class="cows-text align-self-center">
@@ -125,7 +125,7 @@
                                         <br>КОНСТРУКЦІЇ
                                     </p>
                                 </div>
-                                <div class="cows-img cows-right">
+                                <div class="cows-img cows-right steel">
                                     <img src="img/about-main/steel.png" alt="">
                                 </div>
                             </div>
@@ -150,7 +150,6 @@
                     <h2>КЕРІВНИЙ СКЛАД</h2>
                 </div>
                 <div class="col-md-12">
-                    <div class="about-main-slider">
                         <div class="about-page-slider owl-carousel">
                             <div class="slider-item d-flex align-items-center">
                                 <div class="leadership-content">
@@ -192,7 +191,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         </div>

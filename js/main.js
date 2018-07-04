@@ -1,3 +1,21 @@
+// $('body').css('display','none');
+// $(document).ready(function(){
+//     $('body').fadeIn();
+//     $('a').on('click', function(event){
+//         var thetarget = this.getAttribute('target')
+//         if (thetarget != "_blank") {
+//             var thehref = this.getAttribute('href')
+//             event.preventDefault();
+//             $('body').fadeOut(function(){
+//                 window.location = thehref
+//             });
+//         }
+//     });
+// });
+// setTimeout(function(){
+//     $('body').fadeIn();
+// }, 2000);
+
 //слайдер основная страница
 $(document).ready(function() {
     $(".main-slider").owlCarousel({
@@ -10,6 +28,16 @@ $(document).ready(function() {
         dots: true
     });
 });
+//слайдер about страница
+$(document).ready(function(){
+  $('.about-main-slider').slick({
+    adaptiveHeight: true,
+    autoplay: false,
+    dots: true,
+    arrows: false
+  });
+});
+
 //слайдер about страница
 $(document).ready(function() {
     $(".about-page-slider").owlCarousel({
@@ -24,7 +52,6 @@ $(document).ready(function() {
     });
 });
 
-
 // кнопка скрол вниз основная страница
 $(document).ready(function() {
     $(".slide-section").click(function(e) {
@@ -37,20 +64,6 @@ $(document).ready(function() {
         e.preventDefault();
     });
 });
-
-// кнопка наверх
-// $(function() {
-//     $(window).scroll(function() {
-//         if ($(this).scrollTop() != 0) {
-//             $('#toTop').fadeIn();
-//         } else {
-//             $('#toTop').fadeOut();
-//         }
-//     });
-//     $('#toTop').click(function() {
-//         $('body,html').animate({ scrollTop: 0 }, 800);
-//     });
-// });
 
 // SUB-MENU
 $('.nav-toggle').on('click', function(){
@@ -74,7 +87,7 @@ $(function() {
             }
         }
         http.onerror = function() {
-            alert('Извините, данные не были переданы');
+            alert('Вибачте, дані не були передані');
         }
         http.send(new FormData(f));
     }, false);

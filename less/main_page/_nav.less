@@ -14,14 +14,12 @@ nav {
 
 .logo {
     max-width: 75%;
-    transition: all .3s;
-    transform: scale(1);
-
+    transition: all .5s;
+    outline: none;
     &:hover {
-        transition: 1;
+        transition: all .5s;
         cursor: pointer;
-        transform: scale(1.05);
-        opacity: 0.8;
+        transform: scale(1.06);
     }
 }
 
@@ -40,7 +38,6 @@ nav {
         display: none !important;
     }
     &:hover {
-
         background-color: #5a89e8;
     }
 }
@@ -94,7 +91,6 @@ nav {
     background-color: #5a89e8;
 }
 
-
 .nav {
     display: flex;
 }
@@ -103,9 +99,8 @@ nav {
 .nav-toggle {
     display: none;
     position: relative;
-    width: 40px;
-    height: 40px;
-    margin-left: 20px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
 }
 
@@ -131,11 +126,11 @@ nav {
 }
 
 .nav-toggle span:before {
-    top: -8px;
+    top: -6px;
 }
 
 .nav-toggle span:after {
-    bottom: -8px;
+    bottom: -6px;
 }
 
 
@@ -171,10 +166,12 @@ nav {
     transition: opacity .4s, transform .5s;
     transition: opacity .4s, transform .5s, -webkit-transform .5s;
 }
-
-.menu .sub-menu ul:hover li {
-    background-color: #16a085;
-    ;
+.sub-menu li a {
+    transition: all .4s;
+    &:hover {
+        opacity: .6;
+        transition: all .4s;
+    }
 }
 
 .menu>li:hover .sub-menu,

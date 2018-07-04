@@ -13,11 +13,11 @@
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 7%;
+	margin-bottom: 4%;
 }
-.lastnews-text {
+.lastnews-text-left {
 	h3 {
-		margin-top: 3%;
+		margin-top: 2%;
 	}
 	span {
 		text-transform: uppercase;
@@ -25,26 +25,70 @@
 	p {
 		font-size: 1.5em;
 		font-family: "RobotoRegular";
-		line-height: 1.7em;
-		letter-spacing: .15em;
+		line-height: 1.5em;
+		letter-spacing: .1em;
+		padding-top: 5%;
+		padding-right: 4%;
+		text-align: justify;
+	}
+}
+.lastnews-text-right {
+	h3 {
+		margin-top: 2%;
+	}
+	span {
+		text-transform: uppercase;
+	}
+	p {
+		font-size: 1.5em;
+		font-family: "RobotoRegular";
+		line-height: 1.5em;
+		letter-spacing: .1em;
 		padding-top: 5%;
 		text-align: justify;
 	}
 }
-
-.btn-date {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 21%;
-}
-
-.news-date {
-	p {
-		font-size: 1em;
-		font-family: "RobotoRegular";
+.lastnews-photo-left, .lastnews-photo-right {
+	img {
+		width: 85%;
 	}
 }
+.lastnews-photo-left {
+	img {
+		margin-left: auto;
+	}
+}
+.lastnews-text.lt-news-padding {
+	padding-left: 10%;
+}
 
-.lastnews .main-btn {
-	margin-bottom: 5%;
+.btn-date-left {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10%;
+}
+.btn-date-right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15%;
+}
+.fb {
+	margin-left: 25%;
+	img {
+		max-width: 80%;
+	}
+}
+.news-date {
+	width: 40%;
+	margin-top: -10px;
+	p {
+		font-size: 1em;
+		font-family: "Roboto";
+		color: #000;
+	}
+	span {
+		padding-right: 15%;
+	}
 }

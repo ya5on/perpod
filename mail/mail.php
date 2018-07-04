@@ -1,9 +1,9 @@
 <?php
-if (isset ($_POST['contactFF'])) {
-  $to = "";
+if (isset ($_POST['nameFF']) AND isset($_POST['contactFF'])) {
+  $to = "spaunfrom@gmail.com";
   $from = "";
-  $subject = "Заполнена контактная форма на сайте ".$_SERVER['HTTP_REFERER'];
-  $message = "Имя: ".$_POST['nameFF']."\nКонтакты ".$_POST['contactFF']."\nПроект: ".$_POST['projectFF']."\n\nIP: ".$_SERVER['REMOTE_ADDR'];
+  $subject = "Заповнена контактна форма на сайті ".$_SERVER['HTTP_REFERER'];
+  $message = "\nІм’я: ".$_POST['nameFF']."\nEmail: ".$_POST['contactFF']."\nКоментар: ".$_POST['projectFF']."\n\nIP: ".$_SERVER['REMOTE_ADDR'];
  
   $boundary = md5(date('r', time()));
   $filesize = '';
@@ -38,9 +38,9 @@ $attachment";
  
   if ($filesize < 10000000) { // проверка на общий размер всех файлов. Многие почтовые сервисы не принимают вложения больше 10 МБ
     mail($to, $subject, $message, $headers);
-    echo $_POST['nameFF'].', Ваше сообщение отправлено, спасибо!';
+    echo $_POST['nameFF'].', Ваше повідомлення надіслано!';
   } else {
-    echo 'Извините, письмо не отправлено. Размер всех файлов превышает 10 МБ.';
+    echo 'Вибачте, повідомлення не відправлено. Розмір всіх файлів перевищує 10 МБ.';
   }
 }
 ?>

@@ -1,0 +1,195 @@
+.container {
+    max-width: 1620px;
+}
+
+
+/*NAV, LOGO*/
+
+.logo img {
+    width: 90%;
+}
+
+.menu a,
+.language li {
+    font-size: 1.15em;
+}
+
+
+/*HEADERS*/
+
+h1 {
+    font-size: 3.8em;
+}
+
+h2 {
+    font-size: 3.2em;
+}
+
+h3 {
+    font-size: 1.8em;
+    letter-spacing: .15em;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+
+/*HEADER*/
+
+.product-item img {
+    width: 90%;
+}
+
+
+/*ABOUT BLOCK*/
+
+.about-text p,
+.main-btn a {
+    font-size: 1.3em;
+}
+
+
+/*CARRIER BLOCK*/
+
+.carrier-content-list .list li {
+    font-size: 1.3em;
+}
+
+
+/*LASTNEWS BLOCK*/
+
+.lastnews-text-left p,
+.lastnews-text-right p {
+    font-size: 1.3em;
+}
+.fb img {
+    max-width: 70%;
+}
+.news-date p {
+    font-size: .9em !important;
+}
+
+.btn-date-left {
+    margin-top: 18%;
+}
+
+.btn-date-right {
+    margin-top: 17%;
+}
+
+
+/*CONTACTS BLOCK*/
+
+.address p {
+    font-size: 1.3em;
+}
+
+
+/*ABOUT PAGE*/
+
+.about-main p {
+    font-size: 1.3em;
+}
+
+.about-main-slider .slick-dots li button {
+    width: 50px;
+    height: 50px;
+}
+
+.cows-item p {
+    font-size: .9em;
+}
+
+.about-logo img {
+    max-width: 75%;
+}
+
+.about-main .lead-name {
+    font-size: 1.5em;
+}
+
+.about-main .lead-status,
+.about-main .lead-text {
+    font-size: 1.3em;
+}
+
+
+/*CARRIER BLOCK*/
+
+.carrier-main p {
+    font-size: 1.3em;
+}
+
+.carrier-main h3 {
+    font-size: 1.8em;
+}
+
+
+/*CONTACTS PAGE*/
+
+.contacts-main-content p {
+    font-size: 1.3em;
+}
+
+
+/*SUBMENU PAGES*/
+
+.submenu-item img {
+    width: 90%;
+}
+
+.milk img {
+    width: 35%;
+}
+
+.block-1-content p {
+    font-size: 1.3em;
+}
+
+.submenu-product {
+    margin-top: 9%;
+}
+
+.block-1-content img {
+    max-width: 75%;
+}
+
+.submenu-banner p {
+    font-size: 1.4em;
+}
+
+.submenu-contacts-text p {
+    font-size: 1.3em;
+}
+
+#submenuform #btn_submit {
+    font-size: 1.3em;
+}
+
+#submenuform label {
+    font-size: .9em;
+}
+
+
+/*footer*/
+
+.footer-content li {
+    font-size: 1em;
+}
+
+.footer-content a {
+    font-size: 1em;
+}
+
+.footer-sub-menu li {
+    font-size: 1em;
+}
+
+.footer-contacts li {
+    font-size: 1em;
+}

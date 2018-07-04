@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
 
 <head>
     <meta charset="utf-8">
@@ -8,23 +8,32 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" media="(max-width: 1685px)" href="css/media/media-1685.css"/>
+    <link rel="stylesheet" media="(max-width: 1600px)" href="css/media/media-1600.css"/>
+    <link rel="stylesheet" media="(max-width: 1441px)" href="css/media/media-1441.css"/>
+    <link rel="stylesheet" media="(max-width: 1370px)" href="css/media/media-1370.css"/>
+    <link rel="stylesheet" media="(max-width: 1285px)" href="css/media/media-1285.css"/>
+    <link rel="stylesheet" media="(max-width: 1025px)" href="css/media/media-1025.css"/>
+    <link rel="stylesheet" media="only screen and (max-device-width: 800px)" href="css/media/small-devices.css"/>
     <link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="libs/jquery-3.1.1.min.js"></script>
 </head>
 
 <body>
-    <!-- <div id="toTop">
-        <img src="img/main-page/up.png" alt="">
-    </div> -->
     <!-- Navigation -->
     <nav>
         <div class="container">
             <div class="row">
                 <div class="nav-content">
                         <div class="logo">
-                            <img src="img/main-page/logo.png" alt="perlpod">
+                            <a href="?page=home">
+                                <img src="img/main-page/logo.png" alt="perlpod">
+                            </a>
                         </div>
                     <div class="main-menu">
                         <div class="nav-toggle"><span></span></div>

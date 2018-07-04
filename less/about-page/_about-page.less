@@ -1,60 +1,76 @@
-#about-main {
-    nav {
-        .nav_list_item {
-            a {
-                color: #000;
-            }
-            &::after {
-                content: '';
-                background-color: #000;
-            }
-            &:hover:after {
-                color: #000;
-            }
-        }
-    }
-}
-
 .about-main {
+    background-image: url(../img/about-main/about-bg.png);
     h2 {
         color: #000;
         letter-spacing: .18em;
-        margin-top: 10%;
-        margin-bottom: 7%;
+        margin-top: 13%;
+        margin-bottom: 12%;
     }
     p {
         font-size: 1.5em;
-        font-family: "RobotoLight";
+        font-family: "RobotoRegular";
         line-height: 1.4;
         letter-spacing: .14em;
-    }
-}
-
-.history {
-    img {
-        box-shadow:0 0 50px 6px rgba(0,0,0,0.3);
-    }
-
-    p {
-        padding-left: 10%;
         text-align: justify;
     }
 }
 
-.about-main-text {
-    margin-top: 10%;
+.history {
+    margin-bottom: 10%;
     width: 100%;
-    img {
-        max-width: 10%;
-        margin: auto;
-        margin-bottom: 2%;
-    }
-    p {
-        text-align: center;
-        margin-bottom: 5%;
-    }
+    
+}
+.about-main-slider {
+
+}
+// slick slider
+.about-main-slider.slick-slider {
+    position: relative;
+    margin-left: 15%;
+}
+.about-main-slider .slick-dots{
+    display: block;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    top: 0;
+}
+.about-main-slider.slick-dotted.slick-slider {
+    margin-bottom: 0;
+    align-content: center;
+    padding-top: 15%;
+}
+.about-main-slider .slick-dots li {
+    cursor: pointer;
+    margin-right: 15%;
+    list-style-type: none;
 }
 
+.about-main-slider .slick-dots li.slick-active button {
+    opacity: 1;
+}
+.about-main-slider .slick-dots li button {
+    width: 60px;
+    height: 60px;
+    opacity: .6;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: no-repeat 0 0 / cover;
+}
+.about-main-slider .slick-dots li:nth-child(1) button {
+    background-image: url(../img/about-main/arrows-icon.png);
+}
+.about-main-slider .slick-dots li:nth-child(2) button {
+    background-image: url(../img/about-main/map.png);
+}
+.about-main-slider .slick-dots li:nth-child(3) button {
+    background-image: url(../img/about-main/house-icon.png);
+}
+
+// // slick slider end
 .qoute {
     background-image: url(../img/about-main/some-bg.png);
     -webkit-background-size: cover;
@@ -63,21 +79,23 @@
     p {
         font-style: italic;
         color: #fff;
+        font-size: 1.875em;
     }
 }
 
 .qoute {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 .qoute-right {
     margin-left: 3%;
-    transform: scale(2.5);
+    transform: scale(2);
 }
+
 .qoute-left {
     margin-right: 3%;
-    transform: scale(2.5);
+    transform: scale(2);
 }
 
 .philosophy {
@@ -85,18 +103,30 @@
     h2 {
         color: #000;
         margin-top: 10%;
-        margin-bottom: 7%;
+        margin-bottom: 8%;
     }
 }
 
 .philosophy-content {
-    img {
-        box-shadow:0 0 50px 6px rgba(0,0,0,0.3);
-    }
-
     p {
         padding-left: 10%;
         text-align: justify;
+    }
+}
+
+.philosophy-content-img {
+    img {
+        box-shadow: 0 0 50px 6px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.philosophy-content-text {
+    width: 95%;
+    img {
+        max-width: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
     }
 }
 
@@ -114,40 +144,44 @@
     }
 }
 
-.cows-content  {
+.cows-content {
     min-width: 30%;
     width: 100%;
     margin-bottom: 3%;
 }
 
 .cows-item {
-   height: 30%;
-   justify-content: center;
-   align-items: center;
-   margin-bottom: 3%;
-   
-   p {
-    text-align: center;
-    font-size: 1.1em;
-    color: #fff;
-    font-family: "RobotoBold";
-    text-transform: uppercase;
-   }
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+
+    p {
+        text-align: center;
+        font-size: 1em;
+        color: #fff;
+        font-family: "RobotoBold";
+        text-transform: uppercase;
+    }
 }
+
 .cows-img {
     display: flex;
     justify-content: center;
     img {
-        width: 50%;
+        width: 80%;
         height: 15%;
-   }
+    }
 }
+
 .cows-right {
     justify-content: center;
 }
+
 .cows-text {
-    width: 30%;
+    width: 35%;
 }
+
 .about-logo {
     width: 100%;
     img {
@@ -156,10 +190,18 @@
 }
 
 .about-page-slider {
-    padding: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.about-page-slider.owl-carousel .owl-nav .owl-next, .about-page-slider.owl-carousel .owl-nav .owl-prev {
+.about-page-slider.owl-carousel .owl-item img {
+    width: 99%;
+}
+
+.about-page-slider.owl-carousel .owl-nav .owl-next,
+.about-page-slider.owl-carousel .owl-nav .owl-prev {
     width: 1.875em;
     height: 1.875em;
     display: block;
@@ -171,21 +213,32 @@
     top: 50%;
     margin-top: -15px;
     outline: none;
+    transition: all .4s ease;
 }
 
 .about-page-slider.owl-carousel .owl-nav .owl-next {
     background-image: url(../img/main-page/slider-right.png);
     right: 0;
+    &:hover {
+        transition: all .4s ease;
+        opacity: 0.6;
+    }
 }
 
 .about-page-slider.owl-carousel .owl-nav .owl-prev {
     background-image: url(../img/main-page/slider-left.png);
     left: 0;
+    &:hover {
+        transition: all .4s ease;
+        opacity: 0.6;
+    }
 }
 
 .about-page-slider.owl-carousel .owl-dots {
     text-align: center;
+    margin-top: 5%;
 }
+
 .about-page-slider.owl-carousel button.owl-dot {
     background-color: #E9E9E9;
     width: 10px;
@@ -201,35 +254,41 @@
     background-color: #ADADAD;
     border: 1px solid #ADADAD;
 }
+
 .leadership {
-    margin-bottom: 3%;
+    padding-bottom: 3%;
     h2 {
-        margin-top: 6%;
-        margin-bottom: 5%;
+        margin-bottom: 0;
+        margin-top: 0;
     }
 }
+
 .leadership-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
 }
+
 .leadership-img {
     width: 50%;
 }
+
 .about-main .lead-name {
-        font-family: "RobotoBold";
-        font-size: 1.75em;
-        line-height: 1.4;
-        letter-spacing: .2em;
-        margin-bottom: 2%;
+    font-family: "RobotoBold";
+    font-size: 1.75em;
+    line-height: 1.4;
+    letter-spacing: .2em;
+    margin-bottom: 2%;
 }
+
 .about-main .lead-status {
     font-family: "Robotolight";
     font-size: 1.5em;
     line-height: 1.6;
     letter-spacing: .2em;
 }
+
 .about-main .lead-text {
     font-family: "Robotolight";
     font-size: 1.5em;
@@ -237,11 +296,12 @@
     letter-spacing: .2em;
     text-align: center;
 }
+
 .about-main span {
     width: 35%;
     border: none;
-    background-color: #000; 
-    color: red; 
+    background-color: #000;
+    color: red;
     height: 2px;
     margin-top: 3%;
     margin-bottom: 3%;

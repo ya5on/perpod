@@ -6,17 +6,17 @@ body {
     font-family: "RobotoRegular";
     font-size: 1em;
     width: 100%;
-    transition: width 1s;
+    transition: all 1s;
     overflow-x: hidden;
 }
 
 .container {
-    max-width: 1900px;
+    max-width: 1720px;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 // ОБЩИЕ ЗАГОЛОВКИ
@@ -51,7 +51,7 @@ h4 {
 
 h5 {
     font-family: "RobotoRegular";
-    font-size: 1.8em;
+    font-size: 1.875em;
     text-align: center;
     letter-spacing: .1em;
 }
@@ -64,7 +64,8 @@ img {
 
 // КНОПКА ДЕТАЛЬНО
 .main-btn {
-    width: 17em;
+    display: flex;
+    width: 27%;
     a {
         display: flex;
         align-items: baseline;
@@ -80,36 +81,20 @@ img {
         &:hover {
             text-decoration: none;
             color: #000;
+            opacity: .65;
+            transition: all .2s;
         }
     }
-
     &:hover img {
         transform: translateX(.7em)
     }
     img {
         width: .4em;
         margin-left: .4em;
-        transition: all .4s ease-in-out;
+        transition: all .5s ease-in-out;
     }
 }
 
-// КНОПКА НА ВЕРХ
-#toTop {
-    width: 5em;
-    padding: .5em 15px;
-    position: fixed;
-    bottom: 2em;
-    right: 1%;
-    cursor: pointer;
-    display: none;
-    z-index: 666;
-
-    &:hover {
-        img {
-            background: rgba(0, 0, 0, 0.9);
-        }
-    }
-}
 
 .scroll-button {
     max-width: 4%;
@@ -118,12 +103,20 @@ img {
     right: 50%;
     margin-right: -2%;
     outline: none;
-    
     img {
         margin-top: .4em;
-        transition: all .4s ease-in-out;
+        animation: motion-scroll .9s infinite alternate-reverse ease-in;
         &:hover {
-            transform: translateY(.7em)
+            opacity: .65;
+            transition: all .2s;
         }
+    }
+}
+@keyframes motion-scroll {
+    0% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(10px);
     }
 }

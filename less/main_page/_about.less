@@ -16,18 +16,25 @@
 }
 .about-text {
 	padding: 2%;
+    align-content: center;
 	p {
 		font-family: "RobotoRegular";
 		font-size: 1.5em;
 		letter-spacing: .1em;
 		line-height: 1.5;
-		margin-top: 20%;
         text-align: justify;
+        padding-left: 6%;
 	}
+    img {
+         max-width: 8%;
+         align-self: center;
+         margin-bottom: 7%;
+         margin-top: 8%;
+    }
 }
 
 .about .main-btn {
-	margin-top: 25%;
+	margin-top: 13%;
     margin-left: auto;
 }
 
@@ -51,16 +58,25 @@
 
 .main-slider.owl-carousel .owl-nav .owl-next {
     background-image: url(../img/main-page/slider-right.png);
-    right: 0;
+    right: -3%;
+    &:hover {
+        transition: all .4s ease;
+        opacity: 0.6;
+    }
 }
 
 .main-slider.owl-carousel .owl-nav .owl-prev {
     background-image: url(../img/main-page/slider-left.png);
-    left: 0;
+    left: -3%;
+    &:hover {
+        transition: all .4s ease;
+        opacity: 0.6;
+    }
 }
 
 .main-slider.owl-carousel .owl-dots {
     text-align: center;
+    margin-top: 4%;
 }
 .main-slider.owl-carousel button.owl-dot {
     background-color: #E9E9E9;
