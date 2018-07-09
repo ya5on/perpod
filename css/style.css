@@ -478,11 +478,17 @@ header {
 }
 header h1 {
   color: #fff;
-  margin-top: 15%;
 }
 header h4 {
   color: #fff;
   margin-top: 3%;
+}
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -200px;
 }
 .products {
   width: 100%;
@@ -490,11 +496,11 @@ header h4 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
-  margin-top: 10%;
+  margin-top: 7%;
   margin-bottom: 13%;
 }
 .product-item {
-  width: 10%;
+  width: 8%;
   margin-right: 2%;
 }
 .product-item:last-child {
@@ -542,7 +548,7 @@ header h4 {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
 }
 .about-text {
   padding: 2%;
@@ -553,7 +559,6 @@ header h4 {
   font-size: 1.5em;
   letter-spacing: .1em;
   line-height: 1.5;
-  text-align: justify;
   padding-left: 6%;
 }
 .about-text img {
@@ -561,6 +566,8 @@ header h4 {
   align-self: center;
   margin-bottom: 7%;
   margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .about .main-btn {
   margin-top: 13%;
@@ -715,7 +722,6 @@ header h4 {
   align-items: baseline;
   justify-content: center;
   font-family: "RobotoRegular";
-  font-weight: bold;
   font-size: 1.125em;
   letter-spacing: .2em;
   text-decoration: none;
@@ -725,7 +731,7 @@ header h4 {
 }
 .carrier-form #submitFF img {
   width: .5em;
-  height: .5em;
+  height: .6em;
   margin-left: .5em;
   transition: all 0.4s ease-in-out;
 }
@@ -733,24 +739,43 @@ header h4 {
   transform: translateX(0.7em);
 }
 .carrier-form img {
-  width: 2em;
-  height: 2em;
-  margin-bottom: 30px;
+  width: 2.5em;
+  height: 2.5em;
 }
-#putFile {
-  background: url(../img/main-page/attach-icon.png) no-repeat;
-  margin-bottom: 2%;
-  padding-bottom: 4%;
-  font-weight: normal;
-  border: none;
-  font-size: 1em;
-  letter-spacing: .2em;
-  text-decoration: none;
-  color: #fff;
-  outline: none;
+.file-upload {
+  position: relative;
+  /* Даем возможность делать позиционирование, внутри данного элемента */
+  overflow: hidden;
+  /* Все что выходит за пределы - скрываем */
+  padding: 6% 6%;
+  margin-bottom: 5%;
+}
+.file-upload input[type="file"] {
+  display: none;
+  /* Обязательно скрываем настоящий Input File */
+}
+.file-upload label {
+  /* Растягиваем label на всю возможную площадь блока .file-upload */
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 10%;
+  height: 100%;
   cursor: pointer;
-  text-align: left;
-  padding-left: 15%;
+}
+.carrier-content-form .filename {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  background: none;
+  color: #fff;
+  height: 30px;
+  width: 80%;
+  border: none;
+}
+.carrier-content-form input[type="text"]::placeholder {
+  color: #fff;
 }
 .lastnews {
   background: #fff;
@@ -765,7 +790,7 @@ header h4 {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 4%;
+  margin-bottom: 6%;
 }
 .lastnews-text-left h3 {
   margin-top: 2%;
@@ -780,7 +805,6 @@ header h4 {
   letter-spacing: .1em;
   padding-top: 5%;
   padding-right: 4%;
-  text-align: justify;
 }
 .lastnews-text-right h3 {
   margin-top: 2%;
@@ -794,7 +818,6 @@ header h4 {
   line-height: 1.5em;
   letter-spacing: .1em;
   padding-top: 5%;
-  text-align: justify;
 }
 .lastnews-photo-left img,
 .lastnews-photo-right img {
@@ -841,23 +864,92 @@ header h4 {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
-  height: 100vh;
 }
 .help h2 {
   color: #fff;
   margin-top: 5%;
+  margin-bottom: 6%;
+}
+.help-content {
+  width: 100%;
   margin-bottom: 5%;
+}
+.help-content-slide {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.help-content-slide h5 {
+  width: 100%;
+  color: #fff;
+  font-size: 1.2em;
+  margin-bottom: 6%;
+}
+.help-content-block {
+  margin-bottom: 5%;
+  width: 33%;
+  text-align: center;
+  color: #fff;
+}
+.help-content-block img {
+  margin: 0 auto;
+}
+.help-content-block p {
+  margin-top: 7%;
+  line-height: 1.3;
+  font-size: 1.125em;
+  letter-spacing: .11em;
+}
+.help-content.owl-carousel .owl-item img {
+  width: 20%;
+}
+.help-content.owl-carousel .owl-item .jet img {
+  width: 25%;
+}
+.help-content-slide {
+  padding: 1% 4% 1%;
+}
+.help-content.owl-carousel .owl-nav .owl-next,
+.help-content.owl-carousel .owl-nav .owl-prev {
+  width: 2em;
+  height: 2em;
+  display: block;
+  background-position: center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  outline: none;
+}
+.help-content.owl-carousel .owl-nav .owl-next {
+  background-image: url(../img/main-page/arrow-right.png);
+  right: 7%;
+}
+.help-content.owl-carousel .owl-nav .owl-next:hover {
+  transition: all .4s ease;
+  opacity: 0.6;
+}
+.help-content.owl-carousel .owl-nav .owl-prev {
+  background-image: url(../img/main-page/arrow-left.png);
+  left: 7%;
+}
+.help-content.owl-carousel .owl-nav .owl-prev:hover {
+  transition: all .4s ease;
+  opacity: 0.6;
 }
 .contacts h2 {
   color: #000;
   margin-top: 6%;
-  margin-bottom: 8%;
+  margin-bottom: 6%;
 }
 .contacts-content {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
 }
 .address {
   height: 100%;
@@ -885,8 +977,7 @@ header h4 {
   padding-bottom: 3%;
 }
 .address p a {
-  font-size: 1em;
-  color: #111;
+  color: #000;
   transition: all .4s ease;
 }
 .address p a:hover {
@@ -1010,7 +1101,6 @@ footer {
   font-family: "RobotoLight";
   line-height: 1.5;
   letter-spacing: .15em;
-  text-align: justify;
 }
 .carrier-main-content {
   margin-bottom: 9%;
@@ -1065,8 +1155,13 @@ footer {
 .carrier-main-form .carrier-content-form .carrier-form #submitFF {
   color: #000;
 }
-.carrier-main-form .carrier-content-form .carrier-form #putFile {
-  background: url(../img/carrier-page/carrier-attach-icon.png) no-repeat;
+.carrier-main-form .file-upload {
+  margin-bottom: 10%;
+}
+.carrier-main-form #filename {
+  border: none;
+}
+.carrier-main-form input[type="text"]::placeholder {
   color: #000;
 }
 .about-main {
@@ -1083,11 +1178,13 @@ footer {
   font-family: "RobotoRegular";
   line-height: 1.4;
   letter-spacing: .14em;
-  text-align: justify;
 }
 .history {
   margin-bottom: 10%;
   width: 100%;
+}
+.about-main-slider {
+  width: 75%;
 }
 .about-main-slider.slick-slider {
   position: relative;
@@ -1112,17 +1209,20 @@ footer {
   list-style-type: none;
 }
 .about-main-slider .slick-dots li.slick-active button {
-  opacity: 1;
+  opacity: 1 !important;
 }
 .about-main-slider .slick-dots li button {
   width: 60px;
   height: 60px;
-  opacity: .6;
+  opacity: .55;
   cursor: pointer;
   color: transparent;
   border: 0;
   outline: none;
   background: no-repeat 0 0 / cover;
+}
+.about-main-slider .slick-dots li button:hover {
+  opacity: .8;
 }
 .about-main-slider .slick-dots li:nth-child(1) button {
   background-image: url(../img/about-main/arrows-icon.png);
@@ -1156,16 +1256,15 @@ footer {
   transform: scale(2);
 }
 .philosophy {
-  margin-bottom: 7%;
+  margin-bottom: 6%;
 }
 .philosophy h2 {
   color: #000;
-  margin-top: 10%;
-  margin-bottom: 8%;
+  margin-top: 6%;
+  margin-bottom: 6%;
 }
 .philosophy-content p {
   padding-left: 10%;
-  text-align: justify;
 }
 .philosophy-content-img img {
   box-shadow: 0 0 50px 6px rgba(0, 0, 0, 0.3);
@@ -1174,7 +1273,7 @@ footer {
   width: 95%;
 }
 .philosophy-content-text img {
-  max-width: 10%;
+  max-width: 8%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5%;
@@ -1185,7 +1284,6 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 7%;
 }
 .cows h5 {
   color: #fff;
@@ -1228,7 +1326,7 @@ footer {
   width: 100%;
 }
 .about-logo img {
-  max-width: 100%;
+  max-width: 80%;
 }
 .about-page-slider {
   padding-top: 3%;
@@ -1292,8 +1390,8 @@ footer {
   padding-bottom: 3%;
 }
 .leadership h2 {
-  margin-bottom: 0;
-  margin-top: 0;
+  margin-bottom: 6%;
+  margin-top: 6%;
 }
 .leadership-content {
   display: flex;
@@ -1351,13 +1449,48 @@ footer {
   line-height: 1.2;
   padding-bottom: 3%;
 }
-.content-text-1 {
-  margin-right: 5%;
+.contacts-main .submenu-block {
   width: 50%;
 }
-.contacts-main .submenu-block {
-  padding-left: 7%;
+.contacts-text-1 {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 10%;
+}
+.contacts-text-1 ul {
+  padding-left: 2%;
+}
+.contacts-text-1 h3 {
+  font-family: "RobotoRegular";
+  text-align: center;
+  margin-bottom: 5%;
+}
+.contacts-text-1 li {
+  display: flex;
+  font-size: 1.5em;
+  font-family: "RobotoRegular";
+  padding-bottom: 5%;
+  list-style: none;
+}
+.contacts-text-1 li a {
+  font-size: 1em;
+  color: #111;
+  transition: all .4s ease;
+}
+.contacts-text-1 li a:hover {
+  opacity: .65;
+  transition: all .2s;
+}
+.contacts-text-1 li img {
+  width: 6%;
+  height: 6%;
+  margin-right: 3%;
+}
+.contacts-text-1 .line-height {
+  line-height: 1.5;
 }
 .submenu {
   background-repeat: no-repeat;
@@ -1426,9 +1559,8 @@ footer {
   padding: 3% 7%;
   font-size: 1.5em;
   font-family: "RobotoRegular";
-  line-height: 1.3;
+  line-height: 1.1;
   letter-spacing: .15em;
-  text-align: justify;
 }
 .block-1-content img {
   min-width: 15%;
@@ -1459,7 +1591,8 @@ footer {
   color: #fff;
 }
 .submenu-contacts {
-  margin-bottom: 10%;
+  margin-top: 3%;
+  padding-bottom: 6%;
 }
 .submenu-contacts h2 {
   margin-bottom: 10%;
@@ -1469,11 +1602,11 @@ footer {
   min-width: 40%;
 }
 #submenuform {
-  width: 65%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   font-family: "Robotoregular";
-  margin-left: 10%;
+  margin-left: 25%;
 }
 #submenuform input,
 #submenuform label,
@@ -1500,8 +1633,7 @@ footer {
   align-items: baseline;
   justify-content: center;
   font-family: "RobotoRegular";
-  font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1em;
   letter-spacing: .2em;
   text-decoration: none;
   color: #000;
@@ -1510,7 +1642,7 @@ footer {
 }
 #submenuform #btn_submit img {
   width: .5em;
-  height: .5em;
+  height: .6em;
   margin-left: .5em;
   transition: all 0.4s ease-in-out;
 }
@@ -1520,15 +1652,44 @@ footer {
 #submenuform img {
   width: 2em;
   height: 2em;
-  margin-bottom: 30px;
 }
 .submenu-contacts-text {
-  width: 50%;
-  min-width: 35%;
-  align-self: center;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 10%;
 }
-.submenu-contacts-text p {
-  padding: 2% 8%;
+.submenu-contacts-text ul {
+  padding-left: 2%;
+}
+.submenu-contacts-text h3 {
+  font-family: "RobotoRegular";
+  text-align: center;
+  margin-bottom: 5%;
+}
+.submenu-contacts-text li {
+  display: flex;
   font-size: 1.5em;
-  line-height: 1.3;
+  font-family: "RobotoRegular";
+  padding-bottom: 5%;
+  list-style: none;
+}
+.submenu-contacts-text li a {
+  font-size: 1em;
+  color: #111;
+  transition: all .4s ease;
+}
+.submenu-contacts-text li a:hover {
+  opacity: .65;
+  transition: all .2s;
+}
+.submenu-contacts-text li img {
+  width: 6%;
+  height: 6%;
+  margin-right: 3%;
+}
+.submenu-contacts-text .line-height {
+  line-height: 1.5;
 }

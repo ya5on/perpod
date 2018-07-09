@@ -3,10 +3,87 @@
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center;
-	height: 100vh;
 	h2 {
 		color: #fff;
 		margin-top: 5%;
-		margin-bottom: 5%;
+		margin-bottom: 6%;
 	}
+}
+.help-content {
+	width: 100%;
+	margin-bottom: 5%;
+	
+}
+.help-content-slide {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	h5 {
+		width: 100%;
+		color: #fff;
+		font-size: 1.2em;
+		margin-bottom: 6%;
+	}
+}
+.help-content-block {
+	margin-bottom: 5%;
+	width: 33%;
+	text-align: center;
+	color: #fff;
+	img {
+		margin: 0 auto;
+	}
+	p {
+		margin-top: 7%;
+		line-height: 1.3;
+		font-size: 1.125em;
+		letter-spacing: .11em;
+	}
+}
+.help-content.owl-carousel .owl-item  {
+	img {
+		width: 20%;
+	}
+}
+.help-content.owl-carousel .owl-item .jet  {
+	img {
+		width: 25%;
+	}
+}
+
+.help-content-slide {
+    padding: 1% 4% 1%;
+}
+
+.help-content.owl-carousel .owl-nav .owl-next, .help-content.owl-carousel .owl-nav .owl-prev {
+    width: 2em;
+    height: 2em;
+    display: block;
+    background-position: center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    outline: none;
+}
+
+.help-content.owl-carousel .owl-nav .owl-next {
+    background-image: url(../img/main-page/arrow-right.png);
+    right: 7%;
+    &:hover {
+        transition: all .4s ease;
+        opacity: 0.6;
+    }
+}
+
+.help-content.owl-carousel .owl-nav .owl-prev {
+    background-image: url(../img/main-page/arrow-left.png);
+    left: 7%;
+    &:hover {
+        transition: all .4s ease;
+        opacity: 0.6;
+    }
 }

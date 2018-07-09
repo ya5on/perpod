@@ -1,0 +1,823 @@
+@media only screen and (max-width: 1685px) {
+    .container {
+        max-width: 1620px;
+    }
+    /*NAV, LOGO*/
+    .logo img {
+        width: 90%;
+    }
+
+    .menu a,
+    .language li {
+        font-size: 1.15em;
+    }
+    /*HEADERS*/
+    h1 {
+        font-size: 3.8em;
+    }
+
+    h2 {
+        font-size: 3.2em;
+    }
+
+    h3 {
+        font-size: 1.8em;
+        letter-spacing: .15em;
+    }
+
+    h4 {
+        font-size: 1.3em;
+    }
+
+    h5 {
+        font-size: 1.5em;
+    }
+    /*HEADER*/
+    .product-item img {
+        width: 90%;
+    }
+    /*ABOUT BLOCK*/
+    .about-text p,
+    .main-btn a {
+        font-size: 1.3em;
+
+    }
+    .main-slider.owl-carousel .owl-nav .owl-next, .main-slider.owl-carousel .owl-nav .owl-prev {
+        width: 1.7em;
+        height: 1.7em;
+    }
+    /*CARRIER BLOCK*/
+    .carrier-content-list .list li {
+        font-size: 1.3em;
+    }
+    /*LASTNEWS BLOCK*/
+    .lastnews-text-left p,
+    .lastnews-text-right p {
+        font-size: 1.3em;
+    }
+    .fb img {
+        max-width: 70%;
+    }
+    .news-date p {
+        font-size: .9em !important;
+    }
+
+    .btn-date-left {
+        margin-top: 18%;
+    }
+
+    .btn-date-right {
+        margin-top: 17%;
+    }
+    /*HELP BLOCK*/
+    .help-content-block p {
+        font-size: 1.05em;
+    }
+    .help-content.owl-carousel .owl-nav .owl-next, .help-content.owl-carousel .owl-nav .owl-prev {
+        width: 1.8em;
+        height: 1.8em;
+    }
+    /*CONTACTS BLOCK*/
+    .address p {
+        font-size: 1.3em;
+    }
+    /*ABOUT PAGE*/
+    .about-main p {
+        font-size: 1.3em;
+    }
+
+    .about-main-slider .slick-dots li button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .cows-item p {
+        font-size: .9em;
+    }
+
+    .about-logo img {
+        max-width: 75%;
+    }
+
+    .about-main .lead-name {
+        font-size: 1.5em;
+    }
+
+    .about-main .lead-status,
+    .about-main .lead-text {
+        font-size: 1.3em;
+    }
+    .about-page-slider.owl-carousel .owl-nav .owl-next, .about-page-slider.owl-carousel .owl-nav .owl-prev {
+        width: 1.8em;
+        height: 1.8em;
+    }
+    /*CARRIER BLOCK*/
+    .carrier-main p {
+        font-size: 1.3em;
+    }
+
+    .carrier-main h3 {
+        font-size: 1.8em;
+    }
+    /*CONTACTS PAGE*/
+    .contacts-main-content p, .contacts-text-1 li {
+        font-size: 1.3em;
+    }
+    /*SUBMENU PAGES*/
+    .submenu-item img {
+        width: 90%;
+    }
+
+    .milk img {
+        width: 35%;
+    }
+
+    .block-1-content p {
+        font-size: 1.3em;
+    }
+
+    .submenu-product {
+        margin-top: 9%;
+    }
+
+    .block-1-content img {
+        max-width: 75%;
+    }
+
+    .submenu-banner p {
+        font-size: 1.4em;
+    }
+
+    .submenu-contacts-text li {
+        font-size: 1.3em;
+    }
+
+    #submenuform #btn_submit {
+        font-size: .9em;
+    }
+
+    #submenuform label {
+        font-size: .9em;
+    }
+
+    /*footer*/
+    .footer-content li {
+        font-size: 1em;
+    }
+
+    .footer-content a {
+        font-size: 1em;
+    }
+
+    .footer-sub-menu li {
+        font-size: 1em;
+    }
+
+    .footer-contacts li {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .container {
+        max-width: 1560px;
+    }
+    /*NAV, LOGO*/
+    .logo img {
+        width: 85%;
+    }
+    /*
+.menu a,
+.language li {
+    font-size: 1.05em;
+}
+*/
+    /*HEADERS*/
+    h1 {
+        font-size: 3.6em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 1.6em;
+        letter-spacing: .13em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+
+    h5 {
+        font-size: 1.4em;
+    }
+    /*ABOUT BLOCK*/
+    .about-text p,
+    .main-btn a {
+        font-size: 1.2em;
+    }
+    .main-slider.owl-carousel .owl-nav .owl-next, .main-slider.owl-carousel .owl-nav .owl-prev {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    /*CARRIER BLOCK*/
+    .carrier-content-list .list li {
+        font-size: 1.2em;
+    }
+    .carrier-form #submitFF {
+        font-size: 1em;
+    }
+    .carrier-form label {
+        font-size: .7em;
+    }
+    /*LASTNEWS BLOCK*/
+    .lastnews-text-left p,
+    .lastnews-text-right p {
+        font-size: 1.2em;
+    }
+    .news-date p {
+        font-size: .8em !important;
+    }
+    .btn-date-left {
+        margin-top: 20%;
+    }
+    .btn-date-right {
+        margin-top: 24%;
+    }
+    .fb img {
+        max-width: 60%;
+    }
+     /*HELP BLOCK*/
+    .help-content-block p {
+        font-size: 1em;
+    }
+    .help-content.owl-carousel .owl-nav .owl-next, .help-content.owl-carousel .owl-nav .owl-prev {
+        width: 1.6em;
+        height: 1.6em;
+    }
+    /*BLOCK CONTACTS*/
+    .address p {
+        font-size: 1.2em;
+    }
+    /*ABOUT PAGE*/
+    .about-main p {
+        font-size: 1.2em;
+    }
+    /*.about-main-slider .slick-dots li button {
+    width: 50px;
+    height: 50px;
+}*/
+    .cows-img img {
+        width: 65%;
+    }
+    .cows-item p {
+        font-size: .8em;
+    }
+    .about-logo img {
+        max-width: 70%;
+    }
+
+    .about-main .lead-name {
+        font-size: 1.4em;
+    }
+
+    .about-main .lead-status,
+    .about-main .lead-text {
+        font-size: 1.2em;
+    }
+    .about-page-slider.owl-carousel .owl-nav .owl-next, .about-page-slider.owl-carousel .owl-nav .owl-prev {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    /*CARRIER BLOCK*/
+    .carrier-main p {
+        font-size: 1.2em;
+    }
+    .carrier-main h3 {
+        font-size: 1.6em;
+    }
+
+    /*CONTACTS PAGE*/
+    .contacts-main-content p, .contacts-text-1 li {
+        font-size: 1.2em;
+    }
+    /*SUBMENU PAGES*/
+    /*.submenu-item img {
+    width: 90%;
+}*/
+    /*.milk img {
+    width: 35%;
+}*/
+    .block-1-content p {
+        font-size: 1.2em;
+    }
+    /*.submenu-product {
+    margin-top: 9%;
+}*/
+    .submenu-banner p {
+        font-size: 1.3em;
+    }
+    .submenu-contacts-text li {
+        font-size: 1.2em;
+    }
+    #submenuform #btn_submit {
+        font-size: .8em;
+    }
+    #submenuform label {
+        font-size: .8em;
+    }
+    .footer-contacts img {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1441px) {
+    .container {
+        max-width: 1400px;
+    }
+    /*NAV, LOGO*/
+    .logo img {
+        width: 80%;
+    }
+
+    .menu a,
+    .language li {
+        font-size: .9em;
+    }
+    /*HEADERS*/
+    h1 {
+        font-size: 3.2em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 1.4em;
+        letter-spacing: .2em;
+    }
+
+    h4 {
+        font-size: 1.1em;
+    }
+
+    h5 {
+        font-size: 1.3em;
+    }
+    /*HEADER BLOCK*/
+    .product-item p {
+        font-size: .5em;
+    }
+    /*ABOUT BLOCK*/
+    .about-text p,
+    .main-btn a {
+        font-size: 1.1em;
+    }
+    .main-slider.owl-carousel .owl-nav .owl-next, .main-slider.owl-carousel .owl-nav .owl-prev {
+        width: 1.3em;
+        height: 1.3em;
+    }
+    /*CARRIER BLOCK*/
+    .carrier-content-list .list li {
+        font-size: 1.1em;
+    }
+    .carrier-form #submitFF {
+        font-size: .9em;
+    }
+    /*LASTNEWS BLOCK*/
+    .lastnews-text-left p,
+    .lastnews-text-right p {
+        font-size: 1.1em;
+    }
+    .news-date p {
+        font-size: .7em !important;
+    }
+    /*.btn-date-left {
+    margin-top: 20%;
+}*/
+    .btn-date-right {
+        margin-top: 20%;
+    }
+    .fb img {
+        max-width: 55%;
+    }
+     /*HELP BLOCK*/
+    .help-content-block p {
+        font-size: .9em;
+        letter-spacing: 1px;
+    }
+    .help-content.owl-carousel .owl-nav .owl-next, .help-content.owl-carousel .owl-nav .owl-prev {
+        width: 1.5em;
+        height: 1.5em;
+    }
+    /*BLOCK CONTACTS*/
+    .address p {
+        font-size: 1.1em;
+    }
+    /*ABOUT PAGE*/
+    .about-main p {
+        font-size: 1.1em;
+    }
+    .about-main-slider .slick-dots li button {
+        width: 45px;
+        height: 45px;
+    }
+
+    .cows-item p {
+        font-size: .7em;
+    }
+    .about-logo img {
+        max-width: 65%;
+    }
+
+    .about-main .lead-name {
+        font-size: 1.3em;
+    }
+
+    .about-main .lead-status,
+    .about-main .lead-text {
+        font-size: 1.1em;
+    }
+    .about-page-slider.owl-carousel .owl-nav .owl-next, .about-page-slider.owl-carousel .owl-nav .owl-prev {
+        width: 1.3em;
+        height: 1.3em;
+    }
+    /*CARRIER BLOCK*/
+    .carrier-main p {
+        font-size: 1.1em;
+    }
+    .carrier-main h3 {
+        font-size: 1.5em;
+    }
+    /*CONTACTS PAGE*/
+    .contacts-main-content p, .contacts-text-1 li {
+        font-size: 1.1em;
+    }
+    /*SUBMENU PAGES*/
+    /*.submenu-item img {
+    width: 90%;
+}*/
+    /*.milk img {
+    width: 35%;
+}*/
+    .block-1-content p {
+        font-size: 1.1em;
+    }
+    /*.submenu-product {
+    margin-top: 9%;
+}*/
+    /*.block-1-content img {
+    max-width: 75%;
+}
+*/
+    .submenu-banner p {
+        font-size: 1.2em;
+    }
+    .submenu-contacts-text li {
+        font-size: 1.1em;
+    }
+    #submenuform #btn_submit {
+        font-size: .7em;
+    }
+    #submenuform label {
+        font-size: .7em;
+    }
+    /*footer*/
+    .footer-content li {
+        font-size: .9em;
+    }
+
+    .footer-content a {
+        font-size: .9em;
+    }
+
+    .footer-sub-menu li {
+        font-size: .9em;
+    }
+
+    .footer-contacts li {
+        font-size: .9em;
+    }
+
+    .footer-contacts img {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 1370px) {
+    .container {
+        max-width: 1310px;
+    }
+    /*NAV, LOGO*/
+    .logo img {
+        width: 75%;
+    }
+    /*.menu a,
+.language li {
+    font-size: .9em;
+}
+*/
+    /*HEADERS*/
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2.2em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+        letter-spacing: .15em;
+    }
+    /*h4 {
+    font-size: 1.1em;
+}*/
+    h5 {
+        font-size: 1.2em;
+    }
+    /*HEADER BLOCK*/
+    /*.product-item p {
+    font-size: .5em;
+}
+*/
+    /*ABOUT BLOCK*/
+    .about-text p,
+    .main-btn a {
+        font-size: 1em;
+    }
+    .main-slider.owl-carousel .owl-nav .owl-next, .main-slider.owl-carousel .owl-nav .owl-prev {
+        width: 1.2em;
+        height: 1.2em;
+    }
+    /*CARRIER BLOCK*/
+    .carrier-content-list .list li {
+        font-size: 1em;
+    }
+    .carrier-form #submitFF {
+        font-size: .8em;
+    }
+    /*LASTNEWS BLOCK*/
+    .lastnews-text-left p,
+    .lastnews-text-right p {
+        font-size: 1em;
+    }
+    /*.news-date p {
+    font-size: .7em !important;
+}*/
+    .btn-date-left {
+        margin-top: 21%;
+    }
+    .btn-date-right {
+        margin-top: 24%;
+    }
+    .fb img {
+        max-width: 50%;
+    }
+     /*HELP BLOCK*/
+    .help-content-block p {
+        font-size: .8em;
+    }
+    /*BLOCK CONTACTS*/
+    .address p {
+        font-size: 1em;
+    }
+    /*ABOUT PAGE*/
+    .about-main p {
+        font-size: 1.1em;
+    }
+    .about-main-slider .slick-dots li button {
+        width: 45px;
+        height: 45px;
+    }
+    .cows-img img {
+        width: 65%;
+    }
+    .cows-item p {
+        font-size: .7em;
+    }
+    .about-logo img {
+        max-width: 65%;
+    }
+
+    .about-main .lead-name {
+        font-size: 1.3em;
+    }
+
+    .about-main .lead-status,
+    .about-main .lead-text {
+        font-size: 1.1em;
+    }
+    .about-page-slider.owl-carousel .owl-nav .owl-next, .about-page-slider.owl-carousel .owl-nav .owl-prev {
+        width: 1.2em;
+        height: 1.2em;
+    }
+    /*CARRIER BLOCK*/
+    .carrier-main p {
+        font-size: 1.1em;
+    }
+    .carrier-main h3 {
+        font-size: 1.5em;
+    }
+    /*CONTACTS PAGE*/
+    .contacts-main-content p, .contacts-text-1 li {
+        font-size: 1.1em;
+    }
+    /*SUBMENU PAGES*/
+    /*.submenu-item img {
+    width: 90%;
+}*/
+    /*.milk img {
+    width: 35%;
+}*/
+    .block-1-content p {
+        font-size: 1.1em;
+    }
+    /*.submenu-product {
+    margin-top: 9%;
+}*/
+    /*.block-1-content img {
+    max-width: 75%;
+}
+*/
+    .submenu-banner p {
+        font-size: 1.2em;
+    }
+    .submenu-contacts-text li {
+        font-size: 1.1em;
+    }
+/*    #submenuform #btn_submit {
+        font-size: .9em;
+    }
+    #submenuform label {
+        font-size: .7em;
+    }*/
+    /*footer*/
+    .footer-content li {
+        font-size: .8em;
+    }
+
+    .footer-content a {
+        font-size: .8em;
+    }
+
+    .footer-sub-menu li {
+        font-size: .8em;
+    }
+
+    .footer-contacts li {
+        font-size: .8em;
+    }
+    .footer-contacts img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1285px) {
+    .container {
+        max-width: 1220px;
+    }
+    /*NAV, LOGO*/
+    .logo img {
+        width: 70%;
+    }
+    /*.menu a,
+.language li {
+    font-size: .9em;
+}
+*/
+    /*HEADERS*/
+    h1 {
+        font-size: 2.8em;
+    }
+
+    h2 {
+        font-size: 2.1em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        letter-spacing: .11em;
+    }
+    /*h4 {
+    font-size: 1.1em;
+}*/
+    h5 {
+        font-size: 1.1em;
+    }
+    /*HEADER BLOCK*/
+    /*.product-item p {
+    font-size: .5em;
+}
+*/
+    /*ABOUT BLOCK*/
+    .about-text p,
+    .main-btn a {
+        font-size: 1em;
+    }
+    /*CARRIER BLOCK*/
+    /*.carrier-content-list .list li {
+    font-size: 1em;
+}*/
+    /*.carrier-form #submitFF {
+    font-size: .8em;
+}*/
+    /*LASTNEWS BLOCK*/
+    /*.lastnews-text-left p, .lastnews-text-right p {
+    font-size: 1em;
+}*/
+    /*.news-date p {
+    font-size: .7em !important;
+}*/
+    .btn-date-left {
+        margin-top: 19%;
+    }
+    .btn-date-right {
+        margin-top: 18%;
+    }
+    .fb img {
+        max-width: 45%;
+    }
+     /*HELP BLOCK*/
+    .help-content-block p {
+        font-size: .7em;
+    }
+    /*BLOCK CONTACTS*/
+    .address p {
+        font-size: 1em;
+    }
+    /*ABOUT PAGE*/
+    .about-main p {
+        font-size: 1.1em;
+    }
+    .about-main-slider .slick-dots li button {
+        width: 40px;
+        height: 40px;
+    }
+    .cows-img img {
+        width: 60%;
+    }
+    .cows-item p {
+        font-size: .7em;
+    }
+    .about-logo img {
+        max-width: 65%;
+    }
+
+    .about-main .lead-name {
+        font-size: 1.2em;
+    }
+
+    .about-main .lead-status,
+    .about-main .lead-text {
+        font-size: 1em;
+    }
+    /*CARRIER BLOCK*/
+    .carrier-main p {
+        font-size: 1em;
+    }
+    .carrier-main h3 {
+        font-size: 1.4em;
+    }
+    /*CONTACTS PAGE*/
+    .contacts-main-content p, .contacts-text-1 li {
+        font-size: 1em;
+    }
+    /*SUBMENU PAGES*/
+    /*.submenu-item img {
+    width: 90%;
+}*/
+    /*.milk img {
+    width: 35%;
+}*/
+    .block-1-content p {
+        font-size: 1em;
+    }
+    /*.submenu-product {
+    margin-top: 9%;
+}*/
+    /*.block-1-content img {
+    max-width: 75%;
+}
+*/
+    .submenu-banner p {
+        font-size: 1.1em;
+    }
+    .submenu-contacts-text li {
+        font-size: 1em;
+    }
+ /*   #submenuform #btn_submit {
+        font-size: .8em;
+    }
+    #submenuform label {
+        font-size: .7em;
+    }*/
+    .footer-contacts img {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {}

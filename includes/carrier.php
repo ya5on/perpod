@@ -51,8 +51,13 @@
                             <label for="projectFF">Коментар:</label>
                             <textarea id="projectFF" name="projectFF" class="inputText"></textarea>
                             <label class="area-padding" for="fileFF">Резюме:</label>
-                            <input id="fileFF" name="fileFF" type="file">
-                            <!-- <button id="putFile" onclick="document.getElementById('fileFF').click()">Выберите файл</button> -->
+                            <div class="file-upload">
+                                    <label>
+                                        <input id="fileFF" name="fileFF" type="file">
+                                        <span><img src="img/carrier-page/carrier-attach-icon.png" alt=""></span>
+                                    </label>
+                                    <input type="text" id="filename" class="filename" disabled placeholder="Виберіть файл (до 10мб)">
+                                </div>
                             <button id="submitFF" class="form-btn" type="submit">Відправити<img src="img/main-page/news-arrow.png" alt=""></button>
                         </form>
                     </div>

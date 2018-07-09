@@ -21,24 +21,17 @@
 {
     font-size: 0;
     line-height: 0;
-
     position: absolute;
-    top: 50%;
+    top: 60%;
 
     display: block;
 
-    width: 20px;
-    height: 20px;
     padding: 0;
-    -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
 
     cursor: pointer;
-
-    color: transparent;
     border: none;
     outline: none;
-    background: transparent;
+    background: none;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -54,7 +47,7 @@
 .slick-next:hover:before,
 .slick-next:focus:before
 {
-    opacity: 1;
+    opacity: .6;
 }
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before
@@ -65,51 +58,34 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font-family: 'slick';
     font-size: 20px;
     line-height: 1;
-
-    opacity: .75;
     color: white;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
 }
 
 .slick-prev
 {
-    left: -25px;
+    color: #000;
+    left: -12%;
 }
-[dir='rtl'] .slick-prev
-{
-    right: -25px;
-    left: auto;
-}
+
 .slick-prev:before
 {
-    content: '←';
-}
-[dir='rtl'] .slick-prev:before
-{
-    content: '→';
+
+    content:  url(../../img/main-page/slider-left.png);
 }
 
 .slick-next
-{
-    right: -25px;
-}
-[dir='rtl'] .slick-next
-{
-    right: auto;
-    left: -25px;
+{   color: #000;
+    right: -12%;
 }
 .slick-next:before
 {
-    content: '→';
-}
-[dir='rtl'] .slick-next:before
-{
-    content: '←';
+    content: url(../../img/main-page/slider-right.png);
 }
 
 /* Dots */

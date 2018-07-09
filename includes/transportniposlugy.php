@@ -1,5 +1,5 @@
-<main class="submenu-main">
-    <div class="submenu" style="background-image: url(../img/transportniposlugy/transport-bg.png);">
+<main id="transportniposlugy" class="submenu-main">
+    <div class="submenu" style="background-image: url(../img/transportniposlugy/transport-bg.png);background-size: cover;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -77,27 +77,32 @@ Sed tincidunt sapien ac libero ultricies, sit amet pharetra quam iaculis.</h4>
                 <div class="col-md-12">
                     <h2>Зв'язок з нами</h2>
                 </div>
-                
                 <div class="col-md-12 d-flex">
                     <div class="submenu-block">
                         <form id="submenuform">
-                        <label>Name:</label>
-                        <input type="text" name="name" id="name">
-    
-                        <label>Mobile Phone:</label>
-                        <input type="text" name="message" id="message">
-    
-                        <label>E-mail:</label>
-                        <input type="text" name="email" id="email">
-    <div class="result"></div>
-                        <button href="javascript: void(0);" id="btn_submit">Відправити<img src="img/main-page/news-arrow.png " alt=" "></button>
+                            <label>Ім`я:</label>
+                            <input type="text" name="name" id="name" required="">
+                            <label>Телефон:</label>
+                            <input type="text" name="phone" id="phone" required="">
+                            <label>E-mail:</label>
+                            <input type="text" name="email" id="email" required="">
+                            <button type="submit" id="btn_submit">Відправити<img src="img/main-page/news-arrow.png " alt=" "></button>
                         </form>
                     </div>
-                
-                
                     <div class="submenu-contacts-text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, fugiat, laboriosam magni perspiciatis, asperiores, optio eligendi expedita animi laudantium quaerat molestias provident. Necessitatibus quia nobis fuga eum ipsam unde enim.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <ul>
+                            <li class="line-height">
+                                <img src="img/main-page/icon-address.png" alt="" class="icon-sub">Наш офіс знаходиться за адресою:
+                                <br> Хмельницька обл., смт. Білогір’я, вул. Миру, 10
+                                <br> Індекс: 30200
+                            </li>
+                            <li>
+                                <img src="img/main-page/icon-office-phone.png" alt="">Телефон / Факс: +380(3841) 2-15-55
+                            </li>
+                            <li>
+                                <img src="img/main-page/icon-gmail.png" alt="">E-mail:<a href="mailto:perlpod@ukr.net">perlpod@ukr.net</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

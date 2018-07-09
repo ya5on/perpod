@@ -2,50 +2,52 @@
     <!-- HEADER -->
     <header>
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>ПЕРЛИНА ПОДІЛЛЯ</h1>
+            <div class="header-content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>ПЕРЛИНА ПОДІЛЛЯ</h1>
+                    </div>
+                    <div class="col-md-12">
+                        <h4>Любов до рідної землі та своєї справи – головне.</h4>
+                    </div>
                 </div>
-                <div class="col-md-12">
-                    <h4>Любов до рідної землі та своєї справи – головне.</h4>
-                </div>
-            </div>
-            <div class="products">
-                <div class="product-item">
-                    <a href="?page=roslynnytstvo">
+                <div class="products">
+                    <div class="product-item">
+                        <a href="?page=roslynnytstvo">
                         <img class="prod-img" src="img/main-page/grow.png" alt="РОСЛИННИЦТВО">
                         <p class="prod">РОСЛИННИЦТВО</p>
                     </a>
-                </div>
-                <div class="product-item">
-                    <a href="?page=tvarinnictvo">
+                    </div>
+                    <div class="product-item">
+                        <a href="?page=tvarinnictvo">
                         <img class="prod-img" src="img/main-page/cow.png" alt="ТВАРИННИЦТВО">
                         <p class="prod">ТВАРИННИЦТВО</p>
                     </a>
-                </div>
-                <div class="product-item">
-                    <a href="?page=bdzholyarstvo">
+                    </div>
+                    <div class="product-item">
+                        <a href="?page=bdzholyarstvo">
                         <img class="prod-img" src="img/main-page/bee.png" alt="БДЖОЛЯРСТВО">
                         <p class="prod">БДЖОЛЯРСТВО</p>
                     </a>
-                </div>
-                <div class="product-item">
-                    <a href="?page=transportniposlugy">
+                    </div>
+                    <div class="product-item">
+                        <a href="?page=transportniposlugy">
                         <img class="prod-img" src="img/main-page/truck.png" alt="ТРАНСПОРТНІ ПОСЛУГИ">
                         <p class="prod">ТРАНСПОРТНІ ПОСЛУГИ</p>
                     </a>
-                </div>
-                <div class="product-item">
-                    <a href="?page=metaloplastykovikonstrukcii">
+                    </div>
+                    <div class="product-item">
+                        <a href="?page=metaloplastykovikonstrukcii">
                         <img class="prod-img" src="img/main-page/steel.png" class="main-steel" alt="МЕТАЛОПЛАСТИКОВІ КОНСТРУКЦІЇ">
                         <p class="prod">МЕТАЛОПЛАСТИКОВІ КОНСТРУКЦІЇ</p>
                     </a>
-                </div>
-                <div class="product-item">
-                    <a href="?page=mzuri">
+                    </div>
+                    <div class="product-item">
+                        <a href="?page=mzuri">
                         <img class="prod-img" src="img/main-page/mzuri.png" alt="mzuri">
                         <p class="prod">mzuri</p>
                     </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -129,10 +131,16 @@
                                 <label for="projectFF">Коментар:</label>
                                 <textarea id="projectFF" name="projectFF" class="inputText"></textarea>
                                 <label class="area-padding" for="fileFF">Резюме:</label>
-                                <input id="fileFF" name="fileFF" type="file">
-                                <!-- <button id="putFile " onclick="document.getElementById( 'fileFF').click() ">Выберите файл</button> -->
+                                <div class="file-upload">
+                                    <label>
+                                        <input id="fileFF" name="fileFF" type="file">
+                                        <span><img src="img/main-page/attach-icon.png" alt=""></span>
+                                    </label>
+                                    <input type="text" id="filename" class="filename" disabled placeholder="Виберіть файл (до 10мб)">
+                                </div>
                                 <button id="submitFF" class="form-btn" type="submit">Відправити<img src="img/main-page/carrier-arrow.png" alt=""></button>
                             </form>
+                           
                         </div>
                     </div>
                 </div>
@@ -216,6 +224,74 @@
             <div class="row ">
                 <div class="col-md-12 ">
                     <h2>СОЦІАЛЬНА ДОПОМОГА</h2>
+                </div>
+                <div class="help-content owl-carousel">
+                    <div class="help-content-slide">
+                        <h5>3 218 597 грн у 2017 році було витрачено на соціальну допомогу</h5>
+                        <div class="help-content-block">
+                            <img src="img/main-page/open-book.svg" alt="">
+                            <p>514 975 грн
+                                <br> на освітній напрям</p>
+                        </div>
+                        <div class="help-content-block jet">
+                            <img src="img/main-page/jet.svg" alt="">
+                            <p>347 608 грн
+                                <br> на допомогу воїнам АТО</p>
+                        </div>
+                        <div class="help-content-block">
+                            <img src="img/main-page/first-aid-kit.svg" alt="">
+                            <p>328 297 грн
+                                <br> на медицину</p>
+                        </div>
+                        <div class="help-content-block">
+                            <img src="img/main-page/church.svg" alt="">
+                            <p>514 975 грн
+                                <br> на освітній напрям</p>
+                        </div>
+                        <div class="help-content-block">
+                            <img src="img/main-page/masks.svg" alt="">
+                            <p>347 608 грн
+                                <br> на допомогу воїнам АТО</p>
+                        </div>
+                        <div class="help-content-block">
+                            <img src="img/main-page/heart.svg" alt="">
+                            <p>328 297 грн
+                                <br> на медицину</p>
+                        </div>
+                    </div>
+                    <div class="help-content-slide">
+                        <h5>3 218 597 грн у 2017 році було витрачено на соціальну допомогу</h5>
+                        <div class="help-content-block">
+                            <img src="img/main-page/open-book.svg" alt="">
+                            <p>514 975 грн
+                                <br> на освітній напрям</p>
+                        </div>
+                        <div class="help-content-block jet">
+                            <img src="img/main-page/jet.svg" alt="">
+                            <p>347 608 грн
+                                <br> на допомогу воїнам АТО</p>
+                        </div>
+                        <div class="help-content-block">
+                            <img src="img/main-page/first-aid-kit.svg" alt="">
+                            <p>328 297 грн
+                                <br> на медицину</p>
+                        </div>
+                        <div class="help-content-block">
+                            <img src="img/main-page/church.svg" alt="">
+                            <p>514 975 грн
+                                <br> на освітній напрям</p>
+                        </div>
+                        <div class="help-content-block">
+                            <img src="img/main-page/masks.svg" alt="">
+                            <p>347 608 грн
+                                <br> на допомогу воїнам АТО</p>
+                        </div>
+                        <div class="help-content-block">
+                            <img src="img/main-page/heart.svg" alt="">
+                            <p>328 297 грн
+                                <br> на медицину</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

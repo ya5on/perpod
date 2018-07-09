@@ -11,7 +11,6 @@
         font-family: "RobotoRegular";
         line-height: 1.4;
         letter-spacing: .14em;
-        text-align: justify;
     }
 }
 
@@ -21,7 +20,7 @@
     
 }
 .about-main-slider {
-
+    width: 75%;
 }
 // slick slider
 .about-main-slider.slick-slider {
@@ -41,6 +40,9 @@
     align-content: center;
     padding-top: 15%;
 }
+// arrows
+
+// arrows //
 .about-main-slider .slick-dots li {
     cursor: pointer;
     margin-right: 15%;
@@ -48,17 +50,20 @@
 }
 
 .about-main-slider .slick-dots li.slick-active button {
-    opacity: 1;
+    opacity: 1 !important;
 }
 .about-main-slider .slick-dots li button {
     width: 60px;
     height: 60px;
-    opacity: .6;
+    opacity: .55;
     cursor: pointer;
     color: transparent;
     border: 0;
     outline: none;
     background: no-repeat 0 0 / cover;
+    &:hover {
+        opacity: .8;
+    }
 }
 .about-main-slider .slick-dots li:nth-child(1) button {
     background-image: url(../img/about-main/arrows-icon.png);
@@ -99,18 +104,17 @@
 }
 
 .philosophy {
-    margin-bottom: 7%;
+    margin-bottom: 6%;
     h2 {
         color: #000;
-        margin-top: 10%;
-        margin-bottom: 8%;
+        margin-top: 6%;
+        margin-bottom: 6%;
     }
 }
 
 .philosophy-content {
     p {
         padding-left: 10%;
-        text-align: justify;
     }
 }
 
@@ -123,7 +127,7 @@
 .philosophy-content-text {
     width: 95%;
     img {
-        max-width: 10%;
+        max-width: 8%;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 5%;
@@ -136,7 +140,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 7%;
     h5 {
         color: #fff;
         margin-top: 3%;
@@ -185,7 +188,7 @@
 .about-logo {
     width: 100%;
     img {
-        max-width: 100%;
+        max-width: 80%;
     }
 }
 
@@ -258,8 +261,8 @@
 .leadership {
     padding-bottom: 3%;
     h2 {
-        margin-bottom: 0;
-        margin-top: 0;
+        margin-bottom: 6%;
+        margin-top: 6%;
     }
 }
 

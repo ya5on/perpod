@@ -16,7 +16,6 @@
     	font-family: "RobotoLight";
     	line-height: 1.5;
     	letter-spacing: .15em;
-        text-align: justify;
     }
 }
 .carrier-main-content {
@@ -79,8 +78,14 @@
     #submitFF {
         color: #000;
     }
-    #putFile {
-        background: url(../img/carrier-page/carrier-attach-icon.png) no-repeat;
-        color: #000;
-    }
+    
+}
+.carrier-main-form .file-upload {
+    margin-bottom: 10%;
+}
+.carrier-main-form #filename {
+    border: none;
+}
+.carrier-main-form input[type="text"]::placeholder {
+    color: #000;
 }

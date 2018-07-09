@@ -1,21 +1,3 @@
-// $('body').css('display','none');
-// $(document).ready(function(){
-//     $('body').fadeIn();
-//     $('a').on('click', function(event){
-//         var thetarget = this.getAttribute('target')
-//         if (thetarget != "_blank") {
-//             var thehref = this.getAttribute('href')
-//             event.preventDefault();
-//             $('body').fadeOut(function(){
-//                 window.location = thehref
-//             });
-//         }
-//     });
-// });
-// setTimeout(function(){
-//     $('body').fadeIn();
-// }, 2000);
-
 //слайдер основная страница
 $(document).ready(function() {
     $(".main-slider").owlCarousel({
@@ -25,17 +7,31 @@ $(document).ready(function() {
         touchDrag: true,
         nav: true,
         navText: ['', ''],
-        dots: true
+        dots: true,
+        autoplayTimeout: 10000
+    });
+});
+//слайдер HELP block основная страница
+$(document).ready(function() {
+    $(".help-content").owlCarousel({
+        autoplay: true,
+        items: 1,
+        loop: true,
+        touchDrag: true,
+        nav: true,
+        navText: ['', ''],
+        dots: false,
+        autoplayTimeout: 15000
     });
 });
 //слайдер about страница
-$(document).ready(function(){
-  $('.about-main-slider').slick({
-    adaptiveHeight: true,
-    autoplay: false,
-    dots: true,
-    arrows: false
-  });
+$(document).ready(function() {
+    $('.about-main-slider').slick({
+        adaptiveHeight: true,
+        autoplay: false,
+        dots: true,
+        arrows: true
+    });
 });
 
 //слайдер about страница
@@ -48,7 +44,8 @@ $(document).ready(function() {
         nav: true,
         navText: ['', ''],
         dots: true,
-        mouseDrag: false
+        mouseDrag: false,
+        autoplayTimeout: 10000
     });
 });
 
@@ -66,10 +63,10 @@ $(document).ready(function() {
 });
 
 // SUB-MENU
-$('.nav-toggle').on('click', function(){
-$('.menu').toggleClass('active');
+$('.nav-toggle').on('click', function() {
+    $('.menu').toggleClass('active');
 });
- 
+
 // ОТРПАВКА ФОРМЫ МЕЙН СТРАНИЦА
 $(function() {
     document.getElementById('feedback-form').addEventListener('submit', function(evt) {
@@ -96,3 +93,27 @@ $(function() {
 
 // ФОРМА ОБРАТНОЙ СВЯЗИ СУБ МЕНЮ
 
+$(document).ready(function() {
+
+    $("#submenuform").submit(function() {
+        $.ajax({
+            type: "POST",
+            url: "mail/submenu.php",
+            data: $(this).serialize()
+        }).done(function() {
+            $(this).find("input").val("");
+            alert("Дякуемо за заявку! Скоро ми з вами звяжемося");
+            $("#submenuform").trigger("reset");
+        });
+        return false;
+    });
+
+});
+
+
+$(document).ready(function() {
+    $(".file-upload input[type=file]").change(function() {
+        var filename = $(this).val().replace(/.*\\/, "");
+        $("#filename").val(filename);
+    });
+});
