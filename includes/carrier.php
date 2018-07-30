@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carrier-main-content d-flex align-items-center flex-wrap">
+            <div class="carrier-main-content d-flex align-items-center flex-wrap reverse">
                 <div class="col-md-6">
                     <div class="carrier-main-img">
                         <img src="img/carrier-page/people2.png" alt="">
@@ -56,7 +56,7 @@
                                         <input id="fileFF" name="fileFF" type="file">
                                         <span><img src="img/carrier-page/carrier-attach-icon.png" alt=""></span>
                                     </label>
-                                    <input type="text" id="filename" class="filename" disabled placeholder="Виберіть файл (до 10мб)">
+                                    <input type="text" id="filename" class="filename" disabled placeholder="Виберіть файл">
                                 </div>
                             <button id="submitFF" class="form-btn" type="submit">Відправити<img src="img/main-page/news-arrow.png" alt=""></button>
                         </form>

@@ -1,4 +1,7 @@
-<?php 
+<?php
+    include "core/langconfig.php";
+?>
+<?php
     include "includes/nav.php";
  ?>
 
@@ -24,7 +27,7 @@
 }
  
         echo '<style>
-        nav a, .menu li:hover:after,  .language li {
+        nav a, .menu li:hover:after,  .language li a {
           color: '.$color.' !important;
           
         }

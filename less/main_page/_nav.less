@@ -10,6 +10,7 @@ nav {
     align-items: center;
     margin-top: 2.5%;
     width: 100%;
+
 }
 
 .logo {
@@ -23,10 +24,11 @@ nav {
     }
 }
 
-.main-menu  {
+.main-menu {
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    position: relative;
 }
 
 .menu-item {
@@ -55,9 +57,11 @@ nav {
     width: 100%;
 }
 
-.menu>li {
-    position: relative;
-    margin-right: 2.2%;
+.menu {
+    li {
+        position: relative;
+        margin-right: 2.2%;
+    }
 }
 
 .menu {
@@ -93,54 +97,82 @@ nav {
 
 .nav {
     display: flex;
+
 }
+
+
 /* кнопка переключения меню, появляющаяся при ширине 768px */
+#toggle {
+  display: none;
+  width: 28px;
+  height: 30px;
+  position: absolute;
+  top: 250%;
+  right: 5%;
+  z-index: 6;
 
-.nav-toggle {
-    display: none;
-    position: relative;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
 }
 
-.nav-toggle span {
-    display: block;
-    position: absolute;
-    top: 19px;
-    left: 8px;
-    right: 8px;
-    height: 2px;
-    background: white;
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+#toggle span:after{
+  top: 9px;
+}
+#toggle span {
+  position: relative;
+  display: block;
 }
 
-.nav-toggle span:before,
-.nav-toggle span:after {
-    content: "";
-    position: absolute;
-    display: block;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: white;
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+  width: 100%;
+  height: 5px;
+  background-color: #000;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px;
 }
 
-.nav-toggle span:before {
-    top: -6px;
+/* on activation */
+#toggle.on span {
+  background-color: transparent;
+}
+#toggle.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+#toggle.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+#toggle.on + #menu {
+  visibility: visible;
 }
 
-.nav-toggle span:after {
-    bottom: -6px;
+/* menu appearance*/
+#menu {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  margin: auto;
+  font-family: "Roboto";
+  text-align: center;
+  background: #5a89e8;
+  visibility: hidden;
+  z-index: 5;
 }
-
-
-/* класс, который будет добавлен в верхнему меню при нажатии на кнопку и покажет скрытое меню*/
-
-.menu.active {
-    max-height: 123px;
+#manu li {
+  border-bottom: 1px solid #000;
 }
-
-
+#menu li a {
+  font-size: 2em;
+}
 
 /* sub-menu styles */
 
@@ -159,13 +191,13 @@ nav {
 
 .sub-menu li {
     opacity: 0;
-
     -webkit-transform: rotateY(90deg);
     transform: rotateY(90deg);
     transition: opacity .4s, -webkit-transform .5s;
     transition: opacity .4s, transform .5s;
     transition: opacity .4s, transform .5s, -webkit-transform .5s;
 }
+
 .sub-menu li a {
     transition: all .4s;
     &:hover {
@@ -187,6 +219,8 @@ nav {
     -webkit-transform: none;
     transform: none;
 }
+
+
 
 
 
@@ -257,15 +291,35 @@ nav {
     transition-delay: 0s;
 }
 
-
-
-
-.language {
-    display: flex;
-    justify-content: flex-end;
-    li {
-        color: #fff;
-        font-size: 1.25em;
-        padding: 10px;
+.language li {
+    font-size: 1.25em;
+    padding: 10px;
+}
+.language li a {
+    color: #fff;
+}
+.language li a:hover {
+        opacity: .65;
+        transition: all .2s;
     }
+.language {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #fff;
+    
+}
+
+.language:hover .dropdown-content {
+    display: block;
+    transition: all .2s;
 }

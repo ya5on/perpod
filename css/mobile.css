@@ -1,9 +1,11 @@
 header {
-    height: 100%;
+    height: 100vh;
+    z-index: 0;
 }
 
 header h1 {
     letter-spacing: 1px;
+    font-size: 2em;
 }
 
 header h4 {
@@ -11,89 +13,76 @@ header h4 {
     letter-spacing: 1px;
 }
 
-.container {
-    width: 100%;
+h2 {
+    font-size: 1.7em;
 }
 
-.logo img {
-    width: 40%;
+.header-content {
+    margin-top: 0;
+    position: static;
+    padding-top: 20%;
+}
+
+nav {
+    z-index: 1;
+}
+
+.container {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.logo {
+    display: none;
+}
+/*HEADER*/
+.products {
+    margin-top: 15%;
 }
 
 .product-item {
-    min-width: 60px;
-    margin: 5px 4%;
+    min-width: 33%;
+    margin: 20px 5%;
 }
 
-.product-item img {
-    width: 50%;
+.product-item:last-child {
+    margin-right: 4%;
 }
+
+
+
+/*.product-item img {
+    width: 50%;
+}*/
 
 .product-item p {
-    font-size: .3em;
+    font-size: .6em;
 }
+
+.product-item a {}
 
 .scroll-button {
     display: none;
 }
 
 
-/*BURGER MENU*/
-
-.menu {
-    display: none;
-}
-
-.nav-toggle {
-    display: block;
-}
-
-.menu {
-    overflow: hidden;
-    width: 100%;
-}
-
-.menu>li {
-    position: relative;
-    margin-right: 2.2%;
-}
-
-.menu a {
-    display: block;
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.25em;
-    letter-spacing: 0.18em;
-    outline: none;
-    padding: 10px 10px 10px 10px;
-}
-
-.menu a::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: #fff;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    transition: all 0.5s;
-    margin-top: 0.5em;
-}
-
-.menu a:hover:after {
-    color: #fff;
-    text-decoration: none;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-}
 
 
 /*BURGER MENU*/
 
-.language {
-    display: none;
+#toggle,
+#menu {
+    display: block;
 }
 
-.main-slider {
+.menu,
+.main-menu {
+    display: none;
+}
+/*ABOUT BLOCK*/
+
+.main-menu .main-slider {
     width: 100%;
 }
 
@@ -108,6 +97,93 @@ header h4 {
     display: none;
 }
 
+
+.about-text p {
+    margin-top: 3%;
+    text-align: justify;
+    padding: 0 3%;
+}
+.about-text img {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.btn-date {
+    margin-top: 5%;
+}
+/*CARRIER BLOCK*/
+.carrier-content-list {
+    display: none;
+}
+
+.carrier-form {
+    margin: 0 auto;
+    border: none;
+}
+
+.carrier-content-form {
+    margin: auto;
+    width: 100%;
+}
+
+.map {
+    margin-bottom: 2%;
+}
+/*LASTNEWS BLOCK*/
+.lastnews-text-left h3,
+.lastnews-text-right h3 {
+    text-align: center;
+}
+
+.lastnews-text-left p,
+.lastnews-text-right p {
+    padding: 3% 3%;
+    text-align: justify;
+}
+
+.lastnews-photo-left img,
+.lastnews-photo-right img {
+    width: 100%;
+}
+
+.btn-date-left,
+.btn-date-right {
+    justify-content: center;
+}
+
+.btn-date-left,
+.btn-date-right {
+    margin-top: 5%;
+    align-items: baseline;
+}
+
+.reverse {
+    flex-direction: column-reverse;
+}
+
+.fb {
+    margin: 0;
+}
+/*HELP BLOCK*/
+.help h2 {
+    font-size: 1.4em;
+    letter-spacing: 2px;
+}
+.help-content.owl-carousel .owl-nav .owl-next,
+.help-content.owl-carousel .owl-nav .owl-prev {
+    display: none;
+}
+
+/*ABOUT PAGE*/
+.about-main h2 {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    margin-top: 18%;
+}
+.about-main p {
+    font-size: .9em;
+}
+
 .about-main span {
     display: none;
 }
@@ -118,31 +194,206 @@ header h4 {
 
 .about .main-btn {
     margin-top: 5%;
+    margin-right: auto;
 }
-
-.about-text p {
-    margin-top: 3%;
-}
-
-.btn-date {
-    margin-top: 5%;
-}
-
-.carrier-content-list {
+.slick-next:before,
+.slick-prev:before {
     display: none;
 }
 
-.map {
-    margin-bottom: 2%;
+.about-main-slider {
+    width: 100%;
 }
 
+.about-slider-item {
+    text-align: justify;
+}
+
+.about-main-slider.slick-slider {
+    margin: 0;
+}
+
+.about-main-slider .slick-dots {
+    top: 7%;
+}
+
+.about-main-slider.slick-dotted.slick-slider {
+    padding-top: 20%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.qoute p {
+    text-align: center;
+}
+.philosophy-content-text img {
+    max-width: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.philosophy-content p {
+    padding-left: 0;
+    text-align: justify;
+}
+
+.cows-item img {
+    width: 25%;
+}
+.cows-item:last-child img {
+    width: 35%;
+}
+.cows-item p {
+    letter-spacing: 1px;
+    font-size: .6em;
+}
+.cows h5 {
+    font-size: 1.3em;
+}
+
+/*CARRIER PAGE*/
+
+.carrier-main-right {
+     margin-right: 0; 
+     text-align: justify;
+     padding: 0 3%;
+}
+.carrier-main-img-right img {
+    margin: auto; 
+     max-width: 100%; 
+}
+.carrier-main-left {
+    margin-left: 0;
+    text-align: justify;
+    padding: 0 3%;
+}
+.carrier-main-img img {
+    max-width: 100%; 
+}
+
+.carrier-main p {
+    text-align: justify;
+    padding: 3%;
+}
+.carrier-main-form .carrier-content-form .carrier-form {
+    border: none;
+}
+
+.file-upload {
+    padding: 7% 6%;
+}
+
+/*CONTACTS PAGE*/
+.contacts-main h2 {
+    margin-top: 18%;
+}
+.contacts-text-1 {
+    width: 100%;
+    margin-right: 0;
+
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#submenuform {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10%;
+}
+#submenuform label {
+    font-size: .8em;
+}
+
+/*SUBMENU PAGES*/
+.submenu h1 {
+    letter-spacing: 2px;
+    margin-top: 18%;
+}
+.metal-h1 {
+    font-size: 2em;
+}
+.submenu h4 {
+    margin-top: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.submenu-product {
+    margin-top: 20%;
+}
+.block-1-content p {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.submenu-banner p {
+    font-size: 1em;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.block-1-content img {
+    width: 100%;
+    max-width: 100%;
+}
+.submenu-contacts-text {
+    width: 100%; 
+    margin-right: 0; 
+     padding-left: 3%;
+    padding-right: 3%;
+}
+.submenu-block {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.submenu-contacts h2 {
+    font-size: 1.4em;
+}
+.submenu-contacts-text {
+    margin-top: 10%;
+}
+/*FOOTER*/
 .about-logo {
     width: 35%;
 }
 
-.footer-contacts {
+.address {
+    padding: 0;
+}
+
+.address p {
+    text-align: center;
+}
+
+.footer-content {
+    font-size: .9em;
+    justify-content: space-around;
+}
+
+.info {
+    width: 35%;
+}
+
+.info li {
+    padding-bottom: 7%;
+}
+
+.footer-menu {
+    width: 20%;
+}
+
+.footer-menu li {
+    padding-bottom: 8%;
+}
+
+.footer-sub-menu {
     display: none;
 }
 
+.footer-contacts {
+    width: 35%;
+    text-align: left;
+    display: none;
+}
 
+.footer-pinsel-logo {
+    width: 28%;
 }

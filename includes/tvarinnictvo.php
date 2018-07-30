@@ -76,7 +76,7 @@ Sed tincidunt sapien ac libero ultricies, sit amet pharetra quam iaculis.</h4>
                 <div class="col-md-12">
                     <h2>Зв'язок з нами</h2>
                 </div>
-                <div class="col-md-12 d-flex">
+                <div class="col-md-12 d-flex flex-wrap">
                     <div class="submenu-block">
                         <form id="submenuform">
                             <label>Ім`я:</label>
@@ -99,7 +99,7 @@ Sed tincidunt sapien ac libero ultricies, sit amet pharetra quam iaculis.</h4>
                                 <img src="img/main-page/icon-office-phone.png" alt="">Телефон / Факс: +380(3841) 2-15-55
                             </li>
                             <li>
-                                <img src="img/main-page/icon-gmail.png" alt="">E-mail:<a href="mailto:perlpod@ukr.net">perlpod@ukr.net</a>
+                                <img src="img/main-page/icon-gmail.png" alt="">E-mail:&ensp;<a href="mailto:perlpod@ukr.net">perlpod@ukr.net</a>
                             </li>
                         </ul>
                     </div>

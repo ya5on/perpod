@@ -45,6 +45,7 @@
     <script src="libs/owlcarousel/owl.carousel.min.js"></script>
     <script type="text/javascript" src="libs/slick/slick.min.js"></script>
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/loader/loader.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
     <script>new WOW().init();</script>

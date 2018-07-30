@@ -36,8 +36,8 @@ Sed tincidunt sapien ac libero ultricies, sit amet pharetra quam iaculis.</h4>
             <div class="row">
                 <div class="col-md-12">
                     <div class="block-1-content">
-                        <div class="col-md-6 block-1-img">
-                            <img src="img/roslynnytstvo/elips.png" alt="">
+                        <div class="col-md-6 block-1-img d-flex align-items-center">
+                            <img src="img/roslynnytstvo/diagramma.png" alt="" style="max-width: 100%">
                         </div>
                         <div class="col-md-6 block-1-text">
                             <p>Землекористування ТОВ НВА «Перлина Поділля» налічує понад 3900 га сільськогосподарських угідь.
@@ -89,7 +89,7 @@ Sed tincidunt sapien ac libero ultricies, sit amet pharetra quam iaculis.</h4>
                 <div class="col-md-12">
                     <h2>Зв'язок з нами</h2>
                 </div>
-                <div class="col-md-12 d-flex">
+                <div class="col-md-12 d-flex flex-wrap">
                     <div class="submenu-block">
                         <form id="submenuform">
                             <label>Ім`я:</label>
@@ -112,7 +112,7 @@ Sed tincidunt sapien ac libero ultricies, sit amet pharetra quam iaculis.</h4>
                                 <img src="img/main-page/icon-office-phone.png" alt="">Телефон / Факс: +380(3841) 2-15-55
                             </li>
                             <li>
-                                <img src="img/main-page/icon-gmail.png" alt="">E-mail:<a href="mailto:perlpod@ukr.net">perlpod@ukr.net</a>
+                                <img src="img/main-page/icon-gmail.png" alt="">E-mail:&ensp;<a href="mailto:perlpod@ukr.net">perlpod@ukr.net</a>
                             </li>
                         </ul>
                     </div>

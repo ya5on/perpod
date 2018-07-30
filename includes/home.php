@@ -5,47 +5,47 @@
             <div class="header-content">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>ПЕРЛИНА ПОДІЛЛЯ</h1>
+                        <h1><?php echo $lang['h1-home']?></h1>
                     </div>
                     <div class="col-md-12">
-                        <h4>Любов до рідної землі та своєї справи – головне.</h4>
+                        <h4><?php echo $lang['h4-home']?></h4>
                     </div>
                 </div>
                 <div class="products">
                     <div class="product-item">
                         <a href="?page=roslynnytstvo">
                         <img class="prod-img" src="img/main-page/grow.png" alt="РОСЛИННИЦТВО">
-                        <p class="prod">РОСЛИННИЦТВО</p>
+                        <p class="prod"><?php echo $lang['header-roslynnytstvo']?></p>
                     </a>
                     </div>
                     <div class="product-item">
                         <a href="?page=tvarinnictvo">
                         <img class="prod-img" src="img/main-page/cow.png" alt="ТВАРИННИЦТВО">
-                        <p class="prod">ТВАРИННИЦТВО</p>
+                        <p class="prod"><?php echo $lang['header-tvarinnictvo']?></p>
                     </a>
                     </div>
                     <div class="product-item">
                         <a href="?page=bdzholyarstvo">
                         <img class="prod-img" src="img/main-page/bee.png" alt="БДЖОЛЯРСТВО">
-                        <p class="prod">БДЖОЛЯРСТВО</p>
+                        <p class="prod"><?php echo $lang['header-bdzholyarstvo']?></p>
                     </a>
                     </div>
                     <div class="product-item">
                         <a href="?page=transportniposlugy">
                         <img class="prod-img" src="img/main-page/truck.png" alt="ТРАНСПОРТНІ ПОСЛУГИ">
-                        <p class="prod">ТРАНСПОРТНІ ПОСЛУГИ</p>
+                        <p class="prod"><?php echo $lang['header-transportniposlugy']?></p>
                     </a>
                     </div>
                     <div class="product-item">
                         <a href="?page=metaloplastykovikonstrukcii">
                         <img class="prod-img" src="img/main-page/steel.png" class="main-steel" alt="МЕТАЛОПЛАСТИКОВІ КОНСТРУКЦІЇ">
-                        <p class="prod">МЕТАЛОПЛАСТИКОВІ КОНСТРУКЦІЇ</p>
+                        <p class="prod"><?php echo $lang['header-metaloplastykovikonstrukcii']?></p>
                     </a>
                     </div>
                     <div class="product-item">
                         <a href="?page=mzuri">
                         <img class="prod-img" src="img/main-page/mzuri.png" alt="mzuri">
-                        <p class="prod">mzuri</p>
+                        <p class="prod"><?php echo $lang['header-mzuri']?></p>
                     </a>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
     <!-- ABOUT -->
     <section class="about" id="about">
         <div class="col-md-12">
-            <h2>ПРО НАС</h2>
+            <h2><?php echo $lang['about-h2']?></h2>
         </div>
         <div class="container">
             <div class="row">
@@ -83,10 +83,10 @@
                         <div class="col-md-6">
                             <div class="about-text d-flex flex-column justify-content-center">
                                 <img src="img/main-page/icon-ferma.png" alt="">
-                                <p>ТОВ «НВА «Перлина Поділля» – провідна сільськогосподарська компанія України, одна з найефективніших та напродуктивніших виробників сільськогосподарської продукції Хмельницькій області, в Україні та за її межами. У витоках створення господарства стоїть людина, яка присвятила своє життя вирощуванню хлібу.</p>
+                                <p><?php echo $lang['about-tov-perluna']?></p>
                             </div>
                             <div class="main-btn">
-                                <a href="?page=about">Детальніше<img src="img/main-page/news-arrow.png" alt=""></a>
+                                <a href="?page=about"><?php echo $lang['details']?><img src="img/main-page/news-arrow.png" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -100,8 +100,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>КАР’ЄРА</h2>
-                    <h4>у ТОВ "Перлина - Поділля"</h4>
+                    <h2><?php echo $lang['carrier-h2']?></h2>
+                    <h4><?php echo $lang['carrier-tov']?></h4>
                 </div>
             </div>
             <div class="col-md-12">
@@ -110,35 +110,35 @@
                         <div class="carrier-content-list">
                             <div class="list">
                                 <ul>
-                                    <li>Офіційне працевлаштування</li>
-                                    <li>Кар’єрний зріст</li>
-                                    <li>Гнучний графік</li>
-                                    <li>З/П від 150 000р</li>
+                                    <li><?php echo $lang['off-work']?></li>
+                                    <li><?php echo $lang['zrist']?></li>
+                                    <li><?php echo $lang['grafik']?></li>
+                                    <li><?php echo $lang['zarplata']?></li>
                                 </ul>
                             </div>
                             <div class="main-btn">
-                                <a href="?page=carrier">Детальніше<img src="img/main-page/carrier-arrow.png" alt=""></a>
+                                <a href="?page=carrier"><?php echo $lang['details']?><img src="img/main-page/carrier-arrow.png" alt=""></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="carrier-content-form">
                             <form id="feedback-form" class="carrier-form" enctype="multipart/form-data" method="POST">
-                                <label for="nameFF">Ім’я:</label>
+                                <label for="nameFF"><?php echo $lang['name']?></label>
                                 <input id="nameFF" name="nameFF" class="inputName" type="text" required />
                                 <label for="contactFF">Email:</label>
                                 <input id="contactFF" name="contactFF" type="email" class="inputEmail" maxlength="35" required />
-                                <label for="projectFF">Коментар:</label>
+                                <label for="projectFF"><?php echo $lang['comentar']?></label>
                                 <textarea id="projectFF" name="projectFF" class="inputText"></textarea>
-                                <label class="area-padding" for="fileFF">Резюме:</label>
+                                <label class="area-padding" for="fileFF"><?php echo $lang['rezume']?></label>
                                 <div class="file-upload">
                                     <label>
                                         <input id="fileFF" name="fileFF" type="file">
                                         <span><img src="img/main-page/attach-icon.png" alt=""></span>
                                     </label>
-                                    <input type="text" id="filename" class="filename" disabled placeholder="Виберіть файл (до 10мб)">
+                                    <input type="text" id="filename" class="filename" disabled placeholder="<?php echo $lang['choose']?>">
                                 </div>
-                                <button id="submitFF" class="form-btn" type="submit">Відправити<img src="img/main-page/carrier-arrow.png" alt=""></button>
+                                <button id="submitFF" class="form-btn" type="submit"><?php echo $lang['send-btn']?><img src="img/main-page/carrier-arrow.png" alt=""></button>
                             </form>
                            
                         </div>
@@ -153,15 +153,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>ОСТАННІ НОВИНИ</h2>
+                    <h2><?php echo $lang['news-h2']?></h2>
                 </div>
                 <div class="col-md-12">
                     <div class="lastnews-content">
                         <div class="col-md-6">
                             <div class="lastnews-text-left">
-                                <h3>Світовий досвід на<br>
-<span>AGRITECHNICA 2017</span></h3>
-                                <p>Інновації в сільськогосподарській техніці і обладнанні, новітні рішення і концепції майбутнього представлені на AGRITECHNICA в Ганновері, Німеччина. Агрофірма “Перлина Поділля” спільно з партнерами польською компанією “Агро Ланд” представила на виставці сівалку нового покоління Mzuri з технологією PRO -TILL, яка активно використовується в нашому господарстві.</p>
+                                <h3><?php echo $lang['news-h3-left']?></h3>
+                                <p><?php echo $lang['news-text-left']?></p>
                                 <div class="btn-date-left">
                                     <div class="news-date">
                                         <time datetime="2012-12-23T08:23:11+07:00 ">
@@ -172,7 +171,7 @@
                                         <a href=""><img src="img/main-page/fb_icon.png" alt=""></a>
                                     </div>
                                     <div class="main-btn">
-                                        <a href="# ">Детальніше<img src="img/main-page/news-arrow.png" alt=" "></a>
+                                        <a href="# "><?php echo $lang['details']?><img src="img/main-page/news-arrow.png" alt=" "></a>
                                     </div>
                                 </div>
                             </div>
@@ -186,17 +185,16 @@
                 </div>
                 <div class="lastnews-top" style="width: 100%; margin-bottom: 3%;"></div>
                 <div class="col-md-12 ">
-                    <div class="lastnews-content">
-                        <div class="col-md-6 ">
+                    <div class="lastnews-content reverse">
+                        <div class="col-md-6">
                             <div class="lastnews-photo-right">
                                 <img src="img/main-page/news-photo.png " alt=" ">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="lastnews-text-right">
-                                <h3>Світовий досвід на<br>
-<span>AGRITECHNICA 2017</span></h3>
-                                <p class="lt-news-padding">Інновації в сільськогосподарській техніці і обладнанні, новітні рішення і концепції майбутнього представлені на AGRITECHNICA в Ганновері, Німеччина. Агрофірма “Перлина Поділля” спільно з партнерами польською компанією “Агро Ланд” представила на виставці сівалку нового покоління Mzuri з технологією PRO -TILL, яка активно використовується в нашому господарстві.</p>
+                                <h3><?php echo $lang['news-h3-right']?></h3>
+                                <p class="lt-news-padding"><?php echo $lang['news-text-right']?></p>
                                 <div class="btn-date-right">
                                     <div class="news-date">
                                         <time datetime="2012-12-23T08:23:11+07:00 ">
@@ -207,7 +205,7 @@
                                         <a href=""><img src="img/main-page/fb_icon.png" alt=""></a>
                                     </div>
                                     <div class="main-btn ">
-                                        <a href="#">Детальніше<img src="img/main-page/news-arrow.png " alt=" "></a>
+                                        <a href="#"><?php echo $lang['details']?><img src="img/main-page/news-arrow.png " alt=" "></a>
                                     </div>
                                 </div>
                             </div>
@@ -223,15 +221,14 @@
         <div class="container ">
             <div class="row ">
                 <div class="col-md-12 ">
-                    <h2>СОЦІАЛЬНА ДОПОМОГА</h2>
+                    <h2><?php echo $lang['help-h2']?></h2>
                 </div>
                 <div class="help-content owl-carousel">
                     <div class="help-content-slide">
-                        <h5>3 218 597 грн у 2017 році було витрачено на соціальну допомогу</h5>
+                        <h5><?php echo $lang['help-h5']?></h5>
                         <div class="help-content-block">
                             <img src="img/main-page/open-book.svg" alt="">
-                            <p>514 975 грн
-                                <br> на освітній напрям</p>
+                            <p><?php echo $lang['book-1']?></p>
                         </div>
                         <div class="help-content-block jet">
                             <img src="img/main-page/jet.svg" alt="">
@@ -245,18 +242,18 @@
                         </div>
                         <div class="help-content-block">
                             <img src="img/main-page/church.svg" alt="">
-                            <p>514 975 грн
-                                <br> на освітній напрям</p>
+                            <p>225 307 грн
+                                <br>на допомогу церквам</p>
                         </div>
                         <div class="help-content-block">
                             <img src="img/main-page/masks.svg" alt="">
-                            <p>347 608 грн
-                                <br> на допомогу воїнам АТО</p>
+                            <p>73 332 грн
+                                <br>на розвиток культури</p>
                         </div>
                         <div class="help-content-block">
                             <img src="img/main-page/heart.svg" alt="">
-                            <p>328 297 грн
-                                <br> на медицину</p>
+                            <p>225 998 грн
+                                <br>на іншу матеріальну допомогу</p>
                         </div>
                     </div>
                     <div class="help-content-slide">
@@ -278,18 +275,18 @@
                         </div>
                         <div class="help-content-block">
                             <img src="img/main-page/church.svg" alt="">
-                            <p>514 975 грн
-                                <br> на освітній напрям</p>
+                            <p>225 307 грн
+                                <br>на допомогу церквам</p>
                         </div>
                         <div class="help-content-block">
                             <img src="img/main-page/masks.svg" alt="">
-                            <p>347 608 грн
-                                <br> на допомогу воїнам АТО</p>
+                            <p>73 332 грн
+                                <br>на розвиток культури</p>
                         </div>
                         <div class="help-content-block">
                             <img src="img/main-page/heart.svg" alt="">
-                            <p>328 297 грн
-                                <br> на медицину</p>
+                            <p>225 998 грн
+                                <br>на іншу матеріальну допомогу</p>
                         </div>
                     </div>
                 </div>
@@ -331,16 +328,9 @@
                                         <p><img src="img/main-page/icon-phone.png" alt="">:&ensp;+380971660001</p>
                                     </li>
                                     <li>
-                                        <p><img src="img/main-page/icon-gmail.png" alt="">:&ensp;<a href="mailto:valentyn.losovsky@gmail.com"> valentyn.losovsky@gmail.com</a></p>
+                                        <p class="gmail"><img src="img/main-page/icon-gmail.png" alt="">:&ensp;<a href="mailto:valentyn.losovsky@gmail.com"> valentyn.losovsky@gmail.com</a></p>
                                     </li>
                                 </ul>
-                                <!-- <div class="contacts-btn">
-                                    <a href="#">
-                                        <p>Знайти на карті</p>
-                                        <img src="img/main-page/icon-google-map.png" alt="">
-                                        <img class="gmail-arrow" src="img/main-page/arrow-contacts.png" alt="">
-                                    </a>
-                                </div> -->
                             </div>
                         </div>
                     </div>

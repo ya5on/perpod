@@ -95,10 +95,6 @@
         font-size: .9em;
     }
 
-    .about-logo img {
-        max-width: 75%;
-    }
-
     .about-main .lead-name {
         font-size: 1.5em;
     }
@@ -153,7 +149,7 @@
     }
 
     #submenuform #btn_submit {
-        font-size: .9em;
+        font-size: 1.1em;
     }
 
     #submenuform label {
@@ -275,9 +271,6 @@
     .cows-item p {
         font-size: .8em;
     }
-    .about-logo img {
-        max-width: 70%;
-    }
 
     .about-main .lead-name {
         font-size: 1.4em;
@@ -323,7 +316,7 @@
         font-size: 1.2em;
     }
     #submenuform #btn_submit {
-        font-size: .8em;
+        font-size: 1em;
     }
     #submenuform label {
         font-size: .8em;
@@ -429,10 +422,7 @@
     .cows-item p {
         font-size: .7em;
     }
-    .about-logo img {
-        max-width: 65%;
-    }
-
+    
     .about-main .lead-name {
         font-size: 1.3em;
     }
@@ -480,7 +470,7 @@
         font-size: 1.1em;
     }
     #submenuform #btn_submit {
-        font-size: .7em;
+        font-size: .8em;
     }
     #submenuform label {
         font-size: .7em;
@@ -598,9 +588,6 @@
     }
     .cows-item p {
         font-size: .7em;
-    }
-    .about-logo img {
-        max-width: 65%;
     }
 
     .about-main .lead-name {
@@ -763,10 +750,7 @@
     .cows-item p {
         font-size: .7em;
     }
-    .about-logo img {
-        max-width: 65%;
-    }
-
+    
     .about-main .lead-name {
         font-size: 1.2em;
     }

@@ -1,4 +1,4 @@
-//слайдер основная страница
+//слайдер основная страница////////////////////
 $(document).ready(function() {
     $(".main-slider").owlCarousel({
         autoplay: true,
@@ -11,30 +11,33 @@ $(document).ready(function() {
         autoplayTimeout: 10000
     });
 });
-//слайдер HELP block основная страница
+//слайдер HELP block основная страница////////////////////////
 $(document).ready(function() {
     $(".help-content").owlCarousel({
         autoplay: true,
         items: 1,
-        loop: true,
+        loop: false,
         touchDrag: true,
         nav: true,
         navText: ['', ''],
         dots: false,
-        autoplayTimeout: 15000
+        autoplayTimeout: 15000,
+        autoplaySpeed: 2000
     });
 });
-//слайдер about страница
+//слайдер about страница///////////////////////////
 $(document).ready(function() {
     $('.about-main-slider').slick({
         adaptiveHeight: true,
         autoplay: false,
         dots: true,
-        arrows: true
+        arrows: true,
+        touchMove: true,
+        zIndex: 5
     });
 });
 
-//слайдер about страница
+//слайдер about страница////////////////////////////////
 $(document).ready(function() {
     $(".about-page-slider").owlCarousel({
         autoplay: true,
@@ -49,7 +52,7 @@ $(document).ready(function() {
     });
 });
 
-// кнопка скрол вниз основная страница
+// кнопка скрол вниз основная страница/////////////////////////////////////
 $(document).ready(function() {
     $(".slide-section").click(function(e) {
 
@@ -62,12 +65,12 @@ $(document).ready(function() {
     });
 });
 
-// SUB-MENU
+// SUB-MENU////////////////////////////////////////////////////////
 $('.nav-toggle').on('click', function() {
     $('.menu').toggleClass('active');
 });
 
-// ОТРПАВКА ФОРМЫ МЕЙН СТРАНИЦА
+// ОТРПАВКА ФОРМЫ МЕЙН СТРАНИЦА///////////////////////////////////////////////////////////
 $(function() {
     document.getElementById('feedback-form').addEventListener('submit', function(evt) {
         var http = new XMLHttpRequest(),
@@ -91,7 +94,7 @@ $(function() {
 
 });
 
-// ФОРМА ОБРАТНОЙ СВЯЗИ СУБ МЕНЮ
+// ФОРМА ОБРАТНОЙ СВЯЗИ СУБ МЕНЮ/////////////////////////////////
 
 $(document).ready(function() {
 
@@ -109,11 +112,55 @@ $(document).ready(function() {
     });
 
 });
+//toggle nav menu //////////////////////////////
+var theToggle = document.getElementById('toggle');
+
+// hasClass
+function hasClass(elem, className) {
+    return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+}
+// addClass
+function addClass(elem, className) {
+    if (!hasClass(elem, className)) {
+        elem.className += ' ' + className;
+    }
+}
+// removeClass
+function removeClass(elem, className) {
+    var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+    if (hasClass(elem, className)) {
+        while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+            newClass = newClass.replace(' ' + className + ' ', ' ');
+        }
+        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+    }
+}
+// toggleClass
+function toggleClass(elem, className) {
+    var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
+    if (hasClass(elem, className)) {
+        while (newClass.indexOf(" " + className + " ") >= 0 ) {
+            newClass = newClass.replace( " " + className + " " , " " );
+        }
+        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+    } else {
+        elem.className += ' ' + className;
+    }
+}
+
+theToggle.onclick = function() {
+    toggleClass(this, 'on');
+    return false;
+};
 
 
+
+// кнопка выбрать файл/////////////////////////////////////////////////
 $(document).ready(function() {
     $(".file-upload input[type=file]").change(function() {
         var filename = $(this).val().replace(/.*\\/, "");
         $("#filename").val(filename);
     });
 });
+
+

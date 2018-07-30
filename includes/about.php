@@ -75,71 +75,32 @@
                 <div class="col-md-12">
                     <h5>Основні види діяльності господарства є:</h5>
                 </div>
-                <div class="col-md-12">
-                    <div class="cows-content d-flex flex-wrap justify-content-between">
-                        <div class="col-md-5">
-                            <div class="cows-item d-flex">
-                                <div class="cows-img">
+                    <div class="cows-content">
+                            <div class="cows-item">
                                     <img src="img/about-main/grow.png" alt="">
-                                </div>
-                                <div class="cows-text align-self-center">
                                     <p>РОСЛИННИЦТВО</p>
-                                </div>
                             </div>
-                            <div class="cows-item d-flex">
-                                <div class="cows-img bull">
+                            <div class="cows-item ">
                                     <img src="img/about-main/cow.png" alt="">
-                                </div>
-                                <div class="cows-text align-self-center">
                                     <p>ТВАРИННИЦТВО</p>
-                                </div>
                             </div>
-                            <div class="cows-item d-flex">
-                                <div class="cows-img">
+                            <div class="cows-item">
                                     <img src="img/about-main/bee.png" alt="">
-                                </div>
-                                <div class="cows-text align-self-center">
                                     <p>БДЖОЛЯРСТВО</p>
-                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-2 d-flex justify-content-center align-items-center">
-                            <div class="about-logo">
-                                <img src="img/about-main/Logo.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="cows-item d-flex">
-                                <div class="cows-text align-self-center">
-                                    <p>ТРАНСПОРТНІ
-                                        <br>ПОСЛУГИ
-                                    </p>
-                                </div>
-                                <div class="cows-img cows-right">
+                            <div class="cows-item">
                                     <img src="img/about-main/truck.png" alt="">
-                                </div>
+                                    <p>ТРАНСПОРТНІ ПОСЛУГИ</p>
                             </div>
-                            <div class="cows-item d-flex">
-                                <div class="cows-text align-self-center">
-                                    <p>МЕТАЛОПЛАСТИКОВІ
-                                        <br>КОНСТРУКЦІЇ
-                                    </p>
-                                </div>
-                                <div class="cows-img cows-right steel">
+                            <div class="cows-item steel">
                                     <img src="img/about-main/steel.png" alt="">
-                                </div>
+                                    <p>МЕТАЛОПЛАСТИКОВІ<br>КОНСТРУКЦІЇ</p>
                             </div>
-                            <div class="cows-item d-flex">
-                                <div class="cows-text align-self-center">
-                                    <p>MZURI</p>
-                                </div>
-                                <div class="cows-img cows-right">
+                            <div class="cows-item mzuri">
                                     <img src="img/about-main/mzuri.png" alt="">
-                                </div>
+                                    <p>MZURI</p>
                             </div>
-                        </div>
                     </div>
-                </div>
             </div>
         </div>
     </div>
