@@ -29,7 +29,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.about-main-slider').slick({
         adaptiveHeight: true,
-        autoplay: false,
+        autoplay: true,
         dots: true,
         arrows: true,
         touchMove: true,
@@ -105,7 +105,7 @@ $(document).ready(function() {
             data: $(this).serialize()
         }).done(function() {
             $(this).find("input").val("");
-            alert("Дякуемо за заявку! Скоро ми з вами звяжемося");
+            alert("Дякуемо за заявку!");
             $("#submenuform").trigger("reset");
         });
         return false;
@@ -113,45 +113,24 @@ $(document).ready(function() {
 
 });
 //toggle nav menu //////////////////////////////
-var theToggle = document.getElementById('toggle');
-
-// hasClass
-function hasClass(elem, className) {
-    return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
-}
-// addClass
-function addClass(elem, className) {
-    if (!hasClass(elem, className)) {
-        elem.className += ' ' + className;
-    }
-}
-// removeClass
-function removeClass(elem, className) {
-    var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
-    if (hasClass(elem, className)) {
-        while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
-            newClass = newClass.replace(' ' + className + ' ', ' ');
-        }
-        elem.className = newClass.replace(/^\s+|\s+$/g, '');
-    }
-}
-// toggleClass
-function toggleClass(elem, className) {
-    var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
-    if (hasClass(elem, className)) {
-        while (newClass.indexOf(" " + className + " ") >= 0 ) {
-            newClass = newClass.replace( " " + className + " " , " " );
-        }
-        elem.className = newClass.replace(/^\s+|\s+$/g, '');
-    } else {
-        elem.className += ' ' + className;
-    }
-}
-
-theToggle.onclick = function() {
-    toggleClass(this, 'on');
-    return false;
-};
+$(function() {
+  function init() {
+    $('[data-behaviour="toggle-menu-icon"]').on('click', toggleMenuIcon);
+    $('[data-behaviour="toggle-link-icon"]').on('click', toggleSubMenu);
+  };
+  
+  function toggleMenuIcon() {
+    $(this).toggleClass('menu-icon--open');
+    $('[data-element="toggle-nav"]').toggleClass('nav--active');
+  };
+  
+  function toggleSubMenu() {
+    $(this).toggleClass('nav__link--plus nav__link--minus');
+    $('[data-behaviour="toggle-sub-menu"]').slideToggle('nav__sub-list--active');
+  };
+  
+  init()
+});
 
 
 

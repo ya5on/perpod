@@ -34,7 +34,12 @@ nav {
 }
 
 .logo {
-    display: none;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.logo img {
+    width: 50%;
 }
 /*HEADER*/
 .products {
@@ -67,12 +72,14 @@ nav {
 }
 
 
+.slick-next {
+     display: none; 
+}
 
 
 /*BURGER MENU*/
 
-#toggle,
-#menu {
+.menu-icon {
     display: block;
 }
 
