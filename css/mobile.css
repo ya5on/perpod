@@ -6,6 +6,7 @@ header {
 header h1 {
     letter-spacing: 1px;
     font-size: 2em;
+    margin-top: 5%;
 }
 
 header h4 {
@@ -41,9 +42,10 @@ nav {
 .logo img {
     width: 50%;
 }
+
 /*HEADER*/
 .products {
-    margin-top: 15%;
+    margin-top: 12%;
 }
 
 .product-item {
@@ -185,7 +187,7 @@ nav {
 .about-main h2 {
     font-size: 1.2em;
     letter-spacing: 2px;
-    margin-top: 18%;
+    margin-top: 23%;
 }
 .about-main p {
     font-size: .9em;
@@ -233,6 +235,9 @@ nav {
 .qoute p {
     text-align: center;
 }
+.philosophy h2 {
+    margin-top: 7%;
+}
 .philosophy-content-text img {
     max-width: 8%;
     margin-left: auto;
@@ -258,9 +263,13 @@ nav {
 .cows h5 {
     font-size: 1.3em;
 }
-
+.leadership h2 {
+    margin-top: 7%;
+}
 /*CARRIER PAGE*/
-
+.carrier-main h2 {
+    margin-top: 23%;
+}
 .carrier-main-right {
      margin-right: 0; 
      text-align: justify;
@@ -293,7 +302,7 @@ nav {
 
 /*CONTACTS PAGE*/
 .contacts-main h2 {
-    margin-top: 18%;
+    margin-top: 23%;
 }
 .contacts-text-1 {
     width: 100%;
@@ -314,7 +323,7 @@ nav {
 /*SUBMENU PAGES*/
 .submenu h1 {
     letter-spacing: 2px;
-    margin-top: 18%;
+    margin-top: 23%;
 }
 .metal-h1 {
     font-size: 2em;

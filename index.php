@@ -27,11 +27,11 @@
 }
  
         echo '<style>
-        nav a, .menu li:hover:after,  .language li a {
+        nav a, .menu li:hover:after,  .language li a, .nav__link--minus::after, .nav__link--plus::after {
           color: '.$color.' !important;
           
         }
-        .menu li a::after {
+        .menu li a::after, .menu-icon__bar, .menu-icon__bar::before, .menu-icon__bar::after {
             background-color: '.$color.' !important;
         }
         </style>';

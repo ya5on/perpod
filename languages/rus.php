@@ -12,6 +12,7 @@
         "transportniposlugy" => "Транспортные услуги",
         "metaloplastykovikonstrukcii" => "Металлопластиковые конструкции",
         "mzuri" => "MZURI",
+        "other" => "Другое",
         "contacts" => "Контакты",
 //     NAVIGATION END
         //    HEADER

@@ -72,3 +72,51 @@ header {
         color: #fff;
     }
 }
+
+.play-content {
+    position: absolute;
+    bottom: 7%;
+    right: 7%;
+    button {
+        display: flex;
+        align-items: center;
+        background: none;
+        outline: none;
+        border: none;
+        font-size: 1.25em;
+        color: #A2AC8E;
+        font-family: "RobotoRegular";
+        transition: all .7s;
+        &:hover {
+            cursor: pointer;
+            color: #fff;
+            transform: scale(1.1);
+        }
+    }
+    img {
+        margin-right: 10%;
+    }
+}
+
+.overlay_popup {
+    display:none;
+    position:fixed;
+    z-index: 999;
+    top:0;
+    right:0; 
+    left:0;
+    bottom:0;
+    background:#000; 
+    opacity: 0.5;
+}
+.popup {
+    display: none;
+    position: relative;
+    z-index: 1000;
+    margin: 0 25%;
+    top: 25%;
+}
+
+.object{
+    text-align: center;
+}

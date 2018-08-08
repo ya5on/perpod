@@ -7,7 +7,7 @@
                             <ul>
                                 <li>© 1998 - <?php echo date('Y'); ?></li>
                                 <li><a href=""></a>perlpod.com.ua</li>
-                                <li class="d-flex">Developed by:<a href=""></a> <img src="img/main-page/pinsel-logo.png" class="footer-pinsel-logo" alt=""></li>
+                                <li class="d-flex">Developed by:<a href="http://pinselstudio.com" target="_blank"><img src="img/main-page/pinsel-logo.png" class="footer-pinsel-logo" alt=""></a></li>
                             </ul>
                         </div>
                         <div class="footer-menu">
@@ -45,10 +45,7 @@
     <script src="libs/owlcarousel/owl.carousel.min.js"></script>
     <script type="text/javascript" src="libs/slick/slick.min.js"></script>
     <script src="libs/bootstrap/js/bootstrap.min.js"></script>
-    <script src="libs/loader/loader.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>new WOW().init();</script>
     
 </body>
 

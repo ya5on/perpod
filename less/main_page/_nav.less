@@ -114,7 +114,7 @@ nav {
   top: 50%;
   height: 3px;
   width: 100%;
-  background-color: #000;
+  background-color: #fff;
   border-radius: 4px;
   display: block;
   transition: 0.2s ease-in-out;
@@ -123,7 +123,7 @@ nav {
   height: 3px;
   width: 100%;
   content: "";
-  background-color: #000;
+  background-color: #fff;
   display: block;
   position: absolute;
   transition: 0.2s ease-in-out;
@@ -138,7 +138,7 @@ nav {
   position: relative;
 }
 .menu-icon--open .menu-icon__bar {
-  background: transparent;
+  background: transparent !important;
 }
 .menu-icon--open .menu-icon__bar::before, .menu-icon--open .menu-icon__bar::after {
   top: 50%;
@@ -197,14 +197,15 @@ nav {
           transform: translateY(-50%);
 }
 .nav__link--plus::after {
-  content: "\25bd";
+  content: "+";
   color: #fff;
-  font-size: .5em;
+  font-size: .9em;
+  font-size: bold;
 }
 .nav__link--minus::after {
-  content: "\25b3";
+  content: "−";
   color: #fff;
-  font-size: .5em;
+  font-size: .9em;
 }
 
 .nav__sub-list {
@@ -373,7 +374,6 @@ nav {
 .dropdown-content a {
     display: block;
     color: #fff;
-    
 }
 
 .language:hover .dropdown-content {

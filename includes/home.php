@@ -56,6 +56,15 @@
             <img src="img/main-page/arrow-main.png" alt="" class="motion">
         </a>
         </div>
+        <!-- popup video -->
+        <div class="play-content">
+            <button class="show_popup" rel="popup1"><img src="img/main-page/play-button.png" alt="">Відео</button>
+        </div>
+        <div class="overlay_popup"></div>
+        <div class="popup" id="popup1">
+            <div class="object"><iframe width="560" height="315" src="https://www.youtube.com/embed/462__pbcCic" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+        </div>
+        <!-- popup video end-->
     </header>
     <!-- HEADER END -->
     <!-- ABOUT -->

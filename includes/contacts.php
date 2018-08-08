@@ -38,6 +38,6 @@
         </div>
     </div>
     <div class="contacts-map">
-        <img src="img/contacts-page/map.png" alt="">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24399.619780515077!2d26.415686412742208!3d49.998344313212385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1533727177741" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 </main>

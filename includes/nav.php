@@ -8,22 +8,27 @@
     <meta name=“robots” content=“noindex,nofollow”>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="img/logo.ico"/>
+    <link rel="stylesheet" href="css/loading.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" media="only screen and (max-device-width: 768px)" href="css/mobile.css"/>
+    <link rel="stylesheet" media="only screen and (max-device-width: 760px)" href="css/mobile.css"/>
     <link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-
 </head>
 
 <body>
+ <div class="preloader">
+   <div class="loader">
+     <img class="ld ld-breath" style="animation-duration:2.0s" src="img/main-page/logoo.svg" alt="">
+   </div>
+ </div>
     <!-- Navigation -->
     <nav>
-        
+        <!-- mobile menu -->
         <div class="menu-icon" data-behaviour="toggle-menu-icon">
               <span class="menu-icon__bar">
             </div>
@@ -56,8 +61,12 @@
                   </li>
                   <li class="nav__sub-item">
                     <a class="nav__link" href="?page=metaloplastykovikonstrukcii"><?php echo $lang['metaloplastykovikonstrukcii']?></a>
-                  </li><li class="nav__sub-item">
+                  </li>
+                  <li class="nav__sub-item">
                     <a class="nav__link" href="?page=mzuri"><?php echo $lang['mzuri']?></a>
+                  </li>
+                  <li class="nav__sub-item">
+                    <a class="nav__link" href="?page=inshe"><?php echo $lang['other']?></a>
                   </li>
                 </ul>
               </li>
@@ -72,7 +81,7 @@
               </li>
             </ul>
           </menu>
-
+<!-- mob menu  end-->
 
         <div class="container">
             <div class="row">
@@ -95,6 +104,7 @@
                                     <li><a href="?page=transportniposlugy"><?php echo $lang['transportniposlugy']?></a></li>
                                     <li><a href="?page=metaloplastykovikonstrukcii"><?php echo $lang['metaloplastykovikonstrukcii']?></a></li>
                                     <li><a href="?page=mzuri"><?php echo $lang['mzuri']?></a></li>
+                                    <li><a href="?page=inshe"><?php echo $lang['other']?></a></li>
                                 </ul>
                             </li>
                             <li><a href="?page=contacts"><?php echo $lang['contacts']?></a></li>
@@ -103,6 +113,7 @@
                         <ul class="language">
                             <li><a href="?lang=ukr" id="ua">UA</a></li>
                             <li class="dropdown-content"><a href="?lang=rus" id="ru">RU</a></li>
+                            <li class="dropdown-content" style="margin-top: 40px;"><a href="?lang=eng" id="eng">EN</a></li>
                         </ul>
                     </div>
                 </div>

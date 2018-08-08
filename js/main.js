@@ -143,3 +143,19 @@ $(document).ready(function() {
 });
 
 
+
+// ////////////////////////////////////////////loader
+ window.onload = function() {
+      $('.preloader').delay(500).fadeOut('slow');
+    };
+
+
+// /////////////////////
+$('.show_popup').click(function() {
+    var popup_id = $('#' + $(this).attr("rel"));
+    $(popup_id).fadeIn();
+    $('.overlay_popup').fadeIn();
+})
+$('.overlay_popup').click(function() {
+    $('.overlay_popup, .popup').fadeOut();
+})

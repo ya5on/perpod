@@ -1,32 +1,38 @@
 .about {
-	width: 100%;
-	background-color: #fff;
-	h2 {
-		color: #000;
-		padding-top: 4%;
-		padding-bottom: 4%;
-	}
+    width: 100%;
+    background-color: #fff;
+    h2 {
+        color: #000;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
 }
 
 .about-content {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 6%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 6%;
 }
 .about-text {
-	padding: 2%;
-    align-content: center;
-	p {
-		font-family: "RobotoRegular";
-		font-size: 1.5em;
-		letter-spacing: .1em;
-		line-height: 1.5;
+    padding: 2%;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    p {
+        font-family: "RobotoRegular";
+        font-size: 1.5em;
+        letter-spacing: .1em;
+        line-height: 1.5;
         padding-left: 6%;
-	}
+    }
     img {
          max-width: 8%;
-         align-self: center;
+         -ms-flex-item-align: center;
+             -ms-grid-row-align: center;
+             align-self: center;
          margin-bottom: 7%;
          margin-top: 8%;
          margin-left: auto;
@@ -35,7 +41,7 @@
 }
 
 .about .main-btn {
-	margin-top: 13%;
+    margin-top: 13%;
     margin-left: auto;
 }
 
@@ -48,7 +54,6 @@
     height: 1.875em;
     display: block;
     background-position: center;
-    -webkit-background-size: contain;
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
@@ -61,6 +66,8 @@
     background-image: url(../img/main-page/slider-right.png);
     right: -3%;
     &:hover {
+        -webkit-transition: all .4s ease;
+        -o-transition: all .4s ease;
         transition: all .4s ease;
         opacity: 0.6;
     }
@@ -70,6 +77,8 @@
     background-image: url(../img/main-page/slider-left.png);
     left: -3%;
     &:hover {
+        -webkit-transition: all .4s ease;
+        -o-transition: all .4s ease;
         transition: all .4s ease;
         opacity: 0.6;
     }
