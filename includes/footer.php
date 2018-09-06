@@ -12,28 +12,29 @@
                         </div>
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="?page=home">Головна</a></li>
-                                <li><a href="?page=about">Про нас</a></li>
-                                <li><a href="?page=carrier">Кар’єра</a></li>
-                                <li><a href="?page=contacts">Контакти</a></li>
+                                <li><a href="?page=home"><?php echo $lang['home']?></a></li>
+                                <li><a href="?page=about"><?php echo $lang['about']?></a></li>
+                                <li><a href="?page=carrier"><?php echo $lang['carrier']?></a></li>
+                                <li><a href="?page=contacts"><?php echo $lang['contacts']?></a></li>
                             </ul>
                         </div>
                         <div class="footer-sub-menu">
                             <ul>
-                                <li><a href="?page=tvarinnictvo">Тваринництво</a></li>
-                                <li><a href="?page=roslynnytstvo">Рослиництво</a></li>
-                                <li><a href="?page=bdzholyarstvo">Бджолярство</a></li>
-                                <li><a href="?page=transportniposlugy">Транспортні послуги</a></li>
-                                <li><a href="?page=metaloplastykovikonstrukcii">Металопластикові конструкції</a></li>
-                                <li><a href="?page=mzuri">MZURI</a></li>
+                                <li><a href="?page=roslynnytstvo"><?php echo $lang['roslynnytstvo']?></a></li>
+                                <li><a href="?page=tvarinnictvo"><?php echo $lang['tvarinnictvo']?></a></li>
+                                <li><a href="?page=bdzholyarstvo"><?php echo $lang['bdzholyarstvo']?></a></li>
+                                <li><a href="?page=transportniposlugy"><?php echo $lang['transportniposlugy']?></a></li>
+                                <li><a href="?page=metaloplastykovikonstrukcii"><?php echo $lang['metaloplastykovikonstrukcii']?></a></li>
+                                <li><a href="?page=mzuri"><?php echo $lang['mzuri']?></a></li>
+                                <li><a href="?page=inshe"><?php echo $lang['other']?></a></li>
                             </ul>
                         </div>
                         <div class="footer-contacts">
                             <ul>
-                                <li class="d-flex align-items-baseline">Офіційна сторінка: <a href="#"><img src="img/main-page/fb_icon.png" alt=""></a></li>
-                                <li>Телефон: +380 89 698 58 86</li>
+                                <li class="d-flex align-items-baseline"><?php echo $lang['off-page']?><a href="#"><img src="img/main-page/fb_icon.png" alt=""></a></li>
+                                <li><?php echo $lang['footer-phone']?></li>
                                 <li>E-mail: <a href="mailto:support@perlpod.com.ua">support@perlpod.com.ua</a></li>
-                                <li>Адреса: м.Київ, Shapovalova st. 16</li>
+                                <li><?php echo $lang['footer-addr']?></li>
                             </ul>
                         </div>
                     </div>

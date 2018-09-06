@@ -2,16 +2,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>КАР’ЄРА</h2>
-                <h3>Перлина Поділля</h3>
+                <h2><?php echo $lang['carrier-page-h2']?></h2>
+                <h3><?php echo $lang['carrier-page-h3']?></h3>
             </div>
             <div class="carrier-main-content d-flex flex-wrap">
                 <div class="col-md-6">
                     <div class="carrier-main-right">
-                        <p>Система кадрового менеджменту забезпечує безупинне удосконалювання методів роботи з кадрами і використання досягнень вітчизняної й закордонної науки і найкращого виробничого досвіду.
-                        </p>
-                        <br>
-                        <p>Згуртованість співробітників призводить до того, що конкурентоспроможність компанії помітно підвищується, збільшується   продуктивність праці, а якість роботи стає краще.</p>
+                        <?php echo $lang['carrier-main-right']?>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -28,7 +25,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="carrier-main-left">
-                        <p>Кадрова політика підприємства визначається внутрішніми і зовнішніми чинниками. Так, до зовнішніх чинників, що визначають кадрову політику підприємства, належать: національне трудове законодавство; взаємини з профспілкою; стан економічної кон’юнктури, ситуація на ринку праці тощо. Внутрішніми чинниками, що визначають кадрову політику підприємства, є: цілі підприємства та їхня тимчасова перспектива; стиль управління; умови праці.</p>
+                        <p><?php echo $lang['carrier-main-left']?></p>
                     </div>
                     
                 </div>
@@ -36,21 +33,25 @@
             </div>
             <div class="carrier-main-form d-flex align-items-center flex-wrap">
                 <div class="col-md-6">
-                    <h3>Зв’язок з нами:</h3>
-                    <p>Ми не гарантуємо Вам працевлаштування, але Ваша анкета буде зберігатися, і ми обов’язково запросимо Вас на співбесіду, якщо зможемо запропонувати Вам конкретну вакансію.</p>
-                    
-                    <p>Персональні дані, вказані Вами в анкеті, обробляються і зберігаються у відділі кадрів ТОВ НВА «Перлина Поділля».</p>
+                    <h3><?php echo $lang['contact-us-h3']?></h3>
+                    <?php echo $lang['contact-us-text']?>
                 </div>
                 <div class="col-md-6">
                     <div class="carrier-content-form">
                         <form id="feedback-form" class="carrier-form" enctype="multipart/form-data" method="POST">
-                            <label for="nameFF">Ім’я:</label>
+                            <label for="nameFF">
+                                <?php echo $lang['name']?>
+                            </label>
                             <input id="nameFF" name="nameFF" class="inputName" type="text" required />
                             <label for="contactFF">Email:</label>
                             <input id="contactFF" name="contactFF" type="email" class="inputEmail" maxlength="35" required />
-                            <label for="projectFF">Коментар:</label>
+                            <label for="projectFF">
+                                <?php echo $lang['comentar']?>
+                                </label>
                             <textarea id="projectFF" name="projectFF" class="inputText"></textarea>
-                            <label class="area-padding" for="fileFF">Резюме:</label>
+                            <label class="area-padding" for="fileFF">
+                                <?php echo $lang['rezume']?>
+                            </label>
                             <div class="file-upload">
                                     <label>
                                         <input id="fileFF" name="fileFF" type="file">
@@ -58,7 +59,9 @@
                                     </label>
                                     <input type="text" id="filename" class="filename" disabled placeholder="Виберіть файл">
                                 </div>
-                            <button id="submitFF" class="form-btn" type="submit">Відправити<img src="img/main-page/news-arrow.png" alt=""></button>
+                            <button id="submitFF" class="form-btn" type="submit">
+                                <?php echo $lang['send-btn']?>
+                            <img src="img/main-page/news-arrow.png" alt=""></button>
                         </form>
                     </div>
                 </div>

@@ -43,7 +43,9 @@ nav {
     width: 50%;
 }
 
+
 /*HEADER*/
+
 .products {
     margin-top: 12%;
 }
@@ -56,6 +58,7 @@ nav {
 .product-item:last-child {
     margin-right: 4%;
 }
+
 
 
 
@@ -73,10 +76,14 @@ nav {
     display: none;
 }
 
+.play-content {
+    display: none;
+}
 
 .slick-next {
-     display: none; 
+    display: none;
 }
+
 
 
 /*BURGER MENU*/
@@ -89,6 +96,8 @@ nav {
 .main-menu {
     display: none;
 }
+
+
 /*ABOUT BLOCK*/
 
 .main-menu .main-slider {
@@ -112,6 +121,7 @@ nav {
     text-align: justify;
     padding: 0 3%;
 }
+
 .about-text img {
     margin-top: 1%;
     margin-bottom: 1%;
@@ -120,7 +130,10 @@ nav {
 .btn-date {
     margin-top: 5%;
 }
+
+
 /*CARRIER BLOCK*/
+
 .carrier-content-list {
     display: none;
 }
@@ -138,7 +151,10 @@ nav {
 .map {
     margin-bottom: 2%;
 }
+
+
 /*LASTNEWS BLOCK*/
+
 .lastnews-text-left h3,
 .lastnews-text-right h3 {
     text-align: center;
@@ -173,22 +189,50 @@ nav {
 .fb {
     margin: 0;
 }
+
+
 /*HELP BLOCK*/
+
 .help h2 {
     font-size: 1.4em;
     letter-spacing: 2px;
 }
+
 .help-content.owl-carousel .owl-nav .owl-next,
 .help-content.owl-carousel .owl-nav .owl-prev {
     display: none;
 }
 
+.email-bt,
+.md-modal,
+.md-overlay {
+    /*display: none;*/
+}
+
+.reg p {
+    display: none;
+}
+
+.email-bt .text-call {
+    width: 45px;
+    height: 45px;
+    margin-left: -25px;
+    bottom: 3%;
+}
+
+.email-bt i {
+    font-size: 17px;
+    line-height: 41px;
+}
+
 /*ABOUT PAGE*/
+
 .about-main h2 {
     font-size: 1.2em;
     letter-spacing: 2px;
     margin-top: 23%;
 }
+
 .about-main p {
     font-size: .9em;
 }
@@ -205,6 +249,7 @@ nav {
     margin-top: 5%;
     margin-right: auto;
 }
+
 .slick-next:before,
 .slick-prev:before {
     display: none;
@@ -235,9 +280,11 @@ nav {
 .qoute p {
     text-align: center;
 }
+
 .philosophy h2 {
     margin-top: 7%;
 }
+
 .philosophy-content-text img {
     max-width: 8%;
     margin-left: auto;
@@ -245,6 +292,7 @@ nav {
     margin-bottom: 5%;
     margin-top: 5%;
 }
+
 .philosophy-content p {
     padding-left: 0;
     text-align: justify;
@@ -253,45 +301,57 @@ nav {
 .cows-item img {
     width: 25%;
 }
+
 .cows-item:last-child img {
     width: 35%;
 }
+
 .cows-item p {
     letter-spacing: 1px;
     font-size: .6em;
 }
+
 .cows h5 {
     font-size: 1.3em;
 }
+
 .leadership h2 {
     margin-top: 7%;
 }
+
+
 /*CARRIER PAGE*/
+
 .carrier-main h2 {
     margin-top: 23%;
 }
+
 .carrier-main-right {
-     margin-right: 0; 
-     text-align: justify;
-     padding: 0 3%;
+    margin-right: 0;
+    text-align: justify;
+    padding: 0 3%;
 }
+
 .carrier-main-img-right img {
-    margin: auto; 
-     max-width: 100%; 
+    margin: auto;
+    max-width: 100%;
 }
+
 .carrier-main-left {
     margin-left: 0;
     text-align: justify;
     padding: 0 3%;
 }
+
 .carrier-main-img img {
-    max-width: 100%; 
+    max-width: 100%;
 }
 
 .carrier-main p {
     text-align: justify;
     padding: 3%;
 }
+
 .carrier-main-form .carrier-content-form .carrier-form {
     border: none;
 }
@@ -300,10 +360,13 @@ nav {
     padding: 7% 6%;
 }
 
+
 /*CONTACTS PAGE*/
+
 .contacts-main h2 {
     margin-top: 23%;
 }
+
 .contacts-text-1 {
     width: 100%;
     margin-right: 0;
@@ -311,62 +374,79 @@ nav {
     padding-left: 3%;
     padding-right: 3%;
 }
+
 #submenuform {
     width: 100%;
     margin-left: 0;
     margin-top: 10%;
 }
+
 #submenuform label {
     font-size: .8em;
 }
 
+
 /*SUBMENU PAGES*/
+
 .submenu h1 {
     letter-spacing: 2px;
     margin-top: 23%;
 }
+
 .metal-h1 {
     font-size: 2em;
 }
+
 .submenu h4 {
     margin-top: 20%;
     padding-left: 3%;
     padding-right: 3%;
 }
+
 .submenu-product {
     margin-top: 20%;
 }
+
 .block-1-content p {
     padding-left: 3%;
     padding-right: 3%;
 }
+
 .submenu-banner p {
     font-size: 1em;
     padding-left: 3%;
     padding-right: 3%;
 }
+
 .block-1-content img {
     width: 100%;
     max-width: 100%;
 }
+
 .submenu-contacts-text {
-    width: 100%; 
-    margin-right: 0; 
-     padding-left: 3%;
+    width: 100%;
+    margin-right: 0;
+    padding-left: 3%;
     padding-right: 3%;
 }
+
 .submenu-block {
     width: 100%;
     margin-left: 10%;
     margin-right: 10%;
 }
+
 .submenu-contacts h2 {
     font-size: 1.4em;
 }
+
 .submenu-contacts-text {
     margin-top: 10%;
 }
+
+
 /*FOOTER*/
+
 .about-logo {
     width: 35%;
 }

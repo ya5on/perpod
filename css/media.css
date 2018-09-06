@@ -70,7 +70,7 @@
         margin-top: 17%;
     }
     /*HELP BLOCK*/
-    .help-content-block p {
+    .help-content-block p, .reg p {
         font-size: 1.05em;
     }
     .help-content.owl-carousel .owl-nav .owl-next, .help-content.owl-carousel .owl-nav .owl-prev {
@@ -249,7 +249,7 @@
         max-width: 60%;
     }
      /*HELP BLOCK*/
-    .help-content-block p {
+    .help-content-block p, .reg p {
         font-size: 1em;
     }
     .help-content.owl-carousel .owl-nav .owl-next, .help-content.owl-carousel .owl-nav .owl-prev {
@@ -401,13 +401,21 @@
         max-width: 55%;
     }
      /*HELP BLOCK*/
-    .help-content-block p {
+    .help-content-block p, .reg p {
         font-size: .9em;
         letter-spacing: 1px;
     }
     .help-content.owl-carousel .owl-nav .owl-next, .help-content.owl-carousel .owl-nav .owl-prev {
         width: 1.5em;
         height: 1.5em;
+    }
+    .email-bt .text-call {
+        width: 55px;
+        height: 55px;
+    }
+    .email-bt i {
+        font-size: 20px;
+        line-height: 52px;
     }
     /*BLOCK CONTACTS*/
     .address p {
@@ -574,7 +582,7 @@
         max-width: 50%;
     }
      /*HELP BLOCK*/
-    .help-content-block p {
+    .help-content-block p, .reg p {
         font-size: .8em;
     }
     /*BLOCK CONTACTS*/
@@ -735,12 +743,12 @@
         max-width: 45%;
     }
      /*HELP BLOCK*/
-    .help-content-block p {
+    .help-content-block p, .reg p {
         font-size: .7em;
     }
     /*BLOCK CONTACTS*/
     .address p {
-        font-size: 1em;
+        font-size: .8em;
     }
     /*ABOUT PAGE*/
     .about-main p {
