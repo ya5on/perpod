@@ -212,7 +212,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="lastnews-photo-left">
-                                <img src="img/main-page/news-photo.png " alt=" ">
+                                <img src="img/main-page/news-1.jpg" alt=" ">
                             </div>
                         </div>
                     </div>
@@ -222,7 +222,7 @@
                     <div class="lastnews-content reverse">
                         <div class="col-md-6">
                             <div class="lastnews-photo-right">
-                                <img src="img/main-page/news-photo.png " alt=" ">
+                                <img src="img/main-page/news-2.jpg" alt=" ">
                             </div>
                         </div>
                         <div class="col-md-6">

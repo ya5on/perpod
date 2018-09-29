@@ -47,7 +47,7 @@
             </div>
         </div>
     </section>
-    <section class="submenu-banner" style="background-image: url(../img/metaloplastykovikonstrukcii/banner.png);">
+    <section class="submenu-banner" style="background-image: url(../img/mzuri/banner.jpg);">
         <p><?php echo $lang['mzuri-submenu-banner']?></p>
     </section>
 

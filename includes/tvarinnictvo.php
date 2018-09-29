@@ -36,7 +36,7 @@
                 <div class="col-md-12">
                     <div class="block-1-content">
                         <div class="col-md-6 block-1-img">
-                            <img src="img/tvarinnictvo/traktor.png" alt="">
+                            <img src="img/tvarinnictvo/about-1.jpg" alt="">
                         </div>
                         <div class="col-md-6 block-1-text">
                             <?php echo $lang['tvari-block-1-text']?>
@@ -55,7 +55,7 @@
                 <div class="col-md-12">
                     <div class="block-1-content flex-row-reverse">
                         <div class="col-md-6 block-1-img">
-                            <img src="img/tvarinnictvo/traktor.png" alt="">
+                            <img src="img/tvarinnictvo/about-2.jpg" alt="">
                         </div>
                         <div class="col-md-6 block-1-text">
                             <?php echo $lang['tvari-block-2-text']?>

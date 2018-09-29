@@ -1,5 +1,5 @@
 <main id="bdzholyarstvo" class="submenu-main">
-    <div class="submenu" style="background-image: url(../img/bdzholyarstvo/bdg-bg.png);background-size: cover;">
+    <div class="submenu" style="background-image: url(../img/bdzholyarstvo/bdg-bg.jpg);background-size: cover;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -37,7 +37,7 @@
                 <div class="col-md-12">
                     <div class="block-1-content">
                         <div class="col-md-6 block-1-img">
-                            <img src="img/bdzholyarstvo/med.png" alt="">
+                            <img src="img/bdzholyarstvo/med.jpg" alt="">
                         </div>
                         <div class="col-md-6 block-1-text">
                             <?php echo $lang['bdw-block-text-1']?>
@@ -47,7 +47,7 @@
             </div>
         </div>
     </section>
-    <section class="submenu-banner" style="background-image: url(../img/bdzholyarstvo/symbol.png);">
+    <section class="submenu-banner" style="background-image: url(../img/bdzholyarstvo/banner.jpg);">
         <p><?php echo $lang['bdw-submenu-banner']?></p>
     </section>
 
@@ -57,7 +57,7 @@
                 <div class="col-md-12">
                     <div class="block-1-content flex-row-reverse">
                         <div class="col-md-6 block-1-img">
-                            <img src="img/bdzholyarstvo/med.png" alt="">
+                            <img src="img/bdzholyarstvo/about-2.jpg" alt="">
                         </div>
                         <div class="col-md-6 block-1-text">
                             <?php echo $lang['bdw-block-text-2']?>

@@ -80,6 +80,9 @@
               <li class="nav__item">
                 <a class="nav__link" href="?lang=rus" id="ru">RU</a>
               </li>
+              <li class="nav__item">
+                <a class="nav__link" href="?lang=eng" id="en">EN</a>
+              </li>
             </ul>
           </menu>
 <!-- mob menu  end-->

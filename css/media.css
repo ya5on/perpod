@@ -924,7 +924,10 @@ nav {
 .scroll-button {
     display: none;
 }
-
+.popup {
+    margin: 0px 15%;
+    top: -60%;
+}
 
 .slick-next {
      display: none; 
@@ -1026,6 +1029,14 @@ nav {
 .help-content.owl-carousel .owl-nav .owl-prev {
     display: none;
 }
+.email-bt .text-call {
+    width: 45px;
+    height: 45px;
+}
+.email-bt i {
+    font-size: 15px;
+    line-height: 42px;
+}
 
 /*ABOUT PAGE*/
 .about-main h2 {
@@ -1066,10 +1077,14 @@ nav {
 .about-main-slider.slick-slider {
     margin: 0;
 }
-
-.about-main-slider .slick-dots {
-    top: 7%;
+.history {
+    margin-bottom: 0;
 }
+
+
+/*.about-main-slider .slick-dots {
+    top: 7%;
+}*/
 
 .about-main-slider.slick-dotted.slick-slider {
     padding-top: 20%;
@@ -1254,6 +1269,7 @@ nav {
 
 .footer-pinsel-logo {
     width: 28%;
-} font-size: 3em;
+    font-size: 3em;
+}
 }
 }

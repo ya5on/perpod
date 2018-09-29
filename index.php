@@ -1,7 +1,5 @@
 <?php
     include "core/langconfig.php";
-?>
-<?php
     include "includes/nav.php";
  ?>
 

@@ -124,7 +124,7 @@
                                     <p class="lead-text"><?php echo $lang['lead-text-2']?></p>
                                 </div>
                                 <div class="leadership-img">
-                                    <img src="img/about-main/photo.png" alt="">
+                                    <img src="img/about-main/2photo.jpg" alt="">
                                 </div>
                             </div>
                             <div class="slider-item d-flex align-items-center">
@@ -135,7 +135,7 @@
                                     <p class="lead-text"><?php echo $lang['lead-text-3']?></p>
                                 </div>
                                 <div class="leadership-img">
-                                    <img src="img/about-main/photo.png" alt="">
+                                    <img src="img/about-main/3photo.jpg" alt="">
                                 </div>
                             </div>
                             <div class="slider-item d-flex align-items-center">
@@ -146,7 +146,7 @@
                                     <p class="lead-text"><?php echo $lang['lead-text-4']?></p>
                                 </div>
                                 <div class="leadership-img">
-                                    <img src="img/about-main/photo.png" alt="">
+                                    <img src="img/about-main/4photo.jpg" alt="">
                                 </div>
                             </div>
                             <div class="slider-item d-flex align-items-center">
@@ -157,7 +157,7 @@
                                     <p class="lead-text"><?php echo $lang['lead-text-5']?></p>
                                 </div>
                                 <div class="leadership-img">
-                                    <img src="img/about-main/photo.png" alt="">
+                                    <img src="img/about-main/5photo.jpg" alt="">
                                 </div>
                             </div>
                         </div>
